@@ -1,0 +1,111 @@
+# Indian Market Indices Configuration
+
+indices:
+  # Major NSE Indices
+  - symbol: "^NSEI"
+    name: "Nifty 50"
+    description: "NSE's benchmark broad-based stock market index"
+    region: "India"
+  
+  - symbol: "^NSEBANK"
+    name: "Bank Nifty"
+    description: "Index comprising most liquid and large cap banking stocks"
+    region: "India"
+  
+  - symbol: "NIFTY_FIN_SERVICE.NS"
+    name: "Nifty Financial Services (Finnifty)"
+    description: "Index representing the financial services sector"
+    region: "India"
+  
+  - symbol: "^INDIAVIX"
+    name: "India VIX"
+    description: "Volatility index based on Nifty index options"
+    region: "India"
+  
+  # Other Major NSE Indices
+  - symbol: "^NSEMDCP50"
+    name: "Nifty Midcap 50"
+    description: "Index of midcap companies (was ^CNXMIDCAP)"
+    region: "India"
+  
+  - symbol: "^CNXSC"
+    name: "Nifty Smallcap 50"
+    description: "Index of smallcap companies (was NIFTY_SMLCAP_100.NS)"
+    region: "India"
+  
+  - symbol: "^CNXIT"
+    name: "Nifty IT"
+    description: "Index of IT sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXPHARMA"
+    name: "Nifty Pharma"
+    description: "Index of pharmaceutical sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXAUTO"
+    name: "Nifty Auto"
+    description: "Index of automobile sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXFMCG"
+    name: "Nifty FMCG"
+    description: "Index of fast-moving consumer goods sector"
+    region: "India"
+  
+  - symbol: "^CNXMETAL"
+    name: "Nifty Metal"
+    description: "Index of metal sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXREALTY"
+    name: "Nifty Realty"
+    description: "Index of real estate sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXENERGY"
+    name: "Nifty Energy"
+    description: "Index of energy sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXINFRA"
+    name: "Nifty Infrastructure"
+    description: "Index of infrastructure sector stocks"
+    region: "India"
+  
+  - symbol: "^CNXPSE"
+    name: "Nifty PSE"
+    description: "Index of public sector enterprises"
+    region: "India"
+  
+  - symbol: "^CNXPSUBANK"
+    name: "Nifty PSU Bank"
+    description: "Index of public sector banking stocks"
+    region: "India"
+  
+  - symbol: "^CNXMEDIA"
+    name: "Nifty Media"
+    description: "Index of media and entertainment sector stocks"
+    region: "India"
+  
+  # Nifty Next 50
+  - symbol: "^NSMIDCP"
+    name: "Nifty Next 50"
+    description: "Index of the next 50 companies after Nifty 50 (was NIFTY_NEXT_50.NS)"
+    region: "India"
+  
+  # BSE Indices
+  - symbol: "^BSESN"
+    name: "BSE Sensex"
+    description: "BSE's benchmark 30-stock index"
+    region: "India"
+  
+  - symbol: "BSE-MIDCAP.BO"
+    name: "BSE Midcap"
+    description: "BSE Midcap Index"
+    region: "India"
+  
+  - symbol: "BSE-SMLCAP.BO"
+    name: "BSE Smallcap"
+    description: "BSE Smallcap Index"
+    region: "India"

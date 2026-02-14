@@ -1,0 +1,51 @@
+# Cron Job Configuration for Daily Update
+# 
+# To schedule daily updates at 8:00 PM IST on Linux/Mac, add this to your crontab:
+# 
+# Open crontab editor:
+#   crontab -e
+# 
+# Add the following line (adjust paths as needed):
+
+# Run daily at 8:00 PM IST (14:30 UTC)
+30 14 * * * cd /path/to/market-data-pipeline && /usr/bin/python3 scripts/daily_update.py >> logs/cron.log 2>&1
+
+# Alternative: Run at 8:00 PM local time
+# 0 20 * * * cd /path/to/market-data-pipeline && /usr/bin/python3 scripts/daily_update.py >> logs/cron.log 2>&1
+
+# With email notification on failure:
+# 30 14 * * * cd /path/to/market-data-pipeline && /usr/bin/python3 scripts/daily_update.py >> logs/cron.log 2>&1 || echo "Daily update failed" | mail -s "Market Data Update Failed" your@email.com
+
+# Windows Task Scheduler (PowerShell):
+# Create a new scheduled task:
+#   - Trigger: Daily at 8:00 PM
+#   - Action: Start a program
+#   - Program: python
+#   - Arguments: C:\path\to\market-data-pipeline\scripts\daily_update.py
+#   - Start in: C:\path\to\market-data-pipeline
+
+# Or use this PowerShell command to create the task:
+<#
+$action = New-ScheduledTaskAction -Execute 'python' -Argument 'C:\path\to\market-data-pipeline\scripts\daily_update.py' -WorkingDirectory 'C:\path\to\market-data-pipeline'
+$trigger = New-ScheduledTaskTrigger -Daily -At 8:00PM
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "Market Data Daily Update" -Description "Daily market data update at 8 PM"
+#>
+
+# Docker-based cron (if using docker-compose):
+# Add to your docker-compose.yml:
+<#
+services:
+  cron:
+    image: python:3.9
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: >
+      bash -c "
+      pip install -r requirements.txt &&
+      echo '30 14 * * * cd /app && python scripts/daily_update.py >> logs/cron.log 2>&1' > /etc/cron.d/daily-update &&
+      chmod 0644 /etc/cron.d/daily-update &&
+      crontab /etc/cron.d/daily-update &&
+      cron -f
+      "
+#>

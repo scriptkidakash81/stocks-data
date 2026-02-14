@@ -1,0 +1,263 @@
+name: Daily Data Update
+
+on:
+  # Run daily at 8:00 PM IST (14:30 UTC)
+  schedule:
+    - cron: '30 14 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: 'Specific symbols to update (space-separated, leave empty for all)'
+        required: false
+        default: ''
+      intervals:
+        description: 'Specific intervals to update (space-separated, leave empty for all)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run mode (preview without downloading)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install tqdm
+          sudo apt-get install -y jq
+      
+      - name: Create directories
+        run: |
+          mkdir -p data/stocks
+          mkdir -p data/indices
+          mkdir -p data/metadata
+          mkdir -p logs
+      
+      # STEP 1: Run Daily Update
+      - name: Run daily update
+        id: update
+        run: |
+          CMD="python scripts/daily_update.py"
+          
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+          
+          if [ -n "${{ github.event.inputs.symbols }}" ]; then
+            CMD="$CMD --symbols ${{ github.event.inputs.symbols }}"
+          fi
+          
+          if [ -n "${{ github.event.inputs.intervals }}" ]; then
+            CMD="$CMD --intervals ${{ github.event.inputs.intervals }}"
+          fi
+          
+          echo "Running: $CMD"
+          $CMD
+      
+      # STEP 2: Validate Updated Data (NEW - CRITICAL)
+      - name: Validate updated data
+        id: validation
+        if: success() && github.event.inputs.dry_run != 'true'
+        run: |
+          echo "📊 Running comprehensive data validation..."
+          python scripts/validate_all.py
+          
+          # Parse validation results
+          REPORT=$(ls -t logs/validation_report_*.json 2>/dev/null | head -1)
+          
+          if [ -f "$REPORT" ]; then
+            VALID_FILES=$(python -c "import json; print(json.load(open('$REPORT'))['total_files'] - json.load(open('$REPORT'))['files_with_issues'])")
+            TOTAL_FILES=$(python -c "import json; print(json.load(open('$REPORT'))['total_files'])")
+            FILES_WITH_ISSUES=$(python -c "import json; print(json.load(open('$REPORT'))['files_with_issues'])")
+            
+            # Calculate pass rate
+            if [ "$TOTAL_FILES" -gt 0 ]; then
+              PASS_RATE=$(python -c "print(round($VALID_FILES * 100.0 / $TOTAL_FILES, 2))")
+            else
+              PASS_RATE="0.00"
+            fi
+            
+            echo "validation_pass_rate=$PASS_RATE" >> $GITHUB_OUTPUT
+            echo "valid_files=$VALID_FILES" >> $GITHUB_OUTPUT
+            echo "total_files=$TOTAL_FILES" >> $GITHUB_OUTPUT
+            echo "files_with_issues=$FILES_WITH_ISSUES" >> $GITHUB_OUTPUT
+            
+            echo "✅ Validation complete: $VALID_FILES/$TOTAL_FILES files valid ($PASS_RATE%)"
+          else
+            echo "⚠️ Validation report not found"
+            echo "validation_pass_rate=0.00" >> $GITHUB_OUTPUT
+            echo "valid_files=0" >> $GITHUB_OUTPUT
+            echo "total_files=0" >> $GITHUB_OUTPUT
+            echo "files_with_issues=0" >> $GITHUB_OUTPUT
+          fi
+      
+      # STEP 3: Quality Threshold Check (NEW - CRITICAL)
+      - name: Check data quality threshold
+        if: success() && github.event.inputs.dry_run != 'true'
+        run: |
+          PASS_RATE=${{ steps.validation.outputs.validation_pass_rate }}
+          MIN_PASS_RATE=95.0
+          
+          # Use python for floating point comparison
+          IS_BELOW=$(python -c "print(1 if $PASS_RATE < $MIN_PASS_RATE else 0)")
+          
+          if [ "$IS_BELOW" == "1" ]; then
+            echo "❌ Data quality below threshold: $PASS_RATE% < $MIN_PASS_RATE%"
+            echo "::error::Data quality check failed: $PASS_RATE% < $MIN_PASS_RATE%"
+            exit 1
+          fi
+          
+          echo "✅ Data quality acceptable: $PASS_RATE% >= $MIN_PASS_RATE%"
+      
+      # STEP 4: Upload Artifacts
+      - name: Upload validation report
+        if: always() && github.event.inputs.dry_run != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report-${{ github.run_number }}
+          path: logs/validation_report_*.json
+          if-no-files-found: ignore
+          retention-days: 90
+      
+      - name: Upload failure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-failures-${{ github.run_number }}
+          path: logs/update_failures.txt
+          if-no-files-found: ignore
+          retention-days: 30
+      
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-logs-${{ github.run_number }}
+          path: logs/daily_update_*.log
+          if-no-files-found: ignore
+          retention-days: 30
+      
+      # STEP 5: Commit Validated Data (Enhanced)
+      - name: Commit validated data
+        if: success() && github.event.inputs.dry_run != 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add data files
+          find data/stocks -name "*.csv" -type f -exec git add {} + 2>/dev/null || true
+          find data/indices -name "*.csv" -type f -exec git add {} + 2>/dev/null || true
+          find data/metadata -name "*.json" -type f -exec git add {} + 2>/dev/null || true
+          [ -f logs/download_failures.json ] && git add logs/download_failures.json || true
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            COMMIT_DATE=$(date +'%Y-%m-%d')
+            FILES_CHANGED=$(git diff --staged --numstat | wc -l)
+            PASS_RATE="${{ steps.validation.outputs.validation_pass_rate }}"
+            VALID_FILES="${{ steps.validation.outputs.valid_files }}"
+            TOTAL_FILES="${{ steps.validation.outputs.total_files }}"
+            
+            # Create enhanced commit message with proper newlines
+            COMMIT_MSG="Daily data update $COMMIT_DATE"$'\n\n'"📊 Data Quality: ${PASS_RATE}% (${VALID_FILES}/${TOTAL_FILES} files valid)"$'\n'"📁 Files updated: ${FILES_CHANGED}"$'\n\n'"Automated update via GitHub Actions"
+            git commit -m "$COMMIT_MSG"
+            
+            git push origin main
+            echo "✅ Successfully committed and pushed changes"
+          fi
+      
+      # STEP 6: Create Detailed Issue on Failure (Enhanced)
+      - name: Create detailed issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Read failure report
+            let failureDetails = 'Failed to read failure report';
+            try {
+              if (fs.existsSync('logs/update_failures.txt')) {
+                failureDetails = fs.readFileSync('logs/update_failures.txt', 'utf8');
+                if (failureDetails.length > 2000) {
+                  failureDetails = failureDetails.substring(0, 2000) + '\n\n... (truncated)';
+                }
+              }
+            } catch (e) {
+              failureDetails = `Error reading failure report: ${e.message}`;
+            }
+            
+            // Read validation results if exists
+            let validationDetails = 'Validation report not available';
+            try {
+              const files = fs.readdirSync('logs');
+              const validationFile = files.find(f => f.startsWith('validation_report_'));
+              if (validationFile) {
+                const validation = JSON.parse(fs.readFileSync(`logs/${validationFile}`, 'utf8'));
+                const validFiles = validation.total_files - validation.files_with_issues;
+                validationDetails = `
+            ## Validation Results
+            - **Valid Files**: ${validFiles}/${validation.total_files}
+            - **Files with Issues**: ${validation.files_with_issues}
+            - **Missing Files**: ${validation.missing_files || 'N/A'}
+            - **Corrupted Files**: ${validation.corrupted_files || 'N/A'}
+                `;
+              }
+            } catch (e) {
+              validationDetails = `Validation data unavailable: ${e.message}`;
+            }
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🚨 Daily Update Failed - ${new Date().toISOString().split('T')[0]}`,
+              body: `## Daily Data Update Failed
+            
+            **Workflow Run**: [#${context.runNumber}](${context.payload.repository.html_url}/actions/runs/${context.runId})  
+            **Time**: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+            
+            ${validationDetails}
+            
+            ## Failure Details
+            \`\`\`
+            ${failureDetails}
+            \`\`\`
+            
+            ## Quick Actions
+            - [ ] Download and review failure report artifacts
+            - [ ] Download and review validation report
+            - [ ] Check if Yahoo Finance API is down
+            - [ ] Check for symbol delistings
+            - [ ] Re-run workflow manually if transient error
+            
+            /cc @${context.actor}`,
+              labels: ['automated', 'data-update', 'bug', 'high-priority']
+            });
+      
+      # STEP 7: Success Summary
+      - name: Print completion message
+        if: success() && github.event.inputs.dry_run != 'true'
+        run: |
+          echo "✅ Daily update completed successfully"
+          echo "📊 Data Quality: ${{ steps.validation.outputs.validation_pass_rate }}%"
+          echo "📁 Valid Files: ${{ steps.validation.outputs.valid_files }}/${{ steps.validation.outputs.total_files }}"
