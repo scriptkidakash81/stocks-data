@@ -52,27 +52,45 @@ jobs:
           mkdir -p data/indices
           mkdir -p data/metadata
           mkdir -p logs
-      
+
+        #STEP0:
+      - name: Set default inputs for cron runs
+        run: |
+          # If workflow_dispatch inputs exist, use them.
+          # If it's a cron trigger, GitHub provides empty values, so we define defaults.
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "CRON RUN DETECTED – applying default input values"
+            echo "symbols=" >> $GITHUB_ENV
+            echo "intervals=" >> $GITHUB_ENV
+            echo "dry_run=false" >> $GITHUB_ENV
+          else
+            echo "MANUAL RUN DETECTED – using provided input values"
+            echo "symbols=${{ github.event.inputs.symbols }}" >> $GITHUB_ENV
+            echo "intervals=${{ github.event.inputs.intervals }}" >> $GITHUB_ENV
+            echo "dry_run=${{ github.event.inputs.dry_run }}" >> $GITHUB_ENV
+          fi
+
       # STEP 1: Run Daily Update
       - name: Run daily update
         id: update
         run: |
           CMD="python scripts/daily_update.py"
-          
-          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+
+          if [ "$dry_run" = "true" ]; then
             CMD="$CMD --dry-run"
           fi
-          
-          if [ -n "${{ github.event.inputs.symbols }}" ]; then
-            CMD="$CMD --symbols ${{ github.event.inputs.symbols }}"
+
+          if [ -n "$symbols" ]; then
+            CMD="$CMD --symbols $symbols"
           fi
-          
-          if [ -n "${{ github.event.inputs.intervals }}" ]; then
-            CMD="$CMD --intervals ${{ github.event.inputs.intervals }}"
+
+          if [ -n "$intervals" ]; then
+            CMD="$CMD --intervals $intervals"
           fi
-          
+
           echo "Running: $CMD"
           $CMD
+
       
       # STEP 2: Validate Updated Data (NEW - CRITICAL)
       - name: Validate updated data
