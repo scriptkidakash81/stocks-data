@@ -2,15 +2,15 @@
   "symbol": "INFY.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:10:19.569910",
-  "last_update": "2026-02-20T16:26:39.760827",
-  "total_rows": 7568,
+  "last_update": "2026-02-22T14:51:50.122595",
+  "total_rows": 7569,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-02-19 00:00:00+05:30"
+    "end": "2026-02-20 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-20T16:26:39.760835",
+    "last_validated": "2026-02-22T14:51:50.122601",
     "issues_count": 13,
     "validation_details": {}
   },
@@ -43,6 +43,12 @@
       "timestamp": "2026-02-20T16:26:39.760838",
       "rows_added": 1,
       "total_rows": 7568,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-22T14:51:50.122603",
+      "rows_added": 1,
+      "total_rows": 7569,
       "success": true
     }
   ]

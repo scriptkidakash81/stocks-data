@@ -2,15 +2,15 @@
   "symbol": "CLEAN.NS",
   "interval": "1d",
   "created_at": "2026-02-14T16:00:49.749756",
-  "last_update": "2026-02-20T16:35:22.472258",
-  "total_rows": 1137,
+  "last_update": "2026-02-22T15:00:31.492130",
+  "total_rows": 1138,
   "date_range": {
     "start": "2021-07-19 00:00:00+05:30",
-    "end": "2026-02-19 00:00:00+05:30"
+    "end": "2026-02-20 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-20T16:35:22.472265",
+    "last_validated": "2026-02-22T15:00:31.492138",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -43,6 +43,12 @@
       "timestamp": "2026-02-20T16:35:22.472268",
       "rows_added": 1,
       "total_rows": 1137,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-22T15:00:31.492141",
+      "rows_added": 1,
+      "total_rows": 1138,
       "success": true
     }
   ]
