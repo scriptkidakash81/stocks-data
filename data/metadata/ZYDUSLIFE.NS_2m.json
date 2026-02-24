@@ -2,15 +2,15 @@
   "symbol": "ZYDUSLIFE.NS",
   "interval": "2m",
   "created_at": "2026-02-14T16:00:23.794355",
-  "last_update": "2026-02-22T15:00:05.550765",
-  "total_rows": 6193,
+  "last_update": "2026-02-24T15:39:08.573721",
+  "total_rows": 6381,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-02-20 15:29:00+05:30"
+    "end": "2026-02-23 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-22T15:00:05.550773",
+    "last_validated": "2026-02-24T15:39:08.573726",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -49,6 +49,12 @@
       "timestamp": "2026-02-22T15:00:05.550777",
       "rows_added": 188,
       "total_rows": 6193,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-24T15:39:08.573729",
+      "rows_added": 188,
+      "total_rows": 6381,
       "success": true
     }
   ]

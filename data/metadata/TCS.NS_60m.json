@@ -2,15 +2,15 @@
   "symbol": "TCS.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:10:13.078304",
-  "last_update": "2026-02-22T14:51:43.498283",
-  "total_rows": 5104,
+  "last_update": "2026-02-24T15:30:40.366118",
+  "total_rows": 5111,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-02-20 15:15:00+05:30"
+    "end": "2026-02-23 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-22T14:51:43.498292",
+    "last_validated": "2026-02-24T15:30:40.366123",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -49,6 +49,12 @@
       "timestamp": "2026-02-22T14:51:43.498295",
       "rows_added": 7,
       "total_rows": 5104,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-24T15:30:40.366125",
+      "rows_added": 7,
+      "total_rows": 5111,
       "success": true
     }
   ]

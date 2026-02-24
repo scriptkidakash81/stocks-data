@@ -2,15 +2,15 @@
   "symbol": "INDIGO.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:27:57.564002",
-  "last_update": "2026-02-22T14:55:50.741845",
-  "total_rows": 5105,
+  "last_update": "2026-02-24T15:34:49.925660",
+  "total_rows": 5112,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-02-20 15:15:00+05:30"
+    "end": "2026-02-23 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-22T14:55:50.741852",
+    "last_validated": "2026-02-24T15:34:49.925683",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -49,6 +49,12 @@
       "timestamp": "2026-02-22T14:55:50.741856",
       "rows_added": 7,
       "total_rows": 5105,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-24T15:34:49.925687",
+      "rows_added": 7,
+      "total_rows": 5112,
       "success": true
     }
   ]
