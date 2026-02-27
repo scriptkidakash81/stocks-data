@@ -2,15 +2,15 @@
   "symbol": "MPHASIS.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:37:36.162952",
-  "last_update": "2026-02-25T15:38:33.398935",
-  "total_rows": 5873,
+  "last_update": "2026-02-27T15:11:18.621524",
+  "total_rows": 5875,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-02-24 00:00:00+05:30"
+    "end": "2026-02-26 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-25T15:38:33.398943",
+    "last_validated": "2026-02-27T15:11:18.621531",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -61,6 +61,12 @@
       "timestamp": "2026-02-25T15:38:33.398946",
       "rows_added": 1,
       "total_rows": 5873,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-27T15:11:18.621534",
+      "rows_added": 2,
+      "total_rows": 5875,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "LTIM.NS",
   "interval": "1d",
   "created_at": "2026-02-14T18:10:52.614048",
-  "last_update": "2026-02-25T15:38:21.219938",
-  "total_rows": 2372,
+  "last_update": "2026-02-27T15:11:06.162790",
+  "total_rows": 2374,
   "date_range": {
     "start": "2016-07-21 00:00:00+05:30",
-    "end": "2026-02-24 00:00:00+05:30"
+    "end": "2026-02-26 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-25T15:38:21.219943",
+    "last_validated": "2026-02-27T15:11:06.162797",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -61,6 +61,12 @@
       "timestamp": "2026-02-25T15:38:21.219945",
       "rows_added": 1,
       "total_rows": 2372,
+      "success": true
+    },
+    {
+      "timestamp": "2026-02-27T15:11:06.162800",
+      "rows_added": 2,
+      "total_rows": 2374,
       "success": true
     }
   ]
