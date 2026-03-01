@@ -2,15 +2,15 @@
   "symbol": "TVSMOTOR.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:37:42.198160",
-  "last_update": "2026-02-27T15:11:24.658589",
-  "total_rows": 6376,
+  "last_update": "2026-03-01T14:57:06.212397",
+  "total_rows": 6377,
   "date_range": {
     "start": "2000-08-02 00:00:00+05:30",
-    "end": "2026-02-26 00:00:00+05:30"
+    "end": "2026-02-27 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-27T15:11:24.658596",
+    "last_validated": "2026-03-01T14:57:06.212405",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -67,6 +67,12 @@
       "timestamp": "2026-02-27T15:11:24.658600",
       "rows_added": 2,
       "total_rows": 6376,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-01T14:57:06.212408",
+      "rows_added": 1,
+      "total_rows": 6377,
       "success": true
     }
   ]

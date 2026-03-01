@@ -2,15 +2,15 @@
   "symbol": "^BSESN",
   "interval": "2m",
   "created_at": "2026-02-14T16:13:07.187967",
-  "last_update": "2026-02-27T15:15:57.425153",
-  "total_rows": 6946,
+  "last_update": "2026-03-01T15:01:38.935053",
+  "total_rows": 7134,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-02-26 15:29:00+05:30"
+    "end": "2026-02-27 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-27T15:15:57.425160",
+    "last_validated": "2026-03-01T15:01:38.935060",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -67,6 +67,12 @@
       "timestamp": "2026-02-27T15:15:57.425163",
       "rows_added": 376,
       "total_rows": 6946,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-01T15:01:38.935064",
+      "rows_added": 188,
+      "total_rows": 7134,
       "success": true
     }
   ]

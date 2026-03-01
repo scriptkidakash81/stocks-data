@@ -2,15 +2,15 @@
   "symbol": "HAVELLS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:18.382015",
-  "last_update": "2026-02-27T15:08:32.399614",
-  "total_rows": 5990,
+  "last_update": "2026-03-01T14:51:14.372573",
+  "total_rows": 6365,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-02-26 15:29:00+05:30"
+    "end": "2026-02-27 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-02-27T15:08:32.399621",
+    "last_validated": "2026-03-01T14:51:14.372581",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -67,6 +67,12 @@
       "timestamp": "2026-02-27T15:08:32.399625",
       "rows_added": 750,
       "total_rows": 5990,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-01T14:51:14.372584",
+      "rows_added": 375,
+      "total_rows": 6365,
       "success": true
     }
   ]
