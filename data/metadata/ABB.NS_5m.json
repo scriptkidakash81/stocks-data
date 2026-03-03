@@ -2,15 +2,15 @@
   "symbol": "ABB.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:03.288106",
-  "last_update": "2026-03-01T14:53:28.345402",
-  "total_rows": 5099,
+  "last_update": "2026-03-03T11:39:05.750630",
+  "total_rows": 5174,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-02-27 15:25:00+05:30"
+    "end": "2026-03-02 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-01T14:53:28.345409",
+    "last_validated": "2026-03-03T11:39:05.750638",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -73,6 +73,12 @@
       "timestamp": "2026-03-01T14:53:28.345413",
       "rows_added": 75,
       "total_rows": 5099,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-03T11:39:05.750641",
+      "rows_added": 75,
+      "total_rows": 5174,
       "success": true
     }
   ]
