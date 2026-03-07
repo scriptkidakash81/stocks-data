@@ -2,15 +2,15 @@
   "symbol": "HDFCLIFE.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:18:47.832688",
-  "last_update": "2026-03-05T15:14:09.843205",
-  "total_rows": 2049,
+  "last_update": "2026-03-07T14:51:12.971378",
+  "total_rows": 2051,
   "date_range": {
     "start": "2017-11-17 00:00:00+05:30",
-    "end": "2026-03-04 00:00:00+05:30"
+    "end": "2026-03-06 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-05T15:14:09.843213",
+    "last_validated": "2026-03-07T14:51:12.971386",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -85,6 +85,12 @@
       "timestamp": "2026-03-05T15:14:09.843216",
       "rows_added": 1,
       "total_rows": 2049,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-07T14:51:12.971389",
+      "rows_added": 2,
+      "total_rows": 2051,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "COALINDIA.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:18:01.604674",
-  "last_update": "2026-03-05T15:13:42.450829",
-  "total_rows": 5154,
+  "last_update": "2026-03-07T14:50:45.475797",
+  "total_rows": 5168,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-03-04 15:15:00+05:30"
+    "end": "2026-03-06 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-05T15:13:42.450836",
+    "last_validated": "2026-03-07T14:50:45.475805",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -85,6 +85,12 @@
       "timestamp": "2026-03-05T15:13:42.450839",
       "rows_added": 7,
       "total_rows": 5154,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-07T14:50:45.475809",
+      "rows_added": 14,
+      "total_rows": 5168,
       "success": true
     }
   ]

@@ -2,16 +2,16 @@
   "symbol": "CLEAN.NS",
   "interval": "1m",
   "created_at": "2026-02-14T16:00:47.393551",
-  "last_update": "2026-03-05T15:23:33.003914",
-  "total_rows": 6986,
+  "last_update": "2026-03-07T15:00:37.605382",
+  "total_rows": 7719,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-03-04 15:29:00+05:30"
+    "end": "2026-03-06 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-05T15:23:33.003921",
-    "issues_count": 11,
+    "last_validated": "2026-03-07T15:00:37.605390",
+    "issues_count": 13,
     "validation_details": {}
   },
   "download_history": [
@@ -85,6 +85,12 @@
       "timestamp": "2026-03-05T15:23:33.003924",
       "rows_added": 371,
       "total_rows": 6986,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-07T15:00:37.605393",
+      "rows_added": 733,
+      "total_rows": 7719,
       "success": true
     }
   ]

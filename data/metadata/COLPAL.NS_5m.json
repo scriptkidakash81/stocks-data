@@ -2,15 +2,15 @@
   "symbol": "COLPAL.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:32:08.886462",
-  "last_update": "2026-03-05T15:16:01.135775",
-  "total_rows": 5248,
+  "last_update": "2026-03-07T14:53:05.053654",
+  "total_rows": 5398,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-03-04 15:25:00+05:30"
+    "end": "2026-03-06 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-05T15:16:01.135782",
+    "last_validated": "2026-03-07T14:53:05.053662",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -85,6 +85,12 @@
       "timestamp": "2026-03-05T15:16:01.135786",
       "rows_added": 75,
       "total_rows": 5248,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-07T14:53:05.053665",
+      "rows_added": 150,
+      "total_rows": 5398,
       "success": true
     }
   ]
