@@ -2,15 +2,15 @@
   "symbol": "TORNTPHARM.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:23:47.345209",
-  "last_update": "2026-03-10T15:19:41.973406",
-  "total_rows": 5884,
+  "last_update": "2026-03-12T15:29:25.017075",
+  "total_rows": 5886,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-03-09 00:00:00+05:30"
+    "end": "2026-03-11 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-10T15:19:41.973413",
+    "last_validated": "2026-03-12T15:29:25.017083",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -97,6 +97,12 @@
       "timestamp": "2026-03-10T15:19:41.973417",
       "rows_added": 1,
       "total_rows": 5884,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-12T15:29:25.017086",
+      "rows_added": 2,
+      "total_rows": 5886,
       "success": true
     }
   ]

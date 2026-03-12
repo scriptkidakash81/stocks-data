@@ -2,15 +2,15 @@
   "symbol": "TATACONSUM.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:17:45.227780",
-  "last_update": "2026-03-10T15:17:28.190067",
-  "total_rows": 5174,
+  "last_update": "2026-03-12T15:27:10.309116",
+  "total_rows": 5188,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-03-09 15:15:00+05:30"
+    "end": "2026-03-11 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-10T15:17:28.190074",
+    "last_validated": "2026-03-12T15:27:10.309123",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -97,6 +97,12 @@
       "timestamp": "2026-03-10T15:17:28.190077",
       "rows_added": 7,
       "total_rows": 5174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-12T15:27:10.309127",
+      "rows_added": 14,
+      "total_rows": 5188,
       "success": true
     }
   ]

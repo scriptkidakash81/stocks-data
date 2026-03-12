@@ -2,15 +2,15 @@
   "symbol": "DRREDDY.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:17:06.452271",
-  "last_update": "2026-03-10T15:17:14.744935",
-  "total_rows": 8073,
+  "last_update": "2026-03-12T15:26:56.566934",
+  "total_rows": 8449,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-03-09 15:29:00+05:30"
+    "end": "2026-03-11 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-10T15:17:14.744942",
+    "last_validated": "2026-03-12T15:26:56.566942",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -97,6 +97,12 @@
       "timestamp": "2026-03-10T15:17:14.744946",
       "rows_added": 188,
       "total_rows": 8073,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-12T15:26:56.566945",
+      "rows_added": 376,
+      "total_rows": 8449,
       "success": true
     }
   ]
