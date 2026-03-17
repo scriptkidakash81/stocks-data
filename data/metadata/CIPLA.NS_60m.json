@@ -2,15 +2,15 @@
   "symbol": "CIPLA.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:17:26.603403",
-  "last_update": "2026-03-14T14:54:56.767162",
-  "total_rows": 5202,
+  "last_update": "2026-03-17T15:41:00.123025",
+  "total_rows": 5209,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-03-13 15:15:00+05:30"
+    "end": "2026-03-16 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-14T14:54:56.767168",
+    "last_validated": "2026-03-17T15:41:00.123030",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -109,6 +109,12 @@
       "timestamp": "2026-03-14T14:54:56.767170",
       "rows_added": 14,
       "total_rows": 5202,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-17T15:41:00.123032",
+      "rows_added": 7,
+      "total_rows": 5209,
       "success": true
     }
   ]

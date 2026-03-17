@@ -2,15 +2,15 @@
   "symbol": "ABFRL.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:38:36.315471",
-  "last_update": "2026-03-14T15:03:09.095215",
-  "total_rows": 3122,
+  "last_update": "2026-03-17T15:49:11.995100",
+  "total_rows": 3123,
   "date_range": {
     "start": "2013-07-17 00:00:00+05:30",
-    "end": "2026-03-13 00:00:00+05:30"
+    "end": "2026-03-16 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-14T15:03:09.095220",
+    "last_validated": "2026-03-17T15:49:11.995104",
     "issues_count": 8,
     "validation_details": {}
   },
@@ -109,6 +109,12 @@
       "timestamp": "2026-03-14T15:03:09.095222",
       "rows_added": 2,
       "total_rows": 3122,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-17T15:49:11.995107",
+      "rows_added": 1,
+      "total_rows": 3123,
       "success": true
     }
   ]
