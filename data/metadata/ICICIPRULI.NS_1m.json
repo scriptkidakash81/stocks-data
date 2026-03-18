@@ -2,15 +2,15 @@
   "symbol": "ICICIPRULI.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:03.327152",
-  "last_update": "2026-03-17T15:42:03.388004",
-  "total_rows": 10052,
+  "last_update": "2026-03-18T16:01:41.638641",
+  "total_rows": 10427,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-03-16 15:29:00+05:30"
+    "end": "2026-03-17 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-17T15:42:03.388009",
+    "last_validated": "2026-03-18T16:01:41.638649",
     "issues_count": 11,
     "validation_details": {}
   },
@@ -115,6 +115,12 @@
       "timestamp": "2026-03-17T15:42:03.388011",
       "rows_added": 375,
       "total_rows": 10052,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-18T16:01:41.638652",
+      "rows_added": 375,
+      "total_rows": 10427,
       "success": true
     }
   ]

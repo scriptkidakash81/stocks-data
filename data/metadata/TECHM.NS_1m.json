@@ -2,15 +2,15 @@
   "symbol": "TECHM.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:16:03.140897",
-  "last_update": "2026-03-17T15:40:43.022000",
-  "total_rows": 10119,
+  "last_update": "2026-03-18T16:00:23.014038",
+  "total_rows": 10494,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-03-16 15:29:00+05:30"
+    "end": "2026-03-17 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-17T15:40:43.022007",
+    "last_validated": "2026-03-18T16:00:23.014044",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -115,6 +115,12 @@
       "timestamp": "2026-03-17T15:40:43.022010",
       "rows_added": 375,
       "total_rows": 10119,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-18T16:00:23.014046",
+      "rows_added": 375,
+      "total_rows": 10494,
       "success": true
     }
   ]
