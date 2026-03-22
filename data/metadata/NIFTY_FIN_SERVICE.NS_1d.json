@@ -2,15 +2,15 @@
   "symbol": "NIFTY_FIN_SERVICE.NS",
   "interval": "1d",
   "created_at": "2026-02-14T16:00:58.817355",
-  "last_update": "2026-03-20T15:27:06.236688",
-  "total_rows": 3562,
+  "last_update": "2026-03-22T15:05:10.975828",
+  "total_rows": 3563,
   "date_range": {
     "start": "2011-09-07 00:00:00+05:30",
-    "end": "2026-03-19 00:00:00+05:30"
+    "end": "2026-03-20 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-20T15:27:06.236695",
+    "last_validated": "2026-03-22T15:05:10.975836",
     "issues_count": 9,
     "validation_details": {}
   },
@@ -127,6 +127,12 @@
       "timestamp": "2026-03-20T15:27:06.236698",
       "rows_added": 2,
       "total_rows": 3562,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-22T15:05:10.975839",
+      "rows_added": 1,
+      "total_rows": 3563,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "MGL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:43:00.099937",
-  "last_update": "2026-03-20T15:25:05.028006",
-  "total_rows": 11011,
+  "last_update": "2026-03-22T15:03:10.700973",
+  "total_rows": 11386,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-03-19 15:29:00+05:30"
+    "end": "2026-03-20 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-20T15:25:05.028013",
+    "last_validated": "2026-03-22T15:03:10.700980",
     "issues_count": 27,
     "validation_details": {}
   },
@@ -127,6 +127,12 @@
       "timestamp": "2026-03-20T15:25:05.028016",
       "rows_added": 749,
       "total_rows": 11011,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-22T15:03:10.700983",
+      "rows_added": 375,
+      "total_rows": 11386,
       "success": true
     }
   ]
