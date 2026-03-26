@@ -2,15 +2,15 @@
   "symbol": "COFORGE.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:37:28.684881",
-  "last_update": "2026-03-25T15:53:18.104630",
-  "total_rows": 6299,
+  "last_update": "2026-03-26T16:00:40.177695",
+  "total_rows": 6374,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-03-24 15:25:00+05:30"
+    "end": "2026-03-25 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-03-25T15:53:18.104637",
+    "last_validated": "2026-03-26T16:00:40.177702",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -145,6 +145,12 @@
       "timestamp": "2026-03-25T15:53:18.104640",
       "rows_added": 75,
       "total_rows": 6299,
+      "success": true
+    },
+    {
+      "timestamp": "2026-03-26T16:00:40.177706",
+      "rows_added": 75,
+      "total_rows": 6374,
       "success": true
     }
   ]
