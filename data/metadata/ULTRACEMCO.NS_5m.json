@@ -2,15 +2,15 @@
   "symbol": "ULTRACEMCO.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:11:03.619167",
-  "last_update": "2026-04-02T15:35:54.010749",
-  "total_rows": 6598,
+  "last_update": "2026-04-04T15:02:37.834646",
+  "total_rows": 6673,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-04-01 15:25:00+05:30"
+    "end": "2026-04-02 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-02T15:35:54.010756",
+    "last_validated": "2026-04-04T15:02:37.834651",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -169,6 +169,12 @@
       "timestamp": "2026-04-02T15:35:54.010760",
       "rows_added": 75,
       "total_rows": 6598,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-04T15:02:37.834653",
+      "rows_added": 75,
+      "total_rows": 6673,
       "success": true
     }
   ]

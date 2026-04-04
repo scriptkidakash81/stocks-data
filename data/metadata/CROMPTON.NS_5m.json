@@ -2,15 +2,15 @@
   "symbol": "CROMPTON.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:09.311336",
-  "last_update": "2026-04-02T15:40:28.520271",
-  "total_rows": 6599,
+  "last_update": "2026-04-04T15:07:13.508792",
+  "total_rows": 6674,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-04-01 15:25:00+05:30"
+    "end": "2026-04-02 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-02T15:40:28.520279",
+    "last_validated": "2026-04-04T15:07:13.508797",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -169,6 +169,12 @@
       "timestamp": "2026-04-02T15:40:28.520283",
       "rows_added": 75,
       "total_rows": 6599,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-04T15:07:13.508799",
+      "rows_added": 75,
+      "total_rows": 6674,
       "success": true
     }
   ]
