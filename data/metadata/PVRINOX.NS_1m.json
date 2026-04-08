@@ -2,15 +2,15 @@
   "symbol": "PVRINOX.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:10:53.314692",
-  "last_update": "2026-04-07T16:04:37.869952",
-  "total_rows": 14396,
+  "last_update": "2026-04-08T16:06:40.336617",
+  "total_rows": 14769,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-04-06 15:29:00+05:30"
+    "end": "2026-04-07 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-07T16:04:37.869958",
+    "last_validated": "2026-04-08T16:06:40.336623",
     "issues_count": 15,
     "validation_details": {}
   },
@@ -181,6 +181,12 @@
       "timestamp": "2026-04-07T16:04:37.869960",
       "rows_added": 368,
       "total_rows": 14396,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-08T16:06:40.336626",
+      "rows_added": 373,
+      "total_rows": 14769,
       "success": true
     }
   ]
