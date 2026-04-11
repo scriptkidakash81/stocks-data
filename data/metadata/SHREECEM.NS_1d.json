@@ -2,15 +2,15 @@
   "symbol": "SHREECEM.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:18:29.177967",
-  "last_update": "2026-04-09T16:04:08.156939",
-  "total_rows": 6160,
+  "last_update": "2026-04-11T15:06:28.058133",
+  "total_rows": 6162,
   "date_range": {
     "start": "2001-07-02 00:00:00+05:30",
-    "end": "2026-04-08 00:00:00+05:30"
+    "end": "2026-04-10 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-09T16:04:08.156946",
+    "last_validated": "2026-04-11T15:06:28.058141",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -193,6 +193,12 @@
       "timestamp": "2026-04-09T16:04:08.156950",
       "rows_added": 1,
       "total_rows": 6160,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-11T15:06:28.058144",
+      "rows_added": 2,
+      "total_rows": 6162,
       "success": true
     }
   ]

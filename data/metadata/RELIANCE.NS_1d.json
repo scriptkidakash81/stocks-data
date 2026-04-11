@@ -2,15 +2,15 @@
   "symbol": "RELIANCE.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:10:10.580061",
-  "last_update": "2026-04-09T16:01:44.158939",
-  "total_rows": 7595,
+  "last_update": "2026-04-11T15:04:04.626506",
+  "total_rows": 7597,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-04-08 00:00:00+05:30"
+    "end": "2026-04-10 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-09T16:01:44.158948",
+    "last_validated": "2026-04-11T15:04:04.626514",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -193,6 +193,12 @@
       "timestamp": "2026-04-09T16:01:44.158951",
       "rows_added": 1,
       "total_rows": 7595,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-11T15:04:04.626516",
+      "rows_added": 2,
+      "total_rows": 7597,
       "success": true
     }
   ]

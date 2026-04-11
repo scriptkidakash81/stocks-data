@@ -2,16 +2,16 @@
   "symbol": "ATUL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:43:39.853047",
-  "last_update": "2026-04-09T16:12:23.472334",
-  "total_rows": 12360,
+  "last_update": "2026-04-11T15:14:46.004929",
+  "total_rows": 12982,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-04-08 15:29:00+05:30"
+    "end": "2026-04-10 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-09T16:12:23.472342",
-    "issues_count": 639,
+    "last_validated": "2026-04-11T15:14:46.004936",
+    "issues_count": 667,
     "validation_details": {}
   },
   "download_history": [
@@ -193,6 +193,12 @@
       "timestamp": "2026-04-09T16:12:23.472345",
       "rows_added": 293,
       "total_rows": 12360,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-11T15:14:46.004939",
+      "rows_added": 622,
+      "total_rows": 12982,
       "success": true
     }
   ]
