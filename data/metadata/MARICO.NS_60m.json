@@ -2,15 +2,15 @@
   "symbol": "MARICO.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:23:50.056491",
-  "last_update": "2026-04-11T15:08:21.078474",
-  "total_rows": 5319,
+  "last_update": "2026-04-14T15:53:40.773125",
+  "total_rows": 5326,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-04-10 15:15:00+05:30"
+    "end": "2026-04-13 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-11T15:08:21.078481",
+    "last_validated": "2026-04-14T15:53:40.773133",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -199,6 +199,12 @@
       "timestamp": "2026-04-11T15:08:21.078485",
       "rows_added": 14,
       "total_rows": 5319,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-14T15:53:40.773136",
+      "rows_added": 7,
+      "total_rows": 5326,
       "success": true
     }
   ]
