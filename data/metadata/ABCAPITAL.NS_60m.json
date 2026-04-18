@@ -2,15 +2,15 @@
   "symbol": "ABCAPITAL.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:38:32.969808",
-  "last_update": "2026-04-16T16:15:54.838054",
-  "total_rows": 5336,
+  "last_update": "2026-04-18T15:15:39.331478",
+  "total_rows": 5350,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-04-15 15:15:00+05:30"
+    "end": "2026-04-17 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-16T16:15:54.838061",
+    "last_validated": "2026-04-18T15:15:39.331486",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -211,6 +211,12 @@
       "timestamp": "2026-04-16T16:15:54.838064",
       "rows_added": 7,
       "total_rows": 5336,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-18T15:15:39.331489",
+      "rows_added": 14,
+      "total_rows": 5350,
       "success": true
     }
   ]
