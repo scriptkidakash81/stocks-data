@@ -2,15 +2,15 @@
   "symbol": "SUNPHARMA.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:11:00.954585",
-  "last_update": "2026-04-21T15:54:12.869669",
-  "total_rows": 2456,
+  "last_update": "2026-04-23T16:18:04.516018",
+  "total_rows": 2506,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-04-20 15:15:00+05:30"
+    "end": "2026-04-22 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-21T15:54:12.869676",
+    "last_validated": "2026-04-23T16:18:04.516025",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -223,6 +223,12 @@
       "timestamp": "2026-04-21T15:54:12.869678",
       "rows_added": 6,
       "total_rows": 2456,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-23T16:18:04.516029",
+      "rows_added": 50,
+      "total_rows": 2506,
       "success": true
     }
   ]

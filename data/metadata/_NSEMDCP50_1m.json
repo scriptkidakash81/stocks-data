@@ -2,16 +2,16 @@
   "symbol": "^NSEMDCP50",
   "interval": "1m",
   "created_at": "2026-02-14T18:25:06.617383",
-  "last_update": "2026-04-21T16:06:04.362574",
-  "total_rows": 17630,
+  "last_update": "2026-04-23T16:30:01.267321",
+  "total_rows": 18375,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-04-20 15:29:00+05:30"
+    "end": "2026-04-22 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-21T16:06:04.362579",
-    "issues_count": 5,
+    "last_validated": "2026-04-23T16:30:01.267328",
+    "issues_count": 6,
     "validation_details": {}
   },
   "download_history": [
@@ -223,6 +223,12 @@
       "timestamp": "2026-04-21T16:06:04.362581",
       "rows_added": 19,
       "total_rows": 17630,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-23T16:30:01.267331",
+      "rows_added": 745,
+      "total_rows": 18375,
       "success": true
     }
   ]
