@@ -2,15 +2,15 @@
   "symbol": "^INDIAVIX",
   "interval": "1d",
   "created_at": "2026-02-14T16:01:01.818226",
-  "last_update": "2026-04-23T16:30:00.229468",
-  "total_rows": 4441,
+  "last_update": "2026-04-25T15:20:39.331726",
+  "total_rows": 4443,
   "date_range": {
     "start": "2008-03-03 00:00:00+05:30",
-    "end": "2026-04-22 00:00:00+05:30"
+    "end": "2026-04-24 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-23T16:30:00.229474",
+    "last_validated": "2026-04-25T15:20:39.331733",
     "issues_count": 13,
     "validation_details": {}
   },
@@ -229,6 +229,12 @@
       "timestamp": "2026-04-23T16:30:00.229478",
       "rows_added": 2,
       "total_rows": 4441,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-25T15:20:39.331736",
+      "rows_added": 2,
+      "total_rows": 4443,
       "success": true
     }
   ]

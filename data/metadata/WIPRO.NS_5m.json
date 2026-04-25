@@ -2,15 +2,15 @@
   "symbol": "WIPRO.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:11:06.598564",
-  "last_update": "2026-04-23T16:18:10.706185",
-  "total_rows": 7515,
+  "last_update": "2026-04-25T15:08:31.315311",
+  "total_rows": 7665,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-04-22 15:25:00+05:30"
+    "end": "2026-04-24 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-23T16:18:10.706191",
+    "last_validated": "2026-04-25T15:08:31.315318",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -229,6 +229,12 @@
       "timestamp": "2026-04-23T16:18:10.706193",
       "rows_added": 150,
       "total_rows": 7515,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-25T15:08:31.315321",
+      "rows_added": 150,
+      "total_rows": 7665,
       "success": true
     }
   ]

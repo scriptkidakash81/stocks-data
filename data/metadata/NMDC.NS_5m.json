@@ -2,15 +2,15 @@
   "symbol": "NMDC.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:18.358010",
-  "last_update": "2026-04-23T16:23:08.697984",
-  "total_rows": 7514,
+  "last_update": "2026-04-25T15:13:37.671003",
+  "total_rows": 7664,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-04-22 15:25:00+05:30"
+    "end": "2026-04-24 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-23T16:23:08.697992",
+    "last_validated": "2026-04-25T15:13:37.671010",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -229,6 +229,12 @@
       "timestamp": "2026-04-23T16:23:08.697996",
       "rows_added": 150,
       "total_rows": 7514,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-25T15:13:37.671013",
+      "rows_added": 150,
+      "total_rows": 7664,
       "success": true
     }
   ]
