@@ -2,15 +2,15 @@
   "symbol": "RECLTD.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:32:49.816766",
-  "last_update": "2026-04-25T15:13:04.330638",
-  "total_rows": 4464,
+  "last_update": "2026-04-28T16:29:58.917940",
+  "total_rows": 4465,
   "date_range": {
     "start": "2008-03-12 00:00:00+05:30",
-    "end": "2026-04-24 00:00:00+05:30"
+    "end": "2026-04-27 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-25T15:13:04.330644",
+    "last_validated": "2026-04-28T16:29:58.917947",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -235,6 +235,12 @@
       "timestamp": "2026-04-25T15:13:04.330646",
       "rows_added": 2,
       "total_rows": 4464,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-28T16:29:58.917951",
+      "rows_added": 1,
+      "total_rows": 4465,
       "success": true
     }
   ]
