@@ -2,15 +2,15 @@
   "symbol": "ACC.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:19:28.061224",
-  "last_update": "2026-04-28T16:27:59.347294",
-  "total_rows": 13744,
+  "last_update": "2026-04-30T16:05:56.159661",
+  "total_rows": 14118,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-04-27 15:29:00+05:30"
+    "end": "2026-04-29 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-04-28T16:27:59.347301",
+    "last_validated": "2026-04-30T16:05:56.159669",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -241,6 +241,12 @@
       "timestamp": "2026-04-28T16:27:59.347304",
       "rows_added": 188,
       "total_rows": 13744,
+      "success": true
+    },
+    {
+      "timestamp": "2026-04-30T16:05:56.159673",
+      "rows_added": 374,
+      "total_rows": 14118,
       "success": true
     }
   ]
