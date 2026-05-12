@@ -2,15 +2,15 @@
   "symbol": "FINEORG.NS",
   "interval": "15m",
   "created_at": "2026-02-14T16:00:45.791395",
-  "last_update": "2026-05-09T15:44:35.914673",
-  "total_rows": 2780,
+  "last_update": "2026-05-12T16:52:09.371424",
+  "total_rows": 2805,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-05-08 15:15:00+05:30"
+    "end": "2026-05-11 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-09T15:44:35.914680",
+    "last_validated": "2026-05-12T16:52:09.371431",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -277,6 +277,12 @@
       "timestamp": "2026-05-09T15:44:35.914684",
       "rows_added": 50,
       "total_rows": 2780,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-12T16:52:09.371434",
+      "rows_added": 25,
+      "total_rows": 2805,
       "success": true
     }
   ]

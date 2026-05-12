@@ -2,15 +2,15 @@
   "symbol": "UNITDSPR.NS",
   "interval": "2m",
   "created_at": "2026-02-14T18:10:47.840939",
-  "last_update": "2026-05-09T15:35:27.304594",
-  "total_rows": 15254,
+  "last_update": "2026-05-12T16:43:12.485633",
+  "total_rows": 15442,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-05-08 15:29:00+05:30"
+    "end": "2026-05-11 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-09T15:35:27.304601",
+    "last_validated": "2026-05-12T16:43:12.485641",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -277,6 +277,12 @@
       "timestamp": "2026-05-09T15:35:27.304605",
       "rows_added": 375,
       "total_rows": 15254,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-12T16:43:12.485643",
+      "rows_added": 188,
+      "total_rows": 15442,
       "success": true
     }
   ]
