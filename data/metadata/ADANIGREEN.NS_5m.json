@@ -2,15 +2,15 @@
   "symbol": "ADANIGREEN.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:19:31.538872",
-  "last_update": "2026-05-12T16:42:14.613698",
-  "total_rows": 8414,
+  "last_update": "2026-05-13T16:44:14.826472",
+  "total_rows": 8489,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-05-11 15:25:00+05:30"
+    "end": "2026-05-12 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-12T16:42:14.613706",
+    "last_validated": "2026-05-13T16:44:14.826479",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -283,6 +283,12 @@
       "timestamp": "2026-05-12T16:42:14.613710",
       "rows_added": 75,
       "total_rows": 8414,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-13T16:44:14.826482",
+      "rows_added": 75,
+      "total_rows": 8489,
       "success": true
     }
   ]
