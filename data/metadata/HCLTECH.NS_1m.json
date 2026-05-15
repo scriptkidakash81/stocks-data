@@ -2,15 +2,15 @@
   "symbol": "HCLTECH.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:41.339152",
-  "last_update": "2026-05-13T16:40:54.258727",
-  "total_rows": 23316,
+  "last_update": "2026-05-15T16:23:05.982729",
+  "total_rows": 24066,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-05-12 15:29:00+05:30"
+    "end": "2026-05-14 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-13T16:40:54.258735",
+    "last_validated": "2026-05-15T16:23:05.982744",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -289,6 +289,12 @@
       "timestamp": "2026-05-13T16:40:54.258738",
       "rows_added": 375,
       "total_rows": 23316,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-15T16:23:05.982748",
+      "rows_added": 750,
+      "total_rows": 24066,
       "success": true
     }
   ]
