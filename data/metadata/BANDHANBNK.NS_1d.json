@@ -2,15 +2,15 @@
   "symbol": "BANDHANBNK.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:18:59.706850",
-  "last_update": "2026-05-15T16:25:47.894967",
-  "total_rows": 2008,
+  "last_update": "2026-05-17T15:40:08.719911",
+  "total_rows": 2009,
   "date_range": {
     "start": "2018-03-27 00:00:00+05:30",
-    "end": "2026-05-14 00:00:00+05:30"
+    "end": "2026-05-15 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-15T16:25:47.894974",
+    "last_validated": "2026-05-17T15:40:08.719918",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -295,6 +295,12 @@
       "timestamp": "2026-05-15T16:25:47.894977",
       "rows_added": 2,
       "total_rows": 2008,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-17T15:40:08.719922",
+      "rows_added": 1,
+      "total_rows": 2009,
       "success": true
     }
   ]
