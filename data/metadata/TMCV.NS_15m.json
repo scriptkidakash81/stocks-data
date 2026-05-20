@@ -2,15 +2,15 @@
   "symbol": "TMCV.NS",
   "interval": "15m",
   "created_at": "2026-02-14T18:23:47.026091",
-  "last_update": "2026-05-19T17:27:17.798418",
-  "total_rows": 2931,
+  "last_update": "2026-05-20T17:40:32.096767",
+  "total_rows": 2956,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-05-18 15:15:00+05:30"
+    "end": "2026-05-19 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-19T17:27:17.798424",
+    "last_validated": "2026-05-20T17:40:32.096774",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -307,6 +307,12 @@
       "timestamp": "2026-05-19T17:27:17.798428",
       "rows_added": 25,
       "total_rows": 2931,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-20T17:40:32.096777",
+      "rows_added": 25,
+      "total_rows": 2956,
       "success": true
     }
   ]

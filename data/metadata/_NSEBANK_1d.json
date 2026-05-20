@@ -2,15 +2,15 @@
   "symbol": "^NSEBANK",
   "interval": "1d",
   "created_at": "2026-02-14T16:00:55.870849",
-  "last_update": "2026-05-19T17:40:34.678535",
-  "total_rows": 4301,
+  "last_update": "2026-05-20T17:53:25.676313",
+  "total_rows": 4302,
   "date_range": {
     "start": "2007-09-17 00:00:00+05:30",
-    "end": "2026-05-18 00:00:00+05:30"
+    "end": "2026-05-19 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-19T17:40:34.678541",
+    "last_validated": "2026-05-20T17:53:25.676318",
     "issues_count": 26,
     "validation_details": {}
   },
@@ -307,6 +307,12 @@
       "timestamp": "2026-05-19T17:40:34.678544",
       "rows_added": 1,
       "total_rows": 4301,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-20T17:53:25.676320",
+      "rows_added": 1,
+      "total_rows": 4302,
       "success": true
     }
   ]
