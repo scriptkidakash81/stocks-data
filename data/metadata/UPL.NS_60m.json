@@ -2,15 +2,15 @@
   "symbol": "UPL.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:18:20.725847",
-  "last_update": "2026-05-22T16:47:12.630726",
-  "total_rows": 5507,
+  "last_update": "2026-05-24T15:46:42.057485",
+  "total_rows": 5514,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-05-21 15:15:00+05:30"
+    "end": "2026-05-22 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-22T16:47:12.630734",
+    "last_validated": "2026-05-24T15:46:42.057490",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -319,6 +319,12 @@
       "timestamp": "2026-05-22T16:47:12.630737",
       "rows_added": 14,
       "total_rows": 5507,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-24T15:46:42.057493",
+      "rows_added": 7,
+      "total_rows": 5514,
       "success": true
     }
   ]
