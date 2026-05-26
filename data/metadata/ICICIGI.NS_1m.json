@@ -2,16 +2,16 @@
   "symbol": "ICICIGI.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:37.907779",
-  "last_update": "2026-05-24T15:49:45.142470",
-  "total_rows": 26273,
+  "last_update": "2026-05-26T17:51:10.992874",
+  "total_rows": 26636,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-05-22 15:29:00+05:30"
+    "end": "2026-05-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-24T15:49:45.142475",
-    "issues_count": 7,
+    "last_validated": "2026-05-26T17:51:10.992881",
+    "issues_count": 9,
     "validation_details": {}
   },
   "download_history": [
@@ -325,6 +325,12 @@
       "timestamp": "2026-05-24T15:49:45.142477",
       "rows_added": 374,
       "total_rows": 26273,
+      "success": true
+    },
+    {
+      "timestamp": "2026-05-26T17:51:10.992885",
+      "rows_added": 363,
+      "total_rows": 26636,
       "success": true
     }
   ]
