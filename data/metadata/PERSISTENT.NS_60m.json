@@ -2,15 +2,15 @@
   "symbol": "PERSISTENT.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:37:32.813266",
-  "last_update": "2026-05-30T15:55:59.351522",
-  "total_rows": 5540,
+  "last_update": "2026-06-02T00:05:22.797431",
+  "total_rows": 5547,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-05-29 15:15:00+05:30"
+    "end": "2026-06-01 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-30T15:55:59.351528",
+    "last_validated": "2026-06-02T00:05:22.797437",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -343,6 +343,12 @@
       "timestamp": "2026-05-30T15:55:59.351530",
       "rows_added": 7,
       "total_rows": 5540,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-02T00:05:22.797439",
+      "rows_added": 7,
+      "total_rows": 5547,
       "success": true
     }
   ]

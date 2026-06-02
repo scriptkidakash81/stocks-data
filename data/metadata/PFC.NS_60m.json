@@ -2,15 +2,15 @@
   "symbol": "PFC.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:32:46.264199",
-  "last_update": "2026-05-30T15:51:27.569498",
-  "total_rows": 5543,
+  "last_update": "2026-06-02T00:00:51.455875",
+  "total_rows": 5550,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-05-29 15:15:00+05:30"
+    "end": "2026-06-01 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-30T15:51:27.569505",
+    "last_validated": "2026-06-02T00:00:51.455881",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -343,6 +343,12 @@
       "timestamp": "2026-05-30T15:51:27.569509",
       "rows_added": 7,
       "total_rows": 5543,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-02T00:00:51.455883",
+      "rows_added": 7,
+      "total_rows": 5550,
       "success": true
     }
   ]

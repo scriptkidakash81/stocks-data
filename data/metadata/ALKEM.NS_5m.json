@@ -2,15 +2,15 @@
   "symbol": "ALKEM.NS",
   "interval": "5m",
   "created_at": "2026-02-14T16:00:27.225116",
-  "last_update": "2026-05-30T15:59:16.132782",
-  "total_rows": 9389,
+  "last_update": "2026-06-02T00:08:40.042871",
+  "total_rows": 9464,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-05-29 15:25:00+05:30"
+    "end": "2026-06-01 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-05-30T15:59:16.132789",
+    "last_validated": "2026-06-02T00:08:40.042878",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -343,6 +343,12 @@
       "timestamp": "2026-05-30T15:59:16.132792",
       "rows_added": 75,
       "total_rows": 9389,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-02T00:08:40.042882",
+      "rows_added": 75,
+      "total_rows": 9464,
       "success": true
     }
   ]
