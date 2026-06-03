@@ -2,15 +2,15 @@
   "symbol": "WHIRLPOOL.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:38:22.945099",
-  "last_update": "2026-06-02T00:06:24.137924",
-  "total_rows": 9463,
+  "last_update": "2026-06-03T18:46:41.479878",
+  "total_rows": 9538,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-01 15:25:00+05:30"
+    "end": "2026-06-02 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-02T00:06:24.137931",
+    "last_validated": "2026-06-03T18:46:41.479886",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -349,6 +349,12 @@
       "timestamp": "2026-06-02T00:06:24.137935",
       "rows_added": 75,
       "total_rows": 9463,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-03T18:46:41.479889",
+      "rows_added": 75,
+      "total_rows": 9538,
       "success": true
     }
   ]

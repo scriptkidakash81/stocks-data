@@ -2,15 +2,15 @@
   "symbol": "BANKBARODA.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:25.973427",
-  "last_update": "2026-06-02T00:00:27.262162",
-  "total_rows": 28191,
+  "last_update": "2026-06-03T18:40:42.777640",
+  "total_rows": 28566,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-01 15:29:00+05:30"
+    "end": "2026-06-02 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-02T00:00:27.262171",
+    "last_validated": "2026-06-03T18:40:42.777648",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -349,6 +349,12 @@
       "timestamp": "2026-06-02T00:00:27.262175",
       "rows_added": 375,
       "total_rows": 28191,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-03T18:40:42.777651",
+      "rows_added": 375,
+      "total_rows": 28566,
       "success": true
     }
   ]

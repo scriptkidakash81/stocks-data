@@ -2,15 +2,15 @@
   "symbol": "IDFCFIRSTB.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:32:32.970374",
-  "last_update": "2026-06-02T00:00:35.835550",
-  "total_rows": 9464,
+  "last_update": "2026-06-03T18:40:51.348235",
+  "total_rows": 9539,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-01 15:25:00+05:30"
+    "end": "2026-06-02 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-02T00:00:35.835556",
+    "last_validated": "2026-06-03T18:40:51.348241",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -349,6 +349,12 @@
       "timestamp": "2026-06-02T00:00:35.835558",
       "rows_added": 75,
       "total_rows": 9464,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-03T18:40:51.348243",
+      "rows_added": 75,
+      "total_rows": 9539,
       "success": true
     }
   ]
