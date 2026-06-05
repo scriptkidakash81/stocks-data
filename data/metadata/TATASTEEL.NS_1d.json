@@ -2,15 +2,15 @@
   "symbol": "TATASTEEL.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:15:27.410013",
-  "last_update": "2026-06-03T18:37:13.090713",
-  "total_rows": 7636,
+  "last_update": "2026-06-05T17:01:24.689859",
+  "total_rows": 7638,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-06-02 00:00:00+05:30"
+    "end": "2026-06-04 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-03T18:37:13.090719",
+    "last_validated": "2026-06-05T17:01:24.689864",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -355,6 +355,12 @@
       "timestamp": "2026-06-03T18:37:13.090722",
       "rows_added": 1,
       "total_rows": 7636,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-05T17:01:24.689866",
+      "rows_added": 2,
+      "total_rows": 7638,
       "success": true
     }
   ]

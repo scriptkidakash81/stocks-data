@@ -2,15 +2,15 @@
   "symbol": "ADANIENSOL.NS",
   "interval": "5m",
   "created_at": "2026-02-14T18:10:04.907194",
-  "last_update": "2026-06-03T18:39:48.138252",
-  "total_rows": 9540,
+  "last_update": "2026-06-05T17:03:48.836572",
+  "total_rows": 9690,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-02 15:25:00+05:30"
+    "end": "2026-06-04 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-03T18:39:48.138259",
+    "last_validated": "2026-06-05T17:03:48.836577",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -355,6 +355,12 @@
       "timestamp": "2026-06-03T18:39:48.138263",
       "rows_added": 75,
       "total_rows": 9540,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-05T17:03:48.836579",
+      "rows_added": 150,
+      "total_rows": 9690,
       "success": true
     }
   ]

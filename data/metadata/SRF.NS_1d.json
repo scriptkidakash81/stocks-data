@@ -2,15 +2,15 @@
   "symbol": "SRF.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:32:55.769281",
-  "last_update": "2026-06-03T18:41:18.892865",
-  "total_rows": 5937,
+  "last_update": "2026-06-05T17:05:13.318574",
+  "total_rows": 5939,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-06-02 00:00:00+05:30"
+    "end": "2026-06-04 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-03T18:41:18.892872",
+    "last_validated": "2026-06-05T17:05:13.318580",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -355,6 +355,12 @@
       "timestamp": "2026-06-03T18:41:18.892876",
       "rows_added": 1,
       "total_rows": 5937,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-05T17:05:13.318583",
+      "rows_added": 2,
+      "total_rows": 5939,
       "success": true
     }
   ]
