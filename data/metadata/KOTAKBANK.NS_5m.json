@@ -2,15 +2,15 @@
   "symbol": "KOTAKBANK.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:10:36.168076",
-  "last_update": "2026-06-05T17:00:35.052553",
-  "total_rows": 9688,
+  "last_update": "2026-06-07T15:55:04.227560",
+  "total_rows": 9763,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-04 15:25:00+05:30"
+    "end": "2026-06-05 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-05T17:00:35.052565",
+    "last_validated": "2026-06-07T15:55:04.227568",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -361,6 +361,12 @@
       "timestamp": "2026-06-05T17:00:35.052568",
       "rows_added": 150,
       "total_rows": 9688,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-07T15:55:04.227573",
+      "rows_added": 75,
+      "total_rows": 9763,
       "success": true
     }
   ]
