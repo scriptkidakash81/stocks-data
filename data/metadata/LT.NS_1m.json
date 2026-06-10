@@ -2,15 +2,15 @@
   "symbol": "LT.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:38.291567",
-  "last_update": "2026-06-09T17:10:10.527527",
-  "total_rows": 30065,
+  "last_update": "2026-06-10T17:46:49.837129",
+  "total_rows": 30440,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-08 15:29:00+05:30"
+    "end": "2026-06-09 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-09T17:10:10.527534",
+    "last_validated": "2026-06-10T17:46:49.837144",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -373,6 +373,12 @@
       "timestamp": "2026-06-09T17:10:10.527536",
       "rows_added": 375,
       "total_rows": 30065,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-10T17:46:49.837148",
+      "rows_added": 375,
+      "total_rows": 30440,
       "success": true
     }
   ]

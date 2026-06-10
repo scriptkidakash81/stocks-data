@@ -2,15 +2,15 @@
   "symbol": "PNB.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:32:25.443385",
-  "last_update": "2026-06-09T17:14:53.726509",
-  "total_rows": 5944,
+  "last_update": "2026-06-10T17:51:18.141230",
+  "total_rows": 5945,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-06-08 00:00:00+05:30"
+    "end": "2026-06-09 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-09T17:14:53.726516",
+    "last_validated": "2026-06-10T17:51:18.141238",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -373,6 +373,12 @@
       "timestamp": "2026-06-09T17:14:53.726520",
       "rows_added": 1,
       "total_rows": 5944,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-10T17:51:18.141242",
+      "rows_added": 1,
+      "total_rows": 5945,
       "success": true
     }
   ]

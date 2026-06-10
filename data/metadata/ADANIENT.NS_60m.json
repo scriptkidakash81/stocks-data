@@ -2,15 +2,15 @@
   "symbol": "ADANIENT.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:18:32.468788",
-  "last_update": "2026-06-09T17:12:38.809297",
-  "total_rows": 5583,
+  "last_update": "2026-06-10T17:49:10.316479",
+  "total_rows": 5590,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-06-08 15:15:00+05:30"
+    "end": "2026-06-09 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-09T17:12:38.809306",
+    "last_validated": "2026-06-10T17:49:10.316486",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -373,6 +373,12 @@
       "timestamp": "2026-06-09T17:12:38.809309",
       "rows_added": 7,
       "total_rows": 5583,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-10T17:49:10.316490",
+      "rows_added": 7,
+      "total_rows": 5590,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "SAIL.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:12.338332",
-  "last_update": "2026-06-09T17:15:57.510878",
-  "total_rows": 9840,
+  "last_update": "2026-06-10T17:52:18.159005",
+  "total_rows": 9915,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-08 15:25:00+05:30"
+    "end": "2026-06-09 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-09T17:15:57.510885",
+    "last_validated": "2026-06-10T17:52:18.159013",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -373,6 +373,12 @@
       "timestamp": "2026-06-09T17:15:57.510887",
       "rows_added": 75,
       "total_rows": 9840,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-10T17:52:18.159017",
+      "rows_added": 75,
+      "total_rows": 9915,
       "success": true
     }
   ]

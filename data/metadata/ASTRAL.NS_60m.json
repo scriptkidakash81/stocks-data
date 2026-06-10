@@ -2,15 +2,15 @@
   "symbol": "ASTRAL.NS",
   "interval": "60m",
   "created_at": "2026-02-14T16:00:37.549896",
-  "last_update": "2026-06-09T17:23:47.240172",
-  "total_rows": 5582,
+  "last_update": "2026-06-10T17:59:19.420621",
+  "total_rows": 5589,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-06-08 15:15:00+05:30"
+    "end": "2026-06-09 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-09T17:23:47.240180",
+    "last_validated": "2026-06-10T17:59:19.420627",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -373,6 +373,12 @@
       "timestamp": "2026-06-09T17:23:47.240183",
       "rows_added": 7,
       "total_rows": 5582,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-10T17:59:19.420630",
+      "rows_added": 7,
+      "total_rows": 5589,
       "success": true
     }
   ]
