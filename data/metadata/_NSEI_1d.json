@@ -2,15 +2,15 @@
   "symbol": "^NSEI",
   "interval": "1d",
   "created_at": "2026-02-14T16:00:52.857825",
-  "last_update": "2026-06-10T17:59:38.482497",
-  "total_rows": 4592,
+  "last_update": "2026-06-11T18:05:09.180124",
+  "total_rows": 4593,
   "date_range": {
     "start": "2007-09-17 00:00:00+05:30",
-    "end": "2026-06-09 00:00:00+05:30"
+    "end": "2026-06-10 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-10T17:59:38.482506",
+    "last_validated": "2026-06-11T18:05:09.180133",
     "issues_count": 13,
     "validation_details": {}
   },
@@ -379,6 +379,12 @@
       "timestamp": "2026-06-10T17:59:38.482509",
       "rows_added": 1,
       "total_rows": 4592,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-11T18:05:09.180136",
+      "rows_added": 1,
+      "total_rows": 4593,
       "success": true
     }
   ]
