@@ -2,15 +2,15 @@
   "symbol": "HEROMOTOCO.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:06.884387",
-  "last_update": "2026-06-11T17:54:00.040456",
-  "total_rows": 30816,
+  "last_update": "2026-06-13T16:00:56.290371",
+  "total_rows": 31566,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-10 15:29:00+05:30"
+    "end": "2026-06-12 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-11T17:54:00.040464",
+    "last_validated": "2026-06-13T16:00:56.290378",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -385,6 +385,12 @@
       "timestamp": "2026-06-11T17:54:00.040468",
       "rows_added": 375,
       "total_rows": 30816,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-13T16:00:56.290380",
+      "rows_added": 750,
+      "total_rows": 31566,
       "success": true
     }
   ]

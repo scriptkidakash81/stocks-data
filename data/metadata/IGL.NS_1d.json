@@ -2,15 +2,15 @@
   "symbol": "IGL.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:42:59.128472",
-  "last_update": "2026-06-11T18:03:24.134352",
-  "total_rows": 5555,
+  "last_update": "2026-06-13T16:10:07.497129",
+  "total_rows": 5557,
   "date_range": {
     "start": "2003-12-26 00:00:00+05:30",
-    "end": "2026-06-10 00:00:00+05:30"
+    "end": "2026-06-12 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-11T18:03:24.134359",
+    "last_validated": "2026-06-13T16:10:07.497137",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -385,6 +385,12 @@
       "timestamp": "2026-06-11T18:03:24.134361",
       "rows_added": 1,
       "total_rows": 5555,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-13T16:10:07.497141",
+      "rows_added": 2,
+      "total_rows": 5557,
       "success": true
     }
   ]
