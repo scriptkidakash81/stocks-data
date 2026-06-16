@@ -2,15 +2,15 @@
   "symbol": "^CNXAUTO",
   "interval": "1d",
   "created_at": "2026-02-14T16:08:59.379453",
-  "last_update": "2026-06-13T16:12:55.515385",
-  "total_rows": 3656,
+  "last_update": "2026-06-16T00:09:30.074034",
+  "total_rows": 3657,
   "date_range": {
     "start": "2011-07-12 00:00:00+05:30",
-    "end": "2026-06-12 00:00:00+05:30"
+    "end": "2026-06-15 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-13T16:12:55.515391",
+    "last_validated": "2026-06-16T00:09:30.074042",
     "issues_count": 9,
     "validation_details": {}
   },
@@ -391,6 +391,12 @@
       "timestamp": "2026-06-13T16:12:55.515393",
       "rows_added": 2,
       "total_rows": 3656,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-16T00:09:30.074046",
+      "rows_added": 1,
+      "total_rows": 3657,
       "success": true
     }
   ]
