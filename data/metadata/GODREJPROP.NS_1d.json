@@ -2,15 +2,15 @@
   "symbol": "GODREJPROP.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:23:44.261406",
-  "last_update": "2026-06-13T16:02:36.497935",
-  "total_rows": 4059,
+  "last_update": "2026-06-16T18:50:36.725839",
+  "total_rows": 4060,
   "date_range": {
     "start": "2010-01-05 00:00:00+05:30",
-    "end": "2026-06-12 00:00:00+05:30"
+    "end": "2026-06-15 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-13T16:02:36.497942",
+    "last_validated": "2026-06-16T18:50:36.725845",
     "issues_count": 9,
     "validation_details": {}
   },
@@ -391,6 +391,12 @@
       "timestamp": "2026-06-13T16:02:36.497946",
       "rows_added": 2,
       "total_rows": 4059,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-16T18:50:36.725848",
+      "rows_added": 1,
+      "total_rows": 4060,
       "success": true
     }
   ]
