@@ -2,15 +2,15 @@
   "symbol": "METROPOLIS.NS",
   "interval": "15m",
   "created_at": "2026-02-14T16:00:33.731241",
-  "last_update": "2026-06-17T17:37:46.376806",
-  "total_rows": 3432,
+  "last_update": "2026-06-18T17:57:24.410711",
+  "total_rows": 3457,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-16 15:15:00+05:30"
+    "end": "2026-06-17 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-17T17:37:46.376813",
+    "last_validated": "2026-06-18T17:57:24.410718",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -403,6 +403,12 @@
       "timestamp": "2026-06-17T17:37:46.376816",
       "rows_added": 25,
       "total_rows": 3432,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-18T17:57:24.410722",
+      "rows_added": 25,
+      "total_rows": 3457,
       "success": true
     }
   ]

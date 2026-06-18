@@ -2,15 +2,15 @@
   "symbol": "SHRIRAMFIN.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:11:43.903969",
-  "last_update": "2026-06-17T17:37:28.883753",
-  "total_rows": 32316,
+  "last_update": "2026-06-18T17:57:06.869250",
+  "total_rows": 32691,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-16 15:29:00+05:30"
+    "end": "2026-06-17 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-17T17:37:28.883761",
+    "last_validated": "2026-06-18T17:57:06.869258",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -403,6 +403,12 @@
       "timestamp": "2026-06-17T17:37:28.883764",
       "rows_added": 375,
       "total_rows": 32316,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-18T17:57:06.869262",
+      "rows_added": 375,
+      "total_rows": 32691,
       "success": true
     }
   ]
