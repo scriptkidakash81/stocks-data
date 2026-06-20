@@ -2,15 +2,15 @@
   "symbol": "BATAINDIA.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:47:57.712578",
-  "last_update": "2026-06-18T17:56:43.065758",
-  "total_rows": 20239,
+  "last_update": "2026-06-20T16:11:49.698010",
+  "total_rows": 20615,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-06-17 15:29:00+05:30"
+    "end": "2026-06-19 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-18T17:56:43.065776",
+    "last_validated": "2026-06-20T16:11:49.698018",
     "issues_count": 7,
     "validation_details": {}
   },
@@ -409,6 +409,12 @@
       "timestamp": "2026-06-18T17:56:43.065779",
       "rows_added": 187,
       "total_rows": 20239,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-20T16:11:49.698023",
+      "rows_added": 376,
+      "total_rows": 20615,
       "success": true
     }
   ]

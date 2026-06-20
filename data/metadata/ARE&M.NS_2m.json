@@ -2,15 +2,15 @@
   "symbol": "ARE&M.NS",
   "interval": "2m",
   "created_at": "2026-02-14T18:10:56.816045",
-  "last_update": "2026-06-18T17:56:39.060404",
-  "total_rows": 20330,
+  "last_update": "2026-06-20T16:11:45.799457",
+  "total_rows": 20706,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-06-17 15:29:00+05:30"
+    "end": "2026-06-19 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-18T17:56:39.060412",
+    "last_validated": "2026-06-20T16:11:45.799463",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -409,6 +409,12 @@
       "timestamp": "2026-06-18T17:56:39.060416",
       "rows_added": 188,
       "total_rows": 20330,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-20T16:11:45.799466",
+      "rows_added": 376,
+      "total_rows": 20706,
       "success": true
     }
   ]

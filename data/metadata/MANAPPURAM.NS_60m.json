@@ -2,15 +2,15 @@
   "symbol": "MANAPPURAM.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:38:11.864085",
-  "last_update": "2026-06-18T17:55:10.884498",
-  "total_rows": 5634,
+  "last_update": "2026-06-20T16:10:21.011667",
+  "total_rows": 5648,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-06-17 15:15:00+05:30"
+    "end": "2026-06-19 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-18T17:55:10.884504",
+    "last_validated": "2026-06-20T16:10:21.011677",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -409,6 +409,12 @@
       "timestamp": "2026-06-18T17:55:10.884507",
       "rows_added": 7,
       "total_rows": 5634,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-20T16:10:21.011681",
+      "rows_added": 14,
+      "total_rows": 5648,
       "success": true
     }
   ]
