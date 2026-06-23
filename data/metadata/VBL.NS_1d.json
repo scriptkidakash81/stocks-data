@@ -2,15 +2,15 @@
   "symbol": "VBL.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:48:05.721105",
-  "last_update": "2026-06-20T16:11:59.044294",
-  "total_rows": 2378,
+  "last_update": "2026-06-23T00:07:14.687760",
+  "total_rows": 2379,
   "date_range": {
     "start": "2016-11-08 00:00:00+05:30",
-    "end": "2026-06-19 00:00:00+05:30"
+    "end": "2026-06-22 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-20T16:11:59.044306",
+    "last_validated": "2026-06-23T00:07:14.687767",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -415,6 +415,12 @@
       "timestamp": "2026-06-20T16:11:59.044310",
       "rows_added": 2,
       "total_rows": 2378,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-23T00:07:14.687770",
+      "rows_added": 1,
+      "total_rows": 2379,
       "success": true
     }
   ]

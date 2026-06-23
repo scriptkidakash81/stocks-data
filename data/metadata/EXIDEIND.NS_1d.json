@@ -2,15 +2,15 @@
   "symbol": "EXIDEIND.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:37:57.262102",
-  "last_update": "2026-06-20T16:10:01.669178",
-  "total_rows": 5954,
+  "last_update": "2026-06-23T00:05:16.482786",
+  "total_rows": 5955,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-06-19 00:00:00+05:30"
+    "end": "2026-06-22 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-20T16:10:01.669186",
+    "last_validated": "2026-06-23T00:05:16.482794",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -415,6 +415,12 @@
       "timestamp": "2026-06-20T16:10:01.669189",
       "rows_added": 2,
       "total_rows": 5954,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-23T00:05:16.482798",
+      "rows_added": 1,
+      "total_rows": 5955,
       "success": true
     }
   ]
