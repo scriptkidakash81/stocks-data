@@ -2,15 +2,15 @@
   "symbol": "SIEMENS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:15.411005",
-  "last_update": "2026-06-20T16:03:05.618418",
-  "total_rows": 33428,
+  "last_update": "2026-06-23T17:07:50.688267",
+  "total_rows": 33803,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-19 15:29:00+05:30"
+    "end": "2026-06-22 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-20T16:03:05.618425",
+    "last_validated": "2026-06-23T17:07:50.688274",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -409,6 +409,12 @@
       "timestamp": "2026-06-20T16:03:05.618429",
       "rows_added": 750,
       "total_rows": 33428,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-23T17:07:50.688277",
+      "rows_added": 375,
+      "total_rows": 33803,
       "success": true
     }
   ]
