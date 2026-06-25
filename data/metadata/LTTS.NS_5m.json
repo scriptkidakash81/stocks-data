@@ -2,15 +2,15 @@
   "symbol": "LTTS.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:37:25.650562",
-  "last_update": "2026-06-24T16:43:49.864711",
-  "total_rows": 10665,
+  "last_update": "2026-06-25T16:54:11.115423",
+  "total_rows": 10740,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-23 15:25:00+05:30"
+    "end": "2026-06-24 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-24T16:43:49.864718",
+    "last_validated": "2026-06-25T16:54:11.115433",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -427,6 +427,12 @@
       "timestamp": "2026-06-24T16:43:49.864721",
       "rows_added": 75,
       "total_rows": 10665,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-25T16:54:11.115435",
+      "rows_added": 75,
+      "total_rows": 10740,
       "success": true
     }
   ]

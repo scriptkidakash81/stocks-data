@@ -2,15 +2,15 @@
   "symbol": "HINDALCO.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:16:38.199917",
-  "last_update": "2026-06-23T17:05:57.379206",
-  "total_rows": 10590,
+  "last_update": "2026-06-25T16:45:52.665495",
+  "total_rows": 10740,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-06-22 15:25:00+05:30"
+    "end": "2026-06-24 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-23T17:05:57.379213",
+    "last_validated": "2026-06-25T16:45:52.665501",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -415,6 +415,12 @@
       "timestamp": "2026-06-23T17:05:57.379217",
       "rows_added": 75,
       "total_rows": 10590,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-25T16:45:52.665503",
+      "rows_added": 150,
+      "total_rows": 10740,
       "success": true
     }
   ]
