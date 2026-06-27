@@ -2,15 +2,15 @@
   "symbol": "BERGEPAINT.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:12.435423",
-  "last_update": "2026-06-25T16:47:43.119090",
-  "total_rows": 34363,
+  "last_update": "2026-06-27T15:54:03.072649",
+  "total_rows": 34738,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-24 15:29:00+05:30"
+    "end": "2026-06-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-25T16:47:43.119099",
+    "last_validated": "2026-06-27T15:54:03.072658",
     "issues_count": 15,
     "validation_details": {}
   },
@@ -421,6 +421,12 @@
       "timestamp": "2026-06-25T16:47:43.119103",
       "rows_added": 750,
       "total_rows": 34363,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-27T15:54:03.072662",
+      "rows_added": 375,
+      "total_rows": 34738,
       "success": true
     }
   ]

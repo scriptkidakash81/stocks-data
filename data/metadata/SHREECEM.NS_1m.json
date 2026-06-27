@@ -2,16 +2,16 @@
   "symbol": "SHREECEM.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:23.111644",
-  "last_update": "2026-06-25T16:46:48.534668",
-  "total_rows": 32343,
+  "last_update": "2026-06-27T15:53:08.582804",
+  "total_rows": 32685,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-24 15:29:00+05:30"
+    "end": "2026-06-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-25T16:46:48.534675",
-    "issues_count": 360,
+    "last_validated": "2026-06-27T15:53:08.582809",
+    "issues_count": 365,
     "validation_details": {}
   },
   "download_history": [
@@ -421,6 +421,12 @@
       "timestamp": "2026-06-25T16:46:48.534679",
       "rows_added": 728,
       "total_rows": 32343,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-27T15:53:08.582811",
+      "rows_added": 342,
+      "total_rows": 32685,
       "success": true
     }
   ]

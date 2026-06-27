@@ -2,15 +2,15 @@
   "symbol": "DMART.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:38:39.953357",
-  "last_update": "2026-06-25T16:55:53.982400",
-  "total_rows": 34552,
+  "last_update": "2026-06-27T16:02:15.730076",
+  "total_rows": 34927,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-24 15:29:00+05:30"
+    "end": "2026-06-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-25T16:55:53.982408",
+    "last_validated": "2026-06-27T16:02:15.730082",
     "issues_count": 6,
     "validation_details": {}
   },
@@ -433,6 +433,12 @@
       "timestamp": "2026-06-25T16:55:53.982412",
       "rows_added": 375,
       "total_rows": 34552,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-27T16:02:15.730085",
+      "rows_added": 375,
+      "total_rows": 34927,
       "success": true
     }
   ]
