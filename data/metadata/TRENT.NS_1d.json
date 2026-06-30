@@ -2,15 +2,15 @@
   "symbol": "TRENT.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:38:39.434426",
-  "last_update": "2026-06-27T16:02:14.156035",
-  "total_rows": 5953,
+  "last_update": "2026-06-30T16:52:45.162055",
+  "total_rows": 5954,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-06-25 00:00:00+05:30"
+    "end": "2026-06-29 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-27T16:02:14.156040",
+    "last_validated": "2026-06-30T16:52:45.162061",
     "issues_count": 11,
     "validation_details": {}
   },
@@ -439,6 +439,12 @@
       "timestamp": "2026-06-27T16:02:14.156042",
       "rows_added": 1,
       "total_rows": 5953,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-30T16:52:45.162063",
+      "rows_added": 1,
+      "total_rows": 5954,
       "success": true
     }
   ]

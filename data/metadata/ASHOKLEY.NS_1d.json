@@ -2,15 +2,15 @@
   "symbol": "ASHOKLEY.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:37:45.286688",
-  "last_update": "2026-06-27T16:00:59.302637",
-  "total_rows": 5957,
+  "last_update": "2026-06-30T16:51:30.153073",
+  "total_rows": 5959,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-06-25 00:00:00+05:30"
+    "end": "2026-06-29 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-06-27T16:00:59.302645",
+    "last_validated": "2026-06-30T16:51:30.153078",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -439,6 +439,12 @@
       "timestamp": "2026-06-27T16:00:59.302648",
       "rows_added": 1,
       "total_rows": 5957,
+      "success": true
+    },
+    {
+      "timestamp": "2026-06-30T16:51:30.153080",
+      "rows_added": 2,
+      "total_rows": 5959,
       "success": true
     }
   ]
