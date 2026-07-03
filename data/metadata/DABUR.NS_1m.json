@@ -2,15 +2,15 @@
   "symbol": "DABUR.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:51.207015",
-  "last_update": "2026-07-01T16:49:05.450460",
-  "total_rows": 35672,
+  "last_update": "2026-07-03T16:14:40.713387",
+  "total_rows": 36422,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-30 15:29:00+05:30"
+    "end": "2026-07-02 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-01T16:49:05.450468",
+    "last_validated": "2026-07-03T16:14:40.713393",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -439,6 +439,12 @@
       "timestamp": "2026-07-01T16:49:05.450471",
       "rows_added": 375,
       "total_rows": 35672,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-03T16:14:40.713396",
+      "rows_added": 750,
+      "total_rows": 36422,
       "success": true
     }
   ]

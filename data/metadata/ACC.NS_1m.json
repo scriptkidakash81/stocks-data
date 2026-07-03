@@ -2,16 +2,16 @@
   "symbol": "ACC.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:27.510776",
-  "last_update": "2026-07-01T16:49:55.715047",
-  "total_rows": 35365,
+  "last_update": "2026-07-03T16:15:31.216939",
+  "total_rows": 36092,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-06-30 15:29:00+05:30"
+    "end": "2026-07-02 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-01T16:49:55.715064",
-    "issues_count": 31,
+    "last_validated": "2026-07-03T16:15:31.216945",
+    "issues_count": 34,
     "validation_details": {}
   },
   "download_history": [
@@ -439,6 +439,12 @@
       "timestamp": "2026-07-01T16:49:55.715068",
       "rows_added": 370,
       "total_rows": 35365,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-03T16:15:31.216948",
+      "rows_added": 727,
+      "total_rows": 36092,
       "success": true
     }
   ]
