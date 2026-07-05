@@ -2,15 +2,15 @@
   "symbol": "M&M.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:15:38.390753",
-  "last_update": "2026-07-03T16:12:58.247213",
-  "total_rows": 3706,
+  "last_update": "2026-07-05T15:49:10.439233",
+  "total_rows": 3731,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-07-02 15:15:00+05:30"
+    "end": "2026-07-03 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-03T16:12:58.247220",
+    "last_validated": "2026-07-05T15:49:10.439241",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -445,6 +445,12 @@
       "timestamp": "2026-07-03T16:12:58.247222",
       "rows_added": 50,
       "total_rows": 3706,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-05T15:49:10.439244",
+      "rows_added": 25,
+      "total_rows": 3731,
       "success": true
     }
   ]
