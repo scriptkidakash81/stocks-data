@@ -2,15 +2,15 @@
   "symbol": "GMRAIRPORT.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:25:03.594373",
-  "last_update": "2026-07-07T16:59:38.569564",
-  "total_rows": 37191,
+  "last_update": "2026-07-09T17:19:05.689488",
+  "total_rows": 37940,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-07-06 15:29:00+05:30"
+    "end": "2026-07-08 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-07T16:59:38.569571",
+    "last_validated": "2026-07-09T17:19:05.689495",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -469,6 +469,12 @@
       "timestamp": "2026-07-07T16:59:38.569575",
       "rows_added": 375,
       "total_rows": 37191,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-09T17:19:05.689498",
+      "rows_added": 749,
+      "total_rows": 37940,
       "success": true
     }
   ]

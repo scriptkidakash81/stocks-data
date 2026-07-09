@@ -2,15 +2,15 @@
   "symbol": "IRCTC.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:32:51.310344",
-  "last_update": "2026-07-07T16:52:22.285267",
-  "total_rows": 11264,
+  "last_update": "2026-07-09T17:12:09.254346",
+  "total_rows": 11414,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-07-06 15:25:00+05:30"
+    "end": "2026-07-08 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-07T16:52:22.285276",
+    "last_validated": "2026-07-09T17:12:09.254350",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -463,6 +463,12 @@
       "timestamp": "2026-07-07T16:52:22.285280",
       "rows_added": 75,
       "total_rows": 11264,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-09T17:12:09.254353",
+      "rows_added": 150,
+      "total_rows": 11414,
       "success": true
     }
   ]
