@@ -2,15 +2,15 @@
   "symbol": "^CNXMEDIA",
   "interval": "60m",
   "created_at": "2026-02-14T16:09:23.080842",
-  "last_update": "2026-07-09T17:26:53.484496",
-  "total_rows": 5742,
+  "last_update": "2026-07-11T15:48:24.098254",
+  "total_rows": 5756,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-07-08 15:15:00+05:30"
+    "end": "2026-07-10 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-09T17:26:53.484502",
+    "last_validated": "2026-07-11T15:48:24.098261",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -475,6 +475,12 @@
       "timestamp": "2026-07-09T17:26:53.484504",
       "rows_added": 14,
       "total_rows": 5742,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-11T15:48:24.098265",
+      "rows_added": 14,
+      "total_rows": 5756,
       "success": true
     }
   ]
