@@ -2,15 +2,15 @@
   "symbol": "EICHERMOT.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:17:40.012885",
-  "last_update": "2026-07-11T15:34:46.100623",
-  "total_rows": 7659,
+  "last_update": "2026-07-14T15:59:51.550717",
+  "total_rows": 7660,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-07-10 00:00:00+05:30"
+    "end": "2026-07-13 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-11T15:34:46.100631",
+    "last_validated": "2026-07-14T15:59:51.550723",
     "issues_count": 13,
     "validation_details": {}
   },
@@ -469,6 +469,12 @@
       "timestamp": "2026-07-11T15:34:46.100634",
       "rows_added": 2,
       "total_rows": 7659,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-14T15:59:51.550727",
+      "rows_added": 1,
+      "total_rows": 7660,
       "success": true
     }
   ]
