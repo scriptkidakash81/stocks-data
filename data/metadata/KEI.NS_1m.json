@@ -2,15 +2,15 @@
   "symbol": "KEI.NS",
   "interval": "1m",
   "created_at": "2026-02-14T16:00:41.399251",
-  "last_update": "2026-07-15T16:17:29.072733",
-  "total_rows": 39436,
+  "last_update": "2026-07-17T16:14:31.539743",
+  "total_rows": 40183,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-07-14 15:29:00+05:30"
+    "end": "2026-07-16 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-15T16:17:29.072741",
+    "last_validated": "2026-07-17T16:14:31.539749",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -493,6 +493,12 @@
       "timestamp": "2026-07-15T16:17:29.072745",
       "rows_added": 375,
       "total_rows": 39436,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-17T16:14:31.539751",
+      "rows_added": 747,
+      "total_rows": 40183,
       "success": true
     }
   ]

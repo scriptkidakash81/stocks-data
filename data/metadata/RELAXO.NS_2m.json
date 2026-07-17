@@ -2,15 +2,15 @@
   "symbol": "RELAXO.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:48:00.805804",
-  "last_update": "2026-07-15T16:16:31.356398",
-  "total_rows": 23182,
+  "last_update": "2026-07-17T16:13:08.060452",
+  "total_rows": 23555,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-07-14 15:29:00+05:30"
+    "end": "2026-07-16 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-15T16:16:31.356406",
+    "last_validated": "2026-07-17T16:13:08.060458",
     "issues_count": 41,
     "validation_details": {}
   },
@@ -493,6 +493,12 @@
       "timestamp": "2026-07-15T16:16:31.356410",
       "rows_added": 183,
       "total_rows": 23182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-17T16:13:08.060460",
+      "rows_added": 373,
+      "total_rows": 23555,
       "success": true
     }
   ]
