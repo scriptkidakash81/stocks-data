@@ -2,15 +2,15 @@
   "symbol": "VEDL.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:19:02.872185",
-  "last_update": "2026-07-19T15:36:12.294415",
-  "total_rows": 7669,
+  "last_update": "2026-07-21T16:12:29.532443",
+  "total_rows": 7670,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-07-17 00:00:00+05:30"
+    "end": "2026-07-20 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-19T15:36:12.294422",
+    "last_validated": "2026-07-21T16:12:29.532450",
     "issues_count": 13,
     "validation_details": {}
   },
@@ -493,6 +493,12 @@
       "timestamp": "2026-07-19T15:36:12.294424",
       "rows_added": 0,
       "total_rows": 7669,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-21T16:12:29.532451",
+      "rows_added": 1,
+      "total_rows": 7670,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "TATAPOWER.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:59.275839",
-  "last_update": "2026-07-19T15:38:48.720676",
-  "total_rows": 40565,
+  "last_update": "2026-07-21T16:15:37.900866",
+  "total_rows": 40940,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-07-17 15:29:00+05:30"
+    "end": "2026-07-20 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-19T15:38:48.720683",
+    "last_validated": "2026-07-21T16:15:37.900873",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -505,6 +505,12 @@
       "timestamp": "2026-07-19T15:38:48.720686",
       "rows_added": 375,
       "total_rows": 40565,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-21T16:15:37.900875",
+      "rows_added": 375,
+      "total_rows": 40940,
       "success": true
     }
   ]
