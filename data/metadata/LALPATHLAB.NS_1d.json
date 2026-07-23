@@ -2,15 +2,15 @@
   "symbol": "LALPATHLAB.NS",
   "interval": "1d",
   "created_at": "2026-02-14T16:00:31.854964",
-  "last_update": "2026-07-21T16:23:51.074683",
-  "total_rows": 2610,
+  "last_update": "2026-07-23T16:24:43.067682",
+  "total_rows": 2612,
   "date_range": {
     "start": "2015-12-23 00:00:00+05:30",
-    "end": "2026-07-20 00:00:00+05:30"
+    "end": "2026-07-22 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-21T16:23:51.074692",
+    "last_validated": "2026-07-23T16:24:43.067688",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -511,6 +511,12 @@
       "timestamp": "2026-07-21T16:23:51.074695",
       "rows_added": 1,
       "total_rows": 2610,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-23T16:24:43.067692",
+      "rows_added": 2,
+      "total_rows": 2612,
       "success": true
     }
   ]

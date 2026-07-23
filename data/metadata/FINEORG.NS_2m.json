@@ -2,16 +2,16 @@
   "symbol": "FINEORG.NS",
   "interval": "2m",
   "created_at": "2026-02-14T16:00:45.054682",
-  "last_update": "2026-07-21T16:24:13.022511",
-  "total_rows": 21860,
+  "last_update": "2026-07-23T16:25:03.414324",
+  "total_rows": 22188,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-07-20 15:29:00+05:30"
+    "end": "2026-07-22 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-21T16:24:13.022520",
-    "issues_count": 426,
+    "last_validated": "2026-07-23T16:25:03.414330",
+    "issues_count": 432,
     "validation_details": {}
   },
   "download_history": [
@@ -511,6 +511,12 @@
       "timestamp": "2026-07-21T16:24:13.022524",
       "rows_added": 152,
       "total_rows": 21860,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-23T16:25:03.414332",
+      "rows_added": 328,
+      "total_rows": 22188,
       "success": true
     }
   ]

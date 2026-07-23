@@ -2,15 +2,15 @@
   "symbol": "ZEEL.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:38:15.000847",
-  "last_update": "2026-07-21T16:21:17.225843",
-  "total_rows": 5787,
+  "last_update": "2026-07-23T16:22:19.582263",
+  "total_rows": 5801,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-07-20 15:15:00+05:30"
+    "end": "2026-07-22 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-21T16:21:17.225850",
+    "last_validated": "2026-07-23T16:22:19.582269",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -511,6 +511,12 @@
       "timestamp": "2026-07-21T16:21:17.225852",
       "rows_added": 7,
       "total_rows": 5787,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-23T16:22:19.582271",
+      "rows_added": 14,
+      "total_rows": 5801,
       "success": true
     }
   ]
