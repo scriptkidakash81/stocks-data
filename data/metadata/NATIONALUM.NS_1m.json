@@ -2,15 +2,15 @@
   "symbol": "NATIONALUM.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:33:14.343217",
-  "last_update": "2026-07-23T16:17:12.463542",
-  "total_rows": 41690,
+  "last_update": "2026-07-25T15:47:01.724138",
+  "total_rows": 42440,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-07-22 15:29:00+05:30"
+    "end": "2026-07-24 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-23T16:17:12.463550",
+    "last_validated": "2026-07-25T15:47:01.724143",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -517,6 +517,12 @@
       "timestamp": "2026-07-23T16:17:12.463553",
       "rows_added": 750,
       "total_rows": 41690,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-25T15:47:01.724146",
+      "rows_added": 750,
+      "total_rows": 42440,
       "success": true
     }
   ]
