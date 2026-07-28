@@ -2,15 +2,15 @@
   "symbol": "APOLLOTYRE.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:37:59.133637",
-  "last_update": "2026-07-25T15:51:42.225338",
-  "total_rows": 4106,
+  "last_update": "2026-07-28T16:32:17.527990",
+  "total_rows": 4131,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-07-24 15:15:00+05:30"
+    "end": "2026-07-27 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-25T15:51:42.225345",
+    "last_validated": "2026-07-28T16:32:17.527998",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -523,6 +523,12 @@
       "timestamp": "2026-07-25T15:51:42.225349",
       "rows_added": 50,
       "total_rows": 4106,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-28T16:32:17.528001",
+      "rows_added": 25,
+      "total_rows": 4131,
       "success": true
     }
   ]
