@@ -2,15 +2,15 @@
   "symbol": "JINDALSTEL.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:38:26.207864",
-  "last_update": "2026-07-28T16:32:57.460523",
-  "total_rows": 4132,
+  "last_update": "2026-07-30T16:26:26.937572",
+  "total_rows": 4182,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-07-27 15:15:00+05:30"
+    "end": "2026-07-29 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-28T16:32:57.460529",
+    "last_validated": "2026-07-30T16:26:26.937579",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -529,6 +529,12 @@
       "timestamp": "2026-07-28T16:32:57.460532",
       "rows_added": 25,
       "total_rows": 4132,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-30T16:26:26.937582",
+      "rows_added": 50,
+      "total_rows": 4182,
       "success": true
     }
   ]
