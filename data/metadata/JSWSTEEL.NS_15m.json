@@ -2,15 +2,15 @@
   "symbol": "JSWSTEEL.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:16:25.529829",
-  "last_update": "2026-07-30T16:16:12.980883",
-  "total_rows": 4181,
+  "last_update": "2026-07-31T16:21:05.771067",
+  "total_rows": 4206,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-07-29 15:15:00+05:30"
+    "end": "2026-07-30 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-30T16:16:12.980890",
+    "last_validated": "2026-07-31T16:21:05.771076",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -523,6 +523,12 @@
       "timestamp": "2026-07-30T16:16:12.980892",
       "rows_added": 50,
       "total_rows": 4181,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-31T16:21:05.771079",
+      "rows_added": 25,
+      "total_rows": 4206,
       "success": true
     }
   ]

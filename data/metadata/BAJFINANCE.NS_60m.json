@@ -2,15 +2,15 @@
   "symbol": "BAJFINANCE.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:10:49.670256",
-  "last_update": "2026-07-30T16:14:48.502972",
-  "total_rows": 5835,
+  "last_update": "2026-07-31T16:19:48.902533",
+  "total_rows": 5842,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-07-29 15:15:00+05:30"
+    "end": "2026-07-30 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-07-30T16:14:48.502979",
+    "last_validated": "2026-07-31T16:19:48.902540",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -523,6 +523,12 @@
       "timestamp": "2026-07-30T16:14:48.502981",
       "rows_added": 14,
       "total_rows": 5835,
+      "success": true
+    },
+    {
+      "timestamp": "2026-07-31T16:19:48.902543",
+      "rows_added": 7,
+      "total_rows": 5842,
       "success": true
     }
   ]
