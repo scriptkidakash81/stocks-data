@@ -2,15 +2,15 @@
   "symbol": "^CNXFMCG",
   "interval": "60m",
   "created_at": "2026-02-14T16:09:02.123682",
-  "last_update": "2026-08-02T15:59:14.384074",
-  "total_rows": 5862,
+  "last_update": "2026-08-04T16:47:23.567033",
+  "total_rows": 5869,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-07-31 15:15:00+05:30"
+    "end": "2026-08-03 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-02T15:59:14.384079",
+    "last_validated": "2026-08-04T16:47:23.567039",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -547,6 +547,12 @@
       "timestamp": "2026-08-02T15:59:14.384081",
       "rows_added": 7,
       "total_rows": 5862,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-04T16:47:23.567042",
+      "rows_added": 7,
+      "total_rows": 5869,
       "success": true
     }
   ]
