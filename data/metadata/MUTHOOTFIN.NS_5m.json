@@ -2,15 +2,15 @@
   "symbol": "MUTHOOTFIN.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:32:42.011550",
-  "last_update": "2026-08-04T16:36:14.110712",
-  "total_rows": 12763,
+  "last_update": "2026-08-07T15:35:10.607860",
+  "total_rows": 12982,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-03 15:15:00+05:30"
+    "end": "2026-08-06 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-04T16:36:14.110730",
+    "last_validated": "2026-08-07T15:35:10.607864",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -547,6 +547,12 @@
       "timestamp": "2026-08-04T16:36:14.110733",
       "rows_added": 73,
       "total_rows": 12763,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-07T15:35:10.607865",
+      "rows_added": 219,
+      "total_rows": 12982,
       "success": true
     }
   ]

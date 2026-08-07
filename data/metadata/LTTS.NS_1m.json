@@ -2,16 +2,16 @@
   "symbol": "LTTS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:37:24.709039",
-  "last_update": "2026-08-04T16:40:51.007030",
-  "total_rows": 44213,
+  "last_update": "2026-08-07T15:39:42.335134",
+  "total_rows": 45312,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-03 15:29:00+05:30"
+    "end": "2026-08-06 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-04T16:40:51.007038",
-    "issues_count": 29,
+    "last_validated": "2026-08-07T15:39:42.335138",
+    "issues_count": 31,
     "validation_details": {}
   },
   "download_history": [
@@ -553,6 +553,12 @@
       "timestamp": "2026-08-04T16:40:51.007041",
       "rows_added": 370,
       "total_rows": 44213,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-07T15:39:42.335141",
+      "rows_added": 1099,
+      "total_rows": 45312,
       "success": true
     }
   ]

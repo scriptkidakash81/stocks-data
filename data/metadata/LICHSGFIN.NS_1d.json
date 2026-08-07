@@ -2,15 +2,15 @@
   "symbol": "LICHSGFIN.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:38:09.283185",
-  "last_update": "2026-08-04T16:41:56.461363",
-  "total_rows": 5981,
+  "last_update": "2026-08-07T15:40:40.720311",
+  "total_rows": 5984,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-08-03 00:00:00+05:30"
+    "end": "2026-08-06 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-04T16:41:56.461369",
+    "last_validated": "2026-08-07T15:40:40.720315",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -553,6 +553,12 @@
       "timestamp": "2026-08-04T16:41:56.461371",
       "rows_added": 1,
       "total_rows": 5981,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-07T15:40:40.720316",
+      "rows_added": 3,
+      "total_rows": 5984,
       "success": true
     }
   ]
