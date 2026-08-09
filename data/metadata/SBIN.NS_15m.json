@@ -2,15 +2,15 @@
   "symbol": "SBIN.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:10:30.400978",
-  "last_update": "2026-08-07T15:29:56.920995",
-  "total_rows": 4330,
+  "last_update": "2026-08-09T15:03:39.471919",
+  "total_rows": 4354,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-06 15:15:00+05:30"
+    "end": "2026-08-07 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-07T15:29:56.921000",
+    "last_validated": "2026-08-09T15:03:39.471923",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -547,6 +547,12 @@
       "timestamp": "2026-08-07T15:29:56.921002",
       "rows_added": 75,
       "total_rows": 4330,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-09T15:03:39.471925",
+      "rows_added": 24,
+      "total_rows": 4354,
       "success": true
     }
   ]

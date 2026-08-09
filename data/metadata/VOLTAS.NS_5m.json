@@ -2,15 +2,15 @@
   "symbol": "VOLTAS.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:06.339789",
-  "last_update": "2026-08-07T15:35:42.816128",
-  "total_rows": 12979,
+  "last_update": "2026-08-09T15:09:28.608099",
+  "total_rows": 13051,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-06 15:15:00+05:30"
+    "end": "2026-08-07 15:10:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-07T15:35:42.816133",
+    "last_validated": "2026-08-09T15:09:28.608103",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -559,6 +559,12 @@
       "timestamp": "2026-08-07T15:35:42.816135",
       "rows_added": 218,
       "total_rows": 12979,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-09T15:09:28.608104",
+      "rows_added": 72,
+      "total_rows": 13051,
       "success": true
     }
   ]

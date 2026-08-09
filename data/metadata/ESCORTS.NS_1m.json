@@ -2,16 +2,16 @@
   "symbol": "ESCORTS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:37:45.717210",
-  "last_update": "2026-08-07T15:40:10.222003",
-  "total_rows": 45313,
+  "last_update": "2026-08-09T15:13:56.155792",
+  "total_rows": 45668,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-06 15:29:00+05:30"
+    "end": "2026-08-07 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-07T15:40:10.222008",
-    "issues_count": 37,
+    "last_validated": "2026-08-09T15:13:56.155796",
+    "issues_count": 39,
     "validation_details": {}
   },
   "download_history": [
@@ -559,6 +559,12 @@
       "timestamp": "2026-08-07T15:40:10.222010",
       "rows_added": 1092,
       "total_rows": 45313,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-09T15:13:56.155798",
+      "rows_added": 355,
+      "total_rows": 45668,
       "success": true
     }
   ]
