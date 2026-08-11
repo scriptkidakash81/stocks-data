@@ -2,15 +2,15 @@
   "symbol": "ICICIBANK.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:10:22.534127",
-  "last_update": "2026-08-09T15:03:28.197940",
-  "total_rows": 5985,
+  "last_update": "2026-08-11T16:01:00.075851",
+  "total_rows": 5986,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-08-07 00:00:00+05:30"
+    "end": "2026-08-10 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-09T15:03:28.197944",
+    "last_validated": "2026-08-11T16:01:00.075858",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -553,6 +553,12 @@
       "timestamp": "2026-08-09T15:03:28.197956",
       "rows_added": 1,
       "total_rows": 5985,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-11T16:01:00.075861",
+      "rows_added": 1,
+      "total_rows": 5986,
       "success": true
     }
   ]
