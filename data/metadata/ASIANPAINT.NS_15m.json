@@ -2,15 +2,15 @@
   "symbol": "ASIANPAINT.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:10:51.873503",
-  "last_update": "2026-08-11T16:01:46.243567",
-  "total_rows": 4381,
+  "last_update": "2026-08-13T15:34:02.208491",
+  "total_rows": 4429,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-10 15:15:00+05:30"
+    "end": "2026-08-12 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:01:46.243574",
+    "last_validated": "2026-08-13T15:34:02.208498",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -559,6 +559,12 @@
       "timestamp": "2026-08-11T16:01:46.243576",
       "rows_added": 25,
       "total_rows": 4381,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:34:02.208501",
+      "rows_added": 48,
+      "total_rows": 4429,
       "success": true
     }
   ]

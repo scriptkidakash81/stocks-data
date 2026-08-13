@@ -2,15 +2,15 @@
   "symbol": "^CNXINFRA",
   "interval": "1m",
   "created_at": "2026-02-14T16:09:12.035917",
-  "last_update": "2026-08-11T16:22:07.867680",
-  "total_rows": 46477,
+  "last_update": "2026-08-13T15:53:45.963324",
+  "total_rows": 47227,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-10 15:29:00+05:30"
+    "end": "2026-08-12 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:22:07.867688",
+    "last_validated": "2026-08-13T15:53:45.963332",
     "issues_count": 11,
     "validation_details": {}
   },
@@ -571,6 +571,12 @@
       "timestamp": "2026-08-11T16:22:07.867692",
       "rows_added": 375,
       "total_rows": 46477,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:53:45.963335",
+      "rows_added": 750,
+      "total_rows": 47227,
       "success": true
     }
   ]

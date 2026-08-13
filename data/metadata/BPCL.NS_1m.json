@@ -2,15 +2,15 @@
   "symbol": "BPCL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:02.860803",
-  "last_update": "2026-08-11T16:03:50.873069",
-  "total_rows": 46479,
+  "last_update": "2026-08-13T15:36:09.763161",
+  "total_rows": 47201,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-10 15:15:00+05:30"
+    "end": "2026-08-12 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:03:50.873078",
+    "last_validated": "2026-08-13T15:36:09.763169",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -559,6 +559,12 @@
       "timestamp": "2026-08-11T16:03:50.873082",
       "rows_added": 361,
       "total_rows": 46479,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:36:09.763172",
+      "rows_added": 722,
+      "total_rows": 47201,
       "success": true
     }
   ]

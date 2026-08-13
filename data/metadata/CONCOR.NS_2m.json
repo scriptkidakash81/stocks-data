@@ -2,15 +2,15 @@
   "symbol": "CONCOR.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:38:28.470298",
-  "last_update": "2026-08-11T16:13:35.304881",
-  "total_rows": 27240,
+  "last_update": "2026-08-13T15:46:00.507250",
+  "total_rows": 27601,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-08-10 15:13:00+05:30"
+    "end": "2026-08-12 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:13:35.304889",
+    "last_validated": "2026-08-13T15:46:00.507258",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -571,6 +571,12 @@
       "timestamp": "2026-08-11T16:13:35.304893",
       "rows_added": 180,
       "total_rows": 27240,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:46:00.507261",
+      "rows_added": 361,
+      "total_rows": 27601,
       "success": true
     }
   ]

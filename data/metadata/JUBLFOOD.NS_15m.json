@@ -2,15 +2,15 @@
   "symbol": "JUBLFOOD.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:38:44.283800",
-  "last_update": "2026-08-11T16:13:59.044157",
-  "total_rows": 4379,
+  "last_update": "2026-08-13T15:46:24.719192",
+  "total_rows": 4428,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-10 15:15:00+05:30"
+    "end": "2026-08-12 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:13:59.044165",
+    "last_validated": "2026-08-13T15:46:24.719198",
     "issues_count": 1,
     "validation_details": {}
   },
@@ -571,6 +571,12 @@
       "timestamp": "2026-08-11T16:13:59.044168",
       "rows_added": 25,
       "total_rows": 4379,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:46:24.719201",
+      "rows_added": 49,
+      "total_rows": 4428,
       "success": true
     }
   ]

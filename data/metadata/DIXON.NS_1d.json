@@ -2,15 +2,15 @@
   "symbol": "DIXON.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:38:18.182659",
-  "last_update": "2026-08-11T16:13:18.744989",
-  "total_rows": 2197,
+  "last_update": "2026-08-13T15:45:43.718764",
+  "total_rows": 2199,
   "date_range": {
     "start": "2017-09-18 00:00:00+05:30",
-    "end": "2026-08-10 00:00:00+05:30"
+    "end": "2026-08-12 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-11T16:13:18.744996",
+    "last_validated": "2026-08-13T15:45:43.718788",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -571,6 +571,12 @@
       "timestamp": "2026-08-11T16:13:18.744999",
       "rows_added": 1,
       "total_rows": 2197,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-13T15:45:43.718792",
+      "rows_added": 2,
+      "total_rows": 2199,
       "success": true
     }
   ]
