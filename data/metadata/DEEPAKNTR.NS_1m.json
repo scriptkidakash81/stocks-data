@@ -2,15 +2,15 @@
   "symbol": "DEEPAKNTR.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:43:45.756097",
-  "last_update": "2026-08-13T15:47:09.073670",
-  "total_rows": 46345,
+  "last_update": "2026-08-15T15:08:21.131684",
+  "total_rows": 47090,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-12 15:29:00+05:30"
+    "end": "2026-08-14 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-13T15:47:09.073678",
+    "last_validated": "2026-08-15T15:08:21.131692",
     "issues_count": 81,
     "validation_details": {}
   },
@@ -577,6 +577,12 @@
       "timestamp": "2026-08-13T15:47:09.073682",
       "rows_added": 748,
       "total_rows": 46345,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-15T15:08:21.131696",
+      "rows_added": 745,
+      "total_rows": 47090,
       "success": true
     }
   ]

@@ -2,15 +2,15 @@
   "symbol": "BEL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:43:27.037581",
-  "last_update": "2026-08-13T15:46:55.608319",
-  "total_rows": 47201,
+  "last_update": "2026-08-15T15:08:07.391330",
+  "total_rows": 47923,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-12 15:15:00+05:30"
+    "end": "2026-08-14 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-13T15:46:55.608327",
+    "last_validated": "2026-08-15T15:08:07.391336",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -577,6 +577,12 @@
       "timestamp": "2026-08-13T15:46:55.608330",
       "rows_added": 721,
       "total_rows": 47201,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-15T15:08:07.391338",
+      "rows_added": 722,
+      "total_rows": 47923,
       "success": true
     }
   ]
