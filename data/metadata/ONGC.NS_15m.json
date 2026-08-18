@@ -2,15 +2,15 @@
   "symbol": "ONGC.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:15:55.329055",
-  "last_update": "2026-08-15T14:56:23.621795",
-  "total_rows": 4480,
+  "last_update": "2026-08-18T15:06:15.676666",
+  "total_rows": 4505,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-14 15:15:00+05:30"
+    "end": "2026-08-17 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-15T14:56:23.621801",
+    "last_validated": "2026-08-18T15:06:15.676674",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -571,6 +571,12 @@
       "timestamp": "2026-08-15T14:56:23.621803",
       "rows_added": 50,
       "total_rows": 4480,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-18T15:06:15.676677",
+      "rows_added": 25,
+      "total_rows": 4505,
       "success": true
     }
   ]
