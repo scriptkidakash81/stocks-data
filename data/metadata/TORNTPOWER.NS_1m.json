@@ -2,16 +2,16 @@
   "symbol": "TORNTPOWER.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:56.254605",
-  "last_update": "2026-08-18T15:11:20.273175",
-  "total_rows": 48323,
+  "last_update": "2026-08-19T15:15:18.771655",
+  "total_rows": 48692,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-17 15:29:00+05:30"
+    "end": "2026-08-18 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-18T15:11:20.273183",
-    "issues_count": 10,
+    "last_validated": "2026-08-19T15:15:18.771661",
+    "issues_count": 11,
     "validation_details": {}
   },
   "download_history": [
@@ -589,6 +589,12 @@
       "timestamp": "2026-08-18T15:11:20.273187",
       "rows_added": 368,
       "total_rows": 48323,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-19T15:15:18.771664",
+      "rows_added": 369,
+      "total_rows": 48692,
       "success": true
     }
   ]
