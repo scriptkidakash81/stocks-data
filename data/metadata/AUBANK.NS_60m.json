@@ -2,15 +2,15 @@
   "symbol": "AUBANK.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:38:02.808237",
-  "last_update": "2026-08-19T15:20:35.339629",
-  "total_rows": 5928,
+  "last_update": "2026-08-20T15:23:34.666052",
+  "total_rows": 5934,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-08-18 14:15:00+05:30"
+    "end": "2026-08-19 14:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-19T15:20:35.339635",
+    "last_validated": "2026-08-20T15:23:34.666059",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -595,6 +595,12 @@
       "timestamp": "2026-08-19T15:20:35.339638",
       "rows_added": 6,
       "total_rows": 5928,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-20T15:23:34.666062",
+      "rows_added": 6,
+      "total_rows": 5934,
       "success": true
     }
   ]

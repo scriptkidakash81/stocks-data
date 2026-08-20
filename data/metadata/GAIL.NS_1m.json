@@ -2,15 +2,15 @@
   "symbol": "GAIL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:54.348524",
-  "last_update": "2026-08-19T15:12:28.516769",
-  "total_rows": 48646,
+  "last_update": "2026-08-20T15:15:12.551386",
+  "total_rows": 49007,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-18 15:15:00+05:30"
+    "end": "2026-08-19 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-19T15:12:28.516775",
+    "last_validated": "2026-08-20T15:15:12.551394",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -583,6 +583,12 @@
       "timestamp": "2026-08-19T15:12:28.516778",
       "rows_added": 361,
       "total_rows": 48646,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-20T15:15:12.551397",
+      "rows_added": 361,
+      "total_rows": 49007,
       "success": true
     }
   ]

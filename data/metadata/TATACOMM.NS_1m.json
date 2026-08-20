@@ -2,15 +2,15 @@
   "symbol": "TATACOMM.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:48:06.297524",
-  "last_update": "2026-08-19T15:22:48.170411",
-  "total_rows": 48522,
+  "last_update": "2026-08-20T15:25:51.440152",
+  "total_rows": 48897,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-18 15:29:00+05:30"
+    "end": "2026-08-19 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-19T15:22:48.170418",
+    "last_validated": "2026-08-20T15:25:51.440158",
     "issues_count": 41,
     "validation_details": {}
   },
@@ -595,6 +595,12 @@
       "timestamp": "2026-08-19T15:22:48.170420",
       "rows_added": 375,
       "total_rows": 48522,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-20T15:25:51.440160",
+      "rows_added": 375,
+      "total_rows": 48897,
       "success": true
     }
   ]
