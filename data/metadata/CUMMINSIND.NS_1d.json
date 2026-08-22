@@ -2,16 +2,16 @@
   "symbol": "CUMMINSIND.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:37:54.345293",
-  "last_update": "2026-08-20T15:23:20.710401",
-  "total_rows": 5991,
+  "last_update": "2026-08-22T15:01:28.980177",
+  "total_rows": 5993,
   "date_range": {
     "start": "2002-07-01 00:00:00+05:30",
-    "end": "2026-08-19 00:00:00+05:30"
+    "end": "2026-08-21 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-20T15:23:20.710408",
-    "issues_count": 12,
+    "last_validated": "2026-08-22T15:01:28.980191",
+    "issues_count": 16,
     "validation_details": {}
   },
   "download_history": [
@@ -601,6 +601,12 @@
       "timestamp": "2026-08-20T15:23:20.710411",
       "rows_added": 1,
       "total_rows": 5991,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-22T15:01:28.980195",
+      "rows_added": 2,
+      "total_rows": 5993,
       "success": true
     }
   ]

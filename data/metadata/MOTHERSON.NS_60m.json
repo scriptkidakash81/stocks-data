@@ -2,15 +2,15 @@
   "symbol": "MOTHERSON.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:19:23.634319",
-  "last_update": "2026-08-20T15:15:58.741260",
-  "total_rows": 5939,
+  "last_update": "2026-08-22T14:54:05.423512",
+  "total_rows": 5953,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-08-19 15:15:00+05:30"
+    "end": "2026-08-21 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-20T15:15:58.741267",
+    "last_validated": "2026-08-22T14:54:05.423518",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -589,6 +589,12 @@
       "timestamp": "2026-08-20T15:15:58.741270",
       "rows_added": 7,
       "total_rows": 5939,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-22T14:54:05.423520",
+      "rows_added": 14,
+      "total_rows": 5953,
       "success": true
     }
   ]

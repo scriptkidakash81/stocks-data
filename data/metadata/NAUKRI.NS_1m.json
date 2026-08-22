@@ -2,15 +2,15 @@
   "symbol": "NAUKRI.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:19.998198",
-  "last_update": "2026-08-20T15:17:18.346859",
-  "total_rows": 49003,
+  "last_update": "2026-08-22T14:55:25.312592",
+  "total_rows": 49725,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-19 15:15:00+05:30"
+    "end": "2026-08-21 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-20T15:17:18.346865",
+    "last_validated": "2026-08-22T14:55:25.312600",
     "issues_count": 4,
     "validation_details": {}
   },
@@ -589,6 +589,12 @@
       "timestamp": "2026-08-20T15:17:18.346868",
       "rows_added": 361,
       "total_rows": 49003,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-22T14:55:25.312603",
+      "rows_added": 722,
+      "total_rows": 49725,
       "success": true
     }
   ]
