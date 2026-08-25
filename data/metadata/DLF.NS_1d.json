@@ -2,15 +2,15 @@
   "symbol": "DLF.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:19:08.804993",
-  "last_update": "2026-08-22T14:53:41.255232",
-  "total_rows": 4720,
+  "last_update": "2026-08-25T15:38:09.758732",
+  "total_rows": 4721,
   "date_range": {
     "start": "2007-07-05 00:00:00+05:30",
-    "end": "2026-08-21 00:00:00+05:30"
+    "end": "2026-08-24 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-22T14:53:41.255239",
+    "last_validated": "2026-08-25T15:38:09.758741",
     "issues_count": 11,
     "validation_details": {}
   },
@@ -595,6 +595,12 @@
       "timestamp": "2026-08-22T14:53:41.255242",
       "rows_added": 2,
       "total_rows": 4720,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-25T15:38:09.758745",
+      "rows_added": 1,
+      "total_rows": 4721,
       "success": true
     }
   ]

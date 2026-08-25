@@ -2,15 +2,15 @@
   "symbol": "INDUSINDBK.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:16:56.630001",
-  "last_update": "2026-08-22T14:51:44.638683",
-  "total_rows": 4601,
+  "last_update": "2026-08-25T15:29:29.108723",
+  "total_rows": 4626,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-21 15:15:00+05:30"
+    "end": "2026-08-24 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-22T14:51:44.638690",
+    "last_validated": "2026-08-25T15:29:29.108730",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -595,6 +595,12 @@
       "timestamp": "2026-08-22T14:51:44.638692",
       "rows_added": 49,
       "total_rows": 4601,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-25T15:29:29.108734",
+      "rows_added": 25,
+      "total_rows": 4626,
       "success": true
     }
   ]
