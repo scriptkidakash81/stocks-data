@@ -2,25 +2,19 @@
   "symbol": "EXIDEIND.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:37:55.724702",
-  "last_update": "2026-08-25T15:57:04.761513",
-  "total_rows": 13889,
+  "last_update": "2026-08-26T16:12:50.160593",
+  "total_rows": 13964,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-24 15:25:00+05:30"
+    "end": "2026-08-25 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-25T15:57:04.761519",
+    "last_validated": "2026-08-26T16:12:50.160599",
     "issues_count": 3,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-14T15:37:55.724702",
-      "rows_added": 4348,
-      "total_rows": 4348,
-      "success": true
-    },
     {
       "timestamp": "2026-02-17T08:07:42.578563",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-08-25T15:57:04.761521",
       "rows_added": 75,
       "total_rows": 13889,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-26T16:12:50.160601",
+      "rows_added": 75,
+      "total_rows": 13964,
       "success": true
     }
   ]

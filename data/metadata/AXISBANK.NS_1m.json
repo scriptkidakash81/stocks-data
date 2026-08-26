@@ -2,15 +2,15 @@
   "symbol": "AXISBANK.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:44.322734",
-  "last_update": "2026-08-25T15:24:07.684494",
-  "total_rows": 50089,
+  "last_update": "2026-08-26T16:02:07.321781",
+  "total_rows": 50449,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-24 15:15:00+05:30"
+    "end": "2026-08-25 15:14:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-25T15:24:07.684503",
+    "last_validated": "2026-08-26T16:02:07.321805",
     "issues_count": 5,
     "validation_details": {}
   },
@@ -601,6 +601,12 @@
       "timestamp": "2026-08-25T15:24:07.684508",
       "rows_added": 361,
       "total_rows": 50089,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-26T16:02:07.321808",
+      "rows_added": 360,
+      "total_rows": 50449,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "IRFC.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:43:16.911116",
-  "last_update": "2026-08-25T16:01:52.687510",
-  "total_rows": 13856,
+  "last_update": "2026-08-26T16:14:22.151105",
+  "total_rows": 13929,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-24 15:15:00+05:30"
+    "end": "2026-08-25 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-25T16:01:52.687517",
+    "last_validated": "2026-08-26T16:14:22.151111",
     "issues_count": 3,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-14T15:43:16.911116",
-      "rows_added": 4348,
-      "total_rows": 4348,
-      "success": true
-    },
     {
       "timestamp": "2026-02-17T08:08:45.600922",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-08-25T16:01:52.687520",
       "rows_added": 73,
       "total_rows": 13856,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-26T16:14:22.151114",
+      "rows_added": 73,
+      "total_rows": 13929,
       "success": true
     }
   ]
