@@ -2,15 +2,15 @@
   "symbol": "BRITANNIA.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:17:55.650027",
-  "last_update": "2026-08-26T16:04:07.123228",
-  "total_rows": 4648,
+  "last_update": "2026-08-27T23:58:25.170738",
+  "total_rows": 4672,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-25 15:00:00+05:30"
+    "end": "2026-08-26 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-26T16:04:07.123232",
+    "last_validated": "2026-08-27T23:58:25.170745",
     "issues_count": 2,
     "validation_details": {}
   },
@@ -607,6 +607,12 @@
       "timestamp": "2026-08-26T16:04:07.123234",
       "rows_added": 24,
       "total_rows": 4648,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-27T23:58:25.170748",
+      "rows_added": 24,
+      "total_rows": 4672,
       "success": true
     }
   ]

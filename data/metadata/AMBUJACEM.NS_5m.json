@@ -2,15 +2,15 @@
   "symbol": "AMBUJACEM.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:19:25.483324",
-  "last_update": "2026-08-26T16:05:47.619700",
-  "total_rows": 13926,
+  "last_update": "2026-08-28T00:00:22.398119",
+  "total_rows": 14071,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-25 15:15:00+05:30"
+    "end": "2026-08-27 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-26T16:05:47.619705",
+    "last_validated": "2026-08-28T00:00:22.398125",
     "issues_count": 3,
     "validation_details": {}
   },
@@ -607,6 +607,12 @@
       "timestamp": "2026-08-26T16:05:47.619708",
       "rows_added": 73,
       "total_rows": 13926,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-28T00:00:22.398128",
+      "rows_added": 145,
+      "total_rows": 14071,
       "success": true
     }
   ]

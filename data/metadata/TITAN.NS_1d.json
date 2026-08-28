@@ -2,15 +2,15 @@
   "symbol": "TITAN.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:10:59.092422",
-  "last_update": "2026-08-26T16:02:27.278406",
-  "total_rows": 7695,
+  "last_update": "2026-08-27T23:56:28.709699",
+  "total_rows": 7696,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-08-25 00:00:00+05:30"
+    "end": "2026-08-26 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-26T16:02:27.278411",
+    "last_validated": "2026-08-27T23:56:28.709707",
     "issues_count": 12,
     "validation_details": {}
   },
@@ -601,6 +601,12 @@
       "timestamp": "2026-08-26T16:02:27.278413",
       "rows_added": 2,
       "total_rows": 7695,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-27T23:56:28.709710",
+      "rows_added": 1,
+      "total_rows": 7696,
       "success": true
     }
   ]
