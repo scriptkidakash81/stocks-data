@@ -2,25 +2,19 @@
   "symbol": "TMCV.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:23:45.780192",
-  "last_update": "2026-08-27T23:56:56.334788",
-  "total_rows": 51065,
+  "last_update": "2026-08-29T17:51:52.545934",
+  "total_rows": 51815,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-08-26 15:29:00+05:30"
+    "end": "2026-08-28 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-27T23:56:56.334794",
+    "last_validated": "2026-08-29T17:51:52.545942",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-14T18:23:45.780207",
-      "rows_added": 2619,
-      "total_rows": 2619,
-      "success": true
-    },
     {
       "timestamp": "2026-02-17T08:02:42.652426",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-08-27T23:56:56.334797",
       "rows_added": 375,
       "total_rows": 51065,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-29T17:51:52.545946",
+      "rows_added": 750,
+      "total_rows": 51815,
       "success": true
     }
   ]

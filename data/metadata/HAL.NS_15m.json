@@ -2,25 +2,19 @@
   "symbol": "HAL.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:43:24.091433",
-  "last_update": "2026-08-28T00:09:57.231374",
-  "total_rows": 4702,
+  "last_update": "2026-08-29T18:04:40.625958",
+  "total_rows": 4727,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-08-27 15:00:00+05:30"
+    "end": "2026-08-28 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-08-28T00:09:57.231380",
+    "last_validated": "2026-08-29T18:04:40.625963",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-18T15:18:43.286043",
-      "rows_added": 25,
-      "total_rows": 1500,
-      "success": true
-    },
     {
       "timestamp": "2026-02-19T15:19:36.025398",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-08-28T00:09:57.231382",
       "rows_added": 49,
       "total_rows": 4702,
+      "success": true
+    },
+    {
+      "timestamp": "2026-08-29T18:04:40.625966",
+      "rows_added": 25,
+      "total_rows": 4727,
       "success": true
     }
   ]
