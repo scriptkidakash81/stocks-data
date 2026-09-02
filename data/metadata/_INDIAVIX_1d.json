@@ -2,25 +2,19 @@
   "symbol": "^INDIAVIX",
   "interval": "1d",
   "created_at": "2026-02-14T16:01:01.818226",
-  "last_update": "2026-09-01T00:12:08.479968",
-  "total_rows": 4530,
+  "last_update": "2026-09-02T18:18:32.350184",
+  "total_rows": 4532,
   "date_range": {
     "start": "2008-03-03 00:00:00+05:30",
-    "end": "2026-08-28 00:00:00+05:30"
+    "end": "2026-09-01 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-01T00:12:08.479977",
+    "last_validated": "2026-09-02T18:18:32.350190",
     "issues_count": 13,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-19T15:21:30.124097",
-      "rows_added": 1,
-      "total_rows": 4401,
-      "success": true
-    },
     {
       "timestamp": "2026-02-20T16:35:34.540609",
       "rows_added": 1,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-01T00:12:08.479981",
       "rows_added": 1,
       "total_rows": 4530,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-02T18:18:32.350191",
+      "rows_added": 2,
+      "total_rows": 4532,
       "success": true
     }
   ]
