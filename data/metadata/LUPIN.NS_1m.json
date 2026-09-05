@@ -2,25 +2,19 @@
   "symbol": "LUPIN.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:02.015872",
-  "last_update": "2026-09-03T18:11:49.596176",
-  "total_rows": 52611,
+  "last_update": "2026-09-05T17:03:08.928431",
+  "total_rows": 53333,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-02 15:14:00+05:30"
+    "end": "2026-09-04 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-03T18:11:49.596184",
+    "last_validated": "2026-09-05T17:03:08.928439",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-20T16:30:41.746622",
-      "rows_added": 375,
-      "total_rows": 4119,
-      "success": true
-    },
     {
       "timestamp": "2026-02-22T14:55:51.812880",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-03T18:11:49.596187",
       "rows_added": 360,
       "total_rows": 52611,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-05T17:03:08.928443",
+      "rows_added": 722,
+      "total_rows": 53333,
       "success": true
     }
   ]
