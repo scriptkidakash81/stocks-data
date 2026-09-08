@@ -2,25 +2,19 @@
   "symbol": "PIDILITIND.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:09.377993",
-  "last_update": "2026-09-05T17:01:55.061163",
-  "total_rows": 53328,
+  "last_update": "2026-09-08T18:16:07.528638",
+  "total_rows": 53688,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-04 15:15:00+05:30"
+    "end": "2026-09-07 15:14:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-05T17:01:55.061169",
+    "last_validated": "2026-09-08T18:16:07.528644",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-22T14:54:29.728760",
-      "rows_added": 375,
-      "total_rows": 4490,
-      "success": true
-    },
     {
       "timestamp": "2026-02-24T15:33:28.457591",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-05T17:01:55.061172",
       "rows_added": 722,
       "total_rows": 53328,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-08T18:16:07.528647",
+      "rows_added": 360,
+      "total_rows": 53688,
       "success": true
     }
   ]

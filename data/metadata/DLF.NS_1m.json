@@ -2,25 +2,19 @@
   "symbol": "DLF.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:19:06.422337",
-  "last_update": "2026-09-05T17:01:49.941836",
-  "total_rows": 53331,
+  "last_update": "2026-09-08T18:15:27.041317",
+  "total_rows": 53692,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-04 15:15:00+05:30"
+    "end": "2026-09-07 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-05T17:01:49.941844",
+    "last_validated": "2026-09-08T18:15:27.041322",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-22T14:54:26.665850",
-      "rows_added": 375,
-      "total_rows": 4493,
-      "success": true
-    },
     {
       "timestamp": "2026-02-24T15:33:25.432162",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-05T17:01:49.941848",
       "rows_added": 722,
       "total_rows": 53331,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-08T18:15:27.041324",
+      "rows_added": 361,
+      "total_rows": 53692,
       "success": true
     }
   ]
