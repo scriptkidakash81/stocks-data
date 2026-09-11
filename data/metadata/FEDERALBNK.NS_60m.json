@@ -2,25 +2,19 @@
   "symbol": "FEDERALBNK.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:32:37.083603",
-  "last_update": "2026-09-10T17:57:02.550785",
-  "total_rows": 6035,
+  "last_update": "2026-09-11T18:04:15.338243",
+  "total_rows": 6041,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-09-09 14:15:00+05:30"
+    "end": "2026-09-10 14:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-10T17:57:02.550793",
+    "last_validated": "2026-09-11T18:04:15.338251",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-25T15:37:35.755962",
-      "rows_added": 7,
-      "total_rows": 5119,
-      "success": true
-    },
     {
       "timestamp": "2026-02-27T15:10:20.493351",
       "rows_added": 14,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-10T17:57:02.550796",
       "rows_added": 13,
       "total_rows": 6035,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-11T18:04:15.338254",
+      "rows_added": 6,
+      "total_rows": 6041,
       "success": true
     }
   ]

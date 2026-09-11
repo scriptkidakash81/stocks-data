@@ -2,25 +2,19 @@
   "symbol": "ITC.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:10:26.600499",
-  "last_update": "2026-09-10T17:50:23.847465",
-  "total_rows": 31223,
+  "last_update": "2026-09-11T17:57:33.751422",
+  "total_rows": 31404,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-09-09 15:15:00+05:30"
+    "end": "2026-09-10 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-10T17:50:23.847472",
+    "last_validated": "2026-09-11T17:57:33.751428",
     "issues_count": 4,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-25T15:33:03.176374",
-      "rows_added": 188,
-      "total_rows": 6569,
-      "success": true
-    },
     {
       "timestamp": "2026-02-27T15:05:50.827406",
       "rows_added": 376,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-10T17:50:23.847474",
       "rows_added": 362,
       "total_rows": 31223,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-11T17:57:33.751431",
+      "rows_added": 181,
+      "total_rows": 31404,
       "success": true
     }
   ]

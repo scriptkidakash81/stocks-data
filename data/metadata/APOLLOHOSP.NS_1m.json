@@ -2,25 +2,19 @@
   "symbol": "APOLLOHOSP.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:13.335440",
-  "last_update": "2026-09-10T17:53:33.143959",
-  "total_rows": 54407,
+  "last_update": "2026-09-11T18:00:44.707967",
+  "total_rows": 54768,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-09 15:15:00+05:30"
+    "end": "2026-09-10 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-10T17:53:33.143965",
+    "last_validated": "2026-09-11T18:00:44.707975",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-25T15:34:54.575549",
-      "rows_added": 375,
-      "total_rows": 5244,
-      "success": true
-    },
     {
       "timestamp": "2026-02-27T15:07:41.460658",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-10T17:53:33.143968",
       "rows_added": 721,
       "total_rows": 54407,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-11T18:00:44.707978",
+      "rows_added": 361,
+      "total_rows": 54768,
       "success": true
     }
   ]

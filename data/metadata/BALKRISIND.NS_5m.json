@@ -2,25 +2,19 @@
   "symbol": "BALKRISIND.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:37:49.698030",
-  "last_update": "2026-09-09T18:03:16.415751",
-  "total_rows": 14715,
+  "last_update": "2026-09-11T18:09:54.535919",
+  "total_rows": 14865,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-08 15:25:00+05:30"
+    "end": "2026-09-10 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-09T18:03:16.415758",
+    "last_validated": "2026-09-11T18:09:54.535926",
     "issues_count": 7,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-01T14:57:13.709866",
-      "rows_added": 75,
-      "total_rows": 5099,
-      "success": true
-    },
     {
       "timestamp": "2026-03-03T11:42:51.076834",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-09T18:03:16.415760",
       "rows_added": 75,
       "total_rows": 14715,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-11T18:09:54.535929",
+      "rows_added": 150,
+      "total_rows": 14865,
       "success": true
     }
   ]

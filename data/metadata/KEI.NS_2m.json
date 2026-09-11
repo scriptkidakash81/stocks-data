@@ -2,25 +2,19 @@
   "symbol": "KEI.NS",
   "interval": "2m",
   "created_at": "2026-02-14T16:00:41.990773",
-  "last_update": "2026-09-09T18:06:59.063403",
-  "total_rows": 31033,
+  "last_update": "2026-09-11T18:13:35.730030",
+  "total_rows": 31395,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-09-08 15:13:00+05:30"
+    "end": "2026-09-10 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-09T18:06:59.063411",
+    "last_validated": "2026-09-11T18:13:35.730036",
     "issues_count": 4,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-01T14:59:59.504434",
-      "rows_added": 188,
-      "total_rows": 7132,
-      "success": true
-    },
     {
       "timestamp": "2026-03-03T11:45:37.478311",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-09T18:06:59.063415",
       "rows_added": 180,
       "total_rows": 31033,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-11T18:13:35.730039",
+      "rows_added": 362,
+      "total_rows": 31395,
       "success": true
     }
   ]
