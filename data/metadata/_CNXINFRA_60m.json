@@ -2,25 +2,19 @@
   "symbol": "^CNXINFRA",
   "interval": "60m",
   "created_at": "2026-02-14T16:09:14.067727",
-  "last_update": "2026-09-13T17:49:40.489039",
-  "total_rows": 6070,
+  "last_update": "2026-09-16T18:43:19.105087",
+  "total_rows": 6077,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-09-11 15:15:00+05:30"
+    "end": "2026-09-15 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-13T17:49:40.489044",
+    "last_validated": "2026-09-16T18:43:19.105093",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-05T15:24:53.575329",
-      "rows_added": 7,
-      "total_rows": 5165,
-      "success": true
-    },
     {
       "timestamp": "2026-03-07T15:01:58.106447",
       "rows_added": 14,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-13T17:49:40.489046",
       "rows_added": 7,
       "total_rows": 6070,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-16T18:43:19.105095",
+      "rows_added": 7,
+      "total_rows": 6077,
       "success": true
     }
   ]

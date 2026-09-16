@@ -2,15 +2,15 @@
   "symbol": "^NSMIDCP",
   "interval": "1d",
   "created_at": "2026-02-14T18:25:51.311088",
-  "last_update": "2026-09-13T17:49:58.486302",
-  "total_rows": 4344,
+  "last_update": "2026-09-16T18:46:04.992074",
+  "total_rows": 4345,
   "date_range": {
     "start": "2007-09-17 00:00:00+05:30",
-    "end": "2026-09-11 00:00:00+05:30"
+    "end": "2026-09-15 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-13T17:49:58.486308",
+    "last_validated": "2026-09-16T18:46:04.992081",
     "issues_count": 21,
     "validation_details": {}
   },
@@ -601,6 +601,12 @@
       "timestamp": "2026-09-13T17:49:58.486311",
       "rows_added": 1,
       "total_rows": 4344,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-16T18:46:04.992083",
+      "rows_added": 1,
+      "total_rows": 4345,
       "success": true
     }
   ]
