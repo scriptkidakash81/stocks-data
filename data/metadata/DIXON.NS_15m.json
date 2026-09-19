@@ -2,25 +2,19 @@
   "symbol": "DIXON.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:38:17.190490",
-  "last_update": "2026-09-17T18:49:29.909783",
-  "total_rows": 5016,
+  "last_update": "2026-09-19T17:39:01.197186",
+  "total_rows": 5065,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-16 15:15:00+05:30"
+    "end": "2026-09-18 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-17T18:49:29.909790",
+    "last_validated": "2026-09-19T17:39:01.197193",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-10T15:25:08.777270",
-      "rows_added": 25,
-      "total_rows": 1826,
-      "success": true
-    },
     {
       "timestamp": "2026-03-12T15:34:52.666577",
       "rows_added": 50,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-17T18:49:29.909793",
       "rows_added": 25,
       "total_rows": 5016,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-19T17:39:01.197196",
+      "rows_added": 49,
+      "total_rows": 5065,
       "success": true
     }
   ]

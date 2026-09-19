@@ -2,25 +2,19 @@
   "symbol": "RECLTD.NS",
   "interval": "60m",
   "created_at": "2026-02-14T15:32:49.386463",
-  "last_update": "2026-09-17T18:43:15.612729",
-  "total_rows": 6066,
+  "last_update": "2026-09-19T17:32:55.149915",
+  "total_rows": 6079,
   "date_range": {
     "start": "2023-03-01 09:15:00+05:30",
-    "end": "2026-09-16 15:15:00+05:30"
+    "end": "2026-09-18 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-17T18:43:15.612741",
+    "last_validated": "2026-09-19T17:32:55.149921",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-07T14:53:45.202102",
-      "rows_added": 14,
-      "total_rows": 5168,
-      "success": true
-    },
     {
       "timestamp": "2026-03-10T15:20:39.304089",
       "rows_added": 7,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-17T18:43:15.612745",
       "rows_added": 7,
       "total_rows": 6066,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-19T17:32:55.149923",
+      "rows_added": 13,
+      "total_rows": 6079,
       "success": true
     }
   ]
