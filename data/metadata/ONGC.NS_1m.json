@@ -2,25 +2,19 @@
   "symbol": "ONGC.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:15:47.161474",
-  "last_update": "2026-09-22T18:21:47.360433",
-  "total_rows": 56945,
+  "last_update": "2026-09-23T18:36:21.611571",
+  "total_rows": 57306,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-21 15:15:00+05:30"
+    "end": "2026-09-22 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-22T18:21:47.360441",
+    "last_validated": "2026-09-23T18:36:21.611579",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-10T15:16:59.287627",
-      "rows_added": 375,
-      "total_rows": 8244,
-      "success": true
-    },
     {
       "timestamp": "2026-03-12T15:26:40.594252",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-22T18:21:47.360444",
       "rows_added": 361,
       "total_rows": 56945,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-23T18:36:21.611583",
+      "rows_added": 361,
+      "total_rows": 57306,
       "success": true
     }
   ]
