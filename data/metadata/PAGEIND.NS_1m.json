@@ -2,25 +2,19 @@
   "symbol": "PAGEIND.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:13.986255",
-  "last_update": "2026-09-24T18:44:09.182883",
-  "total_rows": 56036,
+  "last_update": "2026-09-25T19:01:11.718066",
+  "total_rows": 56394,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-23 15:15:00+05:30"
+    "end": "2026-09-24 15:14:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-24T18:44:09.182888",
+    "last_validated": "2026-09-25T19:01:11.718071",
     "issues_count": 199,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-14T14:57:43.319195",
-      "rows_added": 749,
-      "total_rows": 9430,
-      "success": true
-    },
     {
       "timestamp": "2026-03-17T15:43:46.941519",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-24T18:44:09.182890",
       "rows_added": 361,
       "total_rows": 56036,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-25T19:01:11.718072",
+      "rows_added": 358,
+      "total_rows": 56394,
       "success": true
     }
   ]
