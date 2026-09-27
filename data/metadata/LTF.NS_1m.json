@@ -2,25 +2,19 @@
   "symbol": "LTF.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:11:40.571633",
-  "last_update": "2026-09-25T19:09:05.153987",
-  "total_rows": 58028,
+  "last_update": "2026-09-27T18:54:46.711592",
+  "total_rows": 58389,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-24 15:15:00+05:30"
+    "end": "2026-09-25 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-25T19:09:05.153991",
+    "last_validated": "2026-09-27T18:54:46.711601",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-20T15:26:24.913762",
-      "rows_added": 750,
-      "total_rows": 11244,
-      "success": true
-    },
     {
       "timestamp": "2026-03-22T15:04:29.809348",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-25T19:09:05.153993",
       "rows_added": 361,
       "total_rows": 58028,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-27T18:54:46.711605",
+      "rows_added": 361,
+      "total_rows": 58389,
       "success": true
     }
   ]

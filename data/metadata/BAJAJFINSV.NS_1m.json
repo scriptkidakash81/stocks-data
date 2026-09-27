@@ -2,25 +2,19 @@
   "symbol": "BAJAJFINSV.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:15:41.591713",
-  "last_update": "2026-09-25T18:58:03.445678",
-  "total_rows": 58020,
+  "last_update": "2026-09-27T18:40:48.713917",
+  "total_rows": 58381,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-24 15:15:00+05:30"
+    "end": "2026-09-25 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-25T18:58:03.445683",
+    "last_validated": "2026-09-27T18:40:48.713924",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-17T15:40:36.845640",
-      "rows_added": 375,
-      "total_rows": 10119,
-      "success": true
-    },
     {
       "timestamp": "2026-03-18T16:00:16.977802",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-25T18:58:03.445686",
       "rows_added": 361,
       "total_rows": 58020,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-27T18:40:48.713927",
+      "rows_added": 361,
+      "total_rows": 58381,
       "success": true
     }
   ]
