@@ -2,25 +2,19 @@
   "symbol": "VBL.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:48:04.623964",
-  "last_update": "2026-09-27T18:54:32.444090",
-  "total_rows": 5203,
+  "last_update": "2026-09-29T00:11:15.575368",
+  "total_rows": 5227,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-25 15:15:00+05:30"
+    "end": "2026-09-28 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-27T18:54:32.444096",
+    "last_validated": "2026-09-29T00:11:15.575377",
     "issues_count": 1,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-22T15:04:21.952709",
-      "rows_added": 25,
-      "total_rows": 2050,
-      "success": true
-    },
     {
       "timestamp": "2026-03-24T15:52:39.649945",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-27T18:54:32.444098",
       "rows_added": 25,
       "total_rows": 5203,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-29T00:11:15.575380",
+      "rows_added": 24,
+      "total_rows": 5227,
       "success": true
     }
   ]

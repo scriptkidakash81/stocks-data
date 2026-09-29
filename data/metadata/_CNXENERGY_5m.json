@@ -2,25 +2,19 @@
   "symbol": "^CNXENERGY",
   "interval": "5m",
   "created_at": "2026-02-14T16:09:10.038312",
-  "last_update": "2026-09-27T18:57:28.383923",
-  "total_rows": 15580,
+  "last_update": "2026-09-29T00:14:13.485866",
+  "total_rows": 15655,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-25 15:25:00+05:30"
+    "end": "2026-09-28 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-27T18:57:28.383931",
+    "last_validated": "2026-09-29T00:14:13.485873",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-20T15:28:11.507957",
-      "rows_added": 150,
-      "total_rows": 6052,
-      "success": true
-    },
     {
       "timestamp": "2026-03-22T15:06:15.921720",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-27T18:57:28.383934",
       "rows_added": 75,
       "total_rows": 15580,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-29T00:14:13.485876",
+      "rows_added": 75,
+      "total_rows": 15655,
       "success": true
     }
   ]
