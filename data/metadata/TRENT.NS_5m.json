@@ -2,25 +2,19 @@
   "symbol": "TRENT.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:38:37.941487",
-  "last_update": "2026-09-29T00:09:49.611649",
-  "total_rows": 15594,
+  "last_update": "2026-09-30T20:00:35.897896",
+  "total_rows": 15667,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-28 15:10:00+05:30"
+    "end": "2026-09-29 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-29T00:09:49.611657",
+    "last_validated": "2026-09-30T20:00:35.897904",
     "issues_count": 3,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-24T15:51:12.880455",
-      "rows_added": 75,
-      "total_rows": 6223,
-      "success": true
-    },
     {
       "timestamp": "2026-03-25T15:54:28.015305",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-29T00:09:49.611659",
       "rows_added": 72,
       "total_rows": 15594,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-30T20:00:35.897907",
+      "rows_added": 73,
+      "total_rows": 15667,
       "success": true
     }
   ]

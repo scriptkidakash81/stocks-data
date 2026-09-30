@@ -2,25 +2,19 @@
   "symbol": "IOC.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:23:38.880202",
-  "last_update": "2026-09-29T00:01:10.382470",
-  "total_rows": 58748,
+  "last_update": "2026-09-30T19:51:48.090213",
+  "total_rows": 59109,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-28 15:15:00+05:30"
+    "end": "2026-09-29 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-29T00:01:10.382477",
+    "last_validated": "2026-09-30T19:51:48.090220",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-20T15:18:55.234470",
-      "rows_added": 750,
-      "total_rows": 11244,
-      "success": true
-    },
     {
       "timestamp": "2026-03-22T14:57:03.603981",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-29T00:01:10.382480",
       "rows_added": 361,
       "total_rows": 58748,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-30T19:51:48.090222",
+      "rows_added": 361,
+      "total_rows": 59109,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "INDUSINDBK.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:16:49.851575",
-  "last_update": "2026-09-29T19:44:29.781474",
-  "total_rows": 58742,
+  "last_update": "2026-09-30T19:48:42.131118",
+  "total_rows": 59103,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-09-28 15:15:00+05:30"
+    "end": "2026-09-29 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-29T19:44:29.781480",
+    "last_validated": "2026-09-30T19:48:42.131127",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-20T15:16:33.840852",
-      "rows_added": 750,
-      "total_rows": 11243,
-      "success": true
-    },
     {
       "timestamp": "2026-03-22T14:54:44.237123",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-29T19:44:29.781482",
       "rows_added": 361,
       "total_rows": 58742,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-30T19:48:42.131131",
+      "rows_added": 361,
+      "total_rows": 59103,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "^NSMIDCP",
   "interval": "1d",
   "created_at": "2026-02-14T18:25:51.311088",
-  "last_update": "2026-09-29T00:14:41.974973",
-  "total_rows": 4353,
+  "last_update": "2026-09-30T20:11:28.211209",
+  "total_rows": 4354,
   "date_range": {
     "start": "2007-09-17 00:00:00+05:30",
-    "end": "2026-09-28 00:00:00+05:30"
+    "end": "2026-09-29 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-29T00:14:41.974980",
+    "last_validated": "2026-09-30T20:11:28.211217",
     "issues_count": 21,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-02-24T15:41:05.646548",
-      "rows_added": 1,
-      "total_rows": 4229,
-      "success": true
-    },
     {
       "timestamp": "2026-02-25T15:43:14.750946",
       "rows_added": 1,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-29T00:14:41.974982",
       "rows_added": 1,
       "total_rows": 4353,
+      "success": true
+    },
+    {
+      "timestamp": "2026-09-30T20:11:28.211219",
+      "rows_added": 1,
+      "total_rows": 4354,
       "success": true
     }
   ]
