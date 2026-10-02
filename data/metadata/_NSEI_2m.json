@@ -2,25 +2,19 @@
   "symbol": "^NSEI",
   "interval": "2m",
   "created_at": "2026-02-14T16:00:51.093241",
-  "last_update": "2026-09-30T20:03:16.477883",
-  "total_rows": 33775,
+  "last_update": "2026-10-02T19:46:51.439311",
+  "total_rows": 34151,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-09-29 15:29:00+05:30"
+    "end": "2026-10-01 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-30T20:03:16.477895",
+    "last_validated": "2026-10-02T19:46:51.439317",
     "issues_count": 9,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-25T15:56:36.351395",
-      "rows_added": 188,
-      "total_rows": 10094,
-      "success": true
-    },
     {
       "timestamp": "2026-03-26T16:03:58.753688",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-30T20:03:16.477898",
       "rows_added": 188,
       "total_rows": 33775,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-02T19:46:51.439319",
+      "rows_added": 376,
+      "total_rows": 34151,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "NMDC.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:33:18.358010",
-  "last_update": "2026-09-30T19:54:39.563535",
-  "total_rows": 15676,
+  "last_update": "2026-10-02T19:38:36.787076",
+  "total_rows": 15822,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-09-29 15:15:00+05:30"
+    "end": "2026-10-01 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-09-30T19:54:39.563543",
+    "last_validated": "2026-10-02T19:38:36.787084",
     "issues_count": 3,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-25T15:50:08.590103",
-      "rows_added": 75,
-      "total_rows": 6298,
-      "success": true
-    },
     {
       "timestamp": "2026-03-26T15:57:30.604205",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-09-30T19:54:39.563546",
       "rows_added": 73,
       "total_rows": 15676,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-02T19:38:36.787088",
+      "rows_added": 146,
+      "total_rows": 15822,
       "success": true
     }
   ]
