@@ -2,25 +2,19 @@
   "symbol": "TCS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:10.974195",
-  "last_update": "2026-10-02T19:30:41.400661",
-  "total_rows": 59826,
+  "last_update": "2026-10-06T19:43:18.010644",
+  "total_rows": 60187,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-01 15:15:00+05:30"
+    "end": "2026-10-05 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-02T19:30:41.400667",
+    "last_validated": "2026-10-06T19:43:18.010653",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-24T15:41:19.443872",
-      "rows_added": 375,
-      "total_rows": 11994,
-      "success": true
-    },
     {
       "timestamp": "2026-03-25T15:44:36.126980",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-02T19:30:41.400669",
       "rows_added": 722,
       "total_rows": 59826,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-06T19:43:18.010656",
+      "rows_added": 361,
+      "total_rows": 60187,
       "success": true
     }
   ]
