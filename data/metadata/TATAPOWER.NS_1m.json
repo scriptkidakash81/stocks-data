@@ -2,25 +2,19 @@
   "symbol": "TATAPOWER.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:59.275839",
-  "last_update": "2026-10-06T00:05:28.320566",
-  "total_rows": 60190,
+  "last_update": "2026-10-07T20:13:54.776940",
+  "total_rows": 60550,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-05 15:14:00+05:30"
+    "end": "2026-10-06 15:14:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-06T00:05:28.320574",
+    "last_validated": "2026-10-07T20:13:54.776944",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-28T15:03:21.177030",
-      "rows_added": 375,
-      "total_rows": 13119,
-      "success": true
-    },
     {
       "timestamp": "2026-03-31T15:51:59.539218",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-06T00:05:28.320578",
       "rows_added": 360,
       "total_rows": 60190,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-07T20:13:54.776946",
+      "rows_added": 360,
+      "total_rows": 60550,
       "success": true
     }
   ]
