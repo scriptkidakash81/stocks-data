@@ -2,25 +2,19 @@
   "symbol": "AMBER.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:38:20.199026",
-  "last_update": "2026-10-07T20:19:22.586236",
-  "total_rows": 5342,
+  "last_update": "2026-10-09T19:55:14.557382",
+  "total_rows": 5392,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-06 15:15:00+05:30"
+    "end": "2026-10-08 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:19:22.586241",
+    "last_validated": "2026-10-09T19:55:14.557390",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-31T15:56:21.551181",
-      "rows_added": 25,
-      "total_rows": 2176,
-      "success": true
-    },
     {
       "timestamp": "2026-04-02T15:44:40.942052",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:19:22.586242",
       "rows_added": 25,
       "total_rows": 5342,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T19:55:14.557393",
+      "rows_added": 50,
+      "total_rows": 5392,
       "success": true
     }
   ]

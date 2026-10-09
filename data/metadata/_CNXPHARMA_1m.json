@@ -2,25 +2,19 @@
   "symbol": "^CNXPHARMA",
   "interval": "1m",
   "created_at": "2026-02-14T16:08:53.934112",
-  "last_update": "2026-10-07T20:23:34.574448",
-  "total_rows": 61090,
+  "last_update": "2026-10-09T20:00:23.237621",
+  "total_rows": 61840,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-06 15:29:00+05:30"
+    "end": "2026-10-08 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:23:34.574452",
+    "last_validated": "2026-10-09T20:00:23.237629",
     "issues_count": 11,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-28T15:11:13.730114",
-      "rows_added": 375,
-      "total_rows": 13115,
-      "success": true
-    },
     {
       "timestamp": "2026-03-31T15:59:46.066290",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:23:34.574453",
       "rows_added": 375,
       "total_rows": 61090,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T20:00:23.237633",
+      "rows_added": 750,
+      "total_rows": 61840,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "BATAINDIA.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:47:57.231636",
-  "last_update": "2026-10-07T20:20:45.763820",
-  "total_rows": 58669,
+  "last_update": "2026-10-09T19:57:03.220522",
+  "total_rows": 59352,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-06 15:29:00+05:30"
+    "end": "2026-10-08 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:20:45.763826",
-    "issues_count": 248,
+    "last_validated": "2026-10-09T19:57:03.220531",
+    "issues_count": 255,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-31T15:57:59.048174",
-      "rows_added": 375,
-      "total_rows": 13177,
-      "success": true
-    },
     {
       "timestamp": "2026-04-02T15:46:19.262356",
       "rows_added": 371,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:20:45.763828",
       "rows_added": 330,
       "total_rows": 58669,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T19:57:03.220534",
+      "rows_added": 683,
+      "total_rows": 59352,
       "success": true
     }
   ]

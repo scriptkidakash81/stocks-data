@@ -2,25 +2,19 @@
   "symbol": "UPL.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:18:19.726784",
-  "last_update": "2026-10-07T20:10:37.852211",
-  "total_rows": 5343,
+  "last_update": "2026-10-09T19:44:54.148124",
+  "total_rows": 5393,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-06 15:15:00+05:30"
+    "end": "2026-10-08 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:10:37.852217",
+    "last_validated": "2026-10-09T19:44:54.148146",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-26T15:54:11.558134",
-      "rows_added": 25,
-      "total_rows": 2125,
-      "success": true
-    },
     {
       "timestamp": "2026-03-28T15:00:16.827125",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:10:37.852218",
       "rows_added": 25,
       "total_rows": 5343,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T19:44:54.148149",
+      "rows_added": 50,
+      "total_rows": 5393,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "PNB.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:32:24.347602",
-  "last_update": "2026-10-07T20:13:05.421122",
-  "total_rows": 5350,
+  "last_update": "2026-10-09T19:48:09.356340",
+  "total_rows": 5399,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-06 15:15:00+05:30"
+    "end": "2026-10-08 15:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:13:05.421129",
+    "last_validated": "2026-10-09T19:48:09.356346",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-26T15:56:35.766811",
-      "rows_added": 25,
-      "total_rows": 2125,
-      "success": true
-    },
     {
       "timestamp": "2026-03-28T15:02:45.393574",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:13:05.421131",
       "rows_added": 25,
       "total_rows": 5350,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T19:48:09.356349",
+      "rows_added": 49,
+      "total_rows": 5399,
       "success": true
     }
   ]

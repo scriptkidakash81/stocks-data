@@ -2,25 +2,19 @@
   "symbol": "COLPAL.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:32:08.458428",
-  "last_update": "2026-10-07T20:12:43.837369",
-  "total_rows": 34281,
+  "last_update": "2026-10-09T19:47:40.810057",
+  "total_rows": 34641,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-10-06 15:15:00+05:30"
+    "end": "2026-10-08 15:13:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-07T20:12:43.837375",
+    "last_validated": "2026-10-09T19:47:40.810063",
     "issues_count": 4,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-03-26T15:56:19.872240",
-      "rows_added": 188,
-      "total_rows": 10328,
-      "success": true
-    },
     {
       "timestamp": "2026-03-28T15:02:28.589483",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-07T20:12:43.837377",
       "rows_added": 181,
       "total_rows": 34281,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-09T19:47:40.810066",
+      "rows_added": 360,
+      "total_rows": 34641,
       "success": true
     }
   ]
