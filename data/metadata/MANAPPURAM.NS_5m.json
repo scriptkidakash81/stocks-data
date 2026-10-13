@@ -2,25 +2,19 @@
   "symbol": "MANAPPURAM.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:38:10.805728",
-  "last_update": "2026-10-11T19:25:01.868072",
-  "total_rows": 16183,
+  "last_update": "2026-10-13T00:11:41.307020",
+  "total_rows": 16256,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-09 15:15:00+05:30"
+    "end": "2026-10-12 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-11T19:25:01.868090",
-    "issues_count": 3,
+    "last_validated": "2026-10-13T00:11:41.307026",
+    "issues_count": 4,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:11:16.128325",
-      "rows_added": 75,
-      "total_rows": 6674,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T16:03:58.815027",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-11T19:25:01.868092",
       "rows_added": 73,
       "total_rows": 16183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-13T00:11:41.307028",
+      "rows_added": 73,
+      "total_rows": 16256,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "PIIND.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:43:36.447382",
-  "last_update": "2026-10-11T19:26:20.073494",
-  "total_rows": 16175,
+  "last_update": "2026-10-13T00:13:26.232775",
+  "total_rows": 16248,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-09 15:10:00+05:30"
+    "end": "2026-10-12 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-11T19:26:20.073498",
-    "issues_count": 3,
+    "last_validated": "2026-10-13T00:13:26.232782",
+    "issues_count": 4,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:12:15.217008",
-      "rows_added": 75,
-      "total_rows": 6674,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T16:05:00.627823",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-11T19:26:20.073500",
       "rows_added": 72,
       "total_rows": 16175,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-13T00:13:26.232784",
+      "rows_added": 73,
+      "total_rows": 16248,
       "success": true
     }
   ]
