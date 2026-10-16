@@ -2,25 +2,19 @@
   "symbol": "HEROMOTOCO.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:18:08.642583",
-  "last_update": "2026-10-14T18:58:39.017667",
-  "total_rows": 16326,
+  "last_update": "2026-10-16T18:24:04.115905",
+  "total_rows": 16472,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-13 15:25:00+05:30"
+    "end": "2026-10-15 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-14T18:58:39.017675",
-    "issues_count": 4,
+    "last_validated": "2026-10-16T18:24:04.115909",
+    "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:03:52.920658",
-      "rows_added": 75,
-      "total_rows": 6673,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T15:56:35.891334",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-14T18:58:39.017678",
       "rows_added": 74,
       "total_rows": 16326,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-16T18:24:04.115911",
+      "rows_added": 146,
+      "total_rows": 16472,
       "success": true
     }
   ]

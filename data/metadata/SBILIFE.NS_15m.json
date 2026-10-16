@@ -2,25 +2,19 @@
   "symbol": "SBILIFE.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:18:41.712484",
-  "last_update": "2026-10-14T18:59:36.568648",
-  "total_rows": 5464,
+  "last_update": "2026-10-16T18:24:28.022641",
+  "total_rows": 5514,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-13 15:15:00+05:30"
+    "end": "2026-10-15 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-14T18:59:36.568656",
+    "last_validated": "2026-10-16T18:24:28.022645",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:04:12.071782",
-      "rows_added": 25,
-      "total_rows": 2226,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T15:56:54.844766",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-14T18:59:36.568659",
       "rows_added": 25,
       "total_rows": 5464,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-16T18:24:28.022647",
+      "rows_added": 50,
+      "total_rows": 5514,
       "success": true
     }
   ]

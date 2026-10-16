@@ -2,25 +2,19 @@
   "symbol": "BOSCHLTD.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:10.886672",
-  "last_update": "2026-10-14T19:03:58.403679",
-  "total_rows": 61200,
+  "last_update": "2026-10-16T18:26:15.782818",
+  "total_rows": 61892,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-13 15:28:00+05:30"
+    "end": "2026-10-15 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-14T19:03:58.403686",
-    "issues_count": 104,
+    "last_validated": "2026-10-16T18:26:15.782823",
+    "issues_count": 109,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:06:12.875203",
-      "rows_added": 375,
-      "total_rows": 13899,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T15:58:55.026116",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-14T19:03:58.403692",
       "rows_added": 362,
       "total_rows": 61200,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-16T18:26:15.782825",
+      "rows_added": 692,
+      "total_rows": 61892,
       "success": true
     }
   ]
