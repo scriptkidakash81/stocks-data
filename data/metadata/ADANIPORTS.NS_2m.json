@@ -2,25 +2,19 @@
   "symbol": "ADANIPORTS.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:11:12.156042",
-  "last_update": "2026-10-15T18:40:21.182372",
-  "total_rows": 35375,
+  "last_update": "2026-10-17T17:29:13.099921",
+  "total_rows": 35731,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-10-14 15:15:00+05:30"
+    "end": "2026-10-16 15:27:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-15T18:40:21.182375",
-    "issues_count": 6,
+    "last_validated": "2026-10-17T17:29:13.099925",
+    "issues_count": 9,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-04T15:02:47.115482",
-      "rows_added": 188,
-      "total_rows": 11081,
-      "success": true
-    },
     {
       "timestamp": "2026-04-07T15:55:30.106552",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-15T18:40:21.182377",
       "rows_added": 362,
       "total_rows": 35375,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-17T17:29:13.099927",
+      "rows_added": 356,
+      "total_rows": 35731,
       "success": true
     }
   ]
