@@ -2,25 +2,19 @@
   "symbol": "POLYCAB.NS",
   "interval": "1m",
   "created_at": "2026-02-14T16:00:38.387231",
-  "last_update": "2026-10-16T18:34:44.173444",
-  "total_rows": 63061,
+  "last_update": "2026-10-18T19:15:51.446374",
+  "total_rows": 63423,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-15 15:28:00+05:30"
+    "end": "2026-10-16 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-16T18:34:44.173449",
-    "issues_count": 10,
+    "last_validated": "2026-10-18T19:15:51.446382",
+    "issues_count": 11,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-09T16:13:47.267169",
-      "rows_added": 375,
-      "total_rows": 15367,
-      "success": true
-    },
     {
       "timestamp": "2026-04-11T15:16:10.413737",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-16T18:34:44.173450",
       "rows_added": 709,
       "total_rows": 63061,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-18T19:15:51.446386",
+      "rows_added": 362,
+      "total_rows": 63423,
       "success": true
     }
   ]
