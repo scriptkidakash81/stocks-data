@@ -2,25 +2,19 @@
   "symbol": "COFORGE.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:37:27.697382",
-  "last_update": "2026-10-18T19:11:14.486996",
-  "total_rows": 63429,
+  "last_update": "2026-10-20T00:06:35.499356",
+  "total_rows": 63791,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-16 15:28:00+05:30"
+    "end": "2026-10-19 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-18T19:11:14.487004",
-    "issues_count": 11,
+    "last_validated": "2026-10-20T00:06:35.499361",
+    "issues_count": 12,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-11T15:12:57.953880",
-      "rows_added": 750,
-      "total_rows": 16119,
-      "success": true
-    },
     {
       "timestamp": "2026-04-14T15:58:25.570001",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-18T19:11:14.487007",
       "rows_added": 362,
       "total_rows": 63429,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-20T00:06:35.499363",
+      "rows_added": 362,
+      "total_rows": 63791,
       "success": true
     }
   ]

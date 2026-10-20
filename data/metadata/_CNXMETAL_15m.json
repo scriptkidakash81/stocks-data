@@ -2,25 +2,19 @@
   "symbol": "^CNXMETAL",
   "interval": "15m",
   "created_at": "2026-02-14T16:09:04.376608",
-  "last_update": "2026-10-18T19:17:49.383642",
-  "total_rows": 5546,
+  "last_update": "2026-10-20T00:11:43.242916",
+  "total_rows": 5571,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-16 15:15:00+05:30"
+    "end": "2026-10-19 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-18T19:17:49.383649",
+    "last_validated": "2026-10-20T00:11:43.242920",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-08T16:09:56.879436",
-      "rows_added": 25,
-      "total_rows": 2269,
-      "success": true
-    },
     {
       "timestamp": "2026-04-09T16:15:08.076667",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-18T19:17:49.383651",
       "rows_added": 25,
       "total_rows": 5546,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-20T00:11:43.242922",
+      "rows_added": 25,
+      "total_rows": 5571,
       "success": true
     }
   ]
