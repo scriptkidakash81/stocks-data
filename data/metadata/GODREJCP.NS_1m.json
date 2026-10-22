@@ -2,25 +2,19 @@
   "symbol": "GODREJCP.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:48.219135",
-  "last_update": "2026-10-20T18:45:41.026081",
-  "total_rows": 63632,
+  "last_update": "2026-10-22T18:46:54.630987",
+  "total_rows": 63994,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-19 15:29:00+05:30"
+    "end": "2026-10-21 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-20T18:45:41.026089",
-    "issues_count": 19,
+    "last_validated": "2026-10-22T18:46:54.630991",
+    "issues_count": 20,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-09T16:04:21.502933",
-      "rows_added": 375,
-      "total_rows": 15348,
-      "success": true
-    },
     {
       "timestamp": "2026-04-11T15:06:41.613521",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-20T18:45:41.026092",
       "rows_added": 362,
       "total_rows": 63632,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-22T18:46:54.630992",
+      "rows_added": 362,
+      "total_rows": 63994,
       "success": true
     }
   ]

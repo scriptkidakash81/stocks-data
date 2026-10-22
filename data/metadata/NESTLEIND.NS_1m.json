@@ -2,25 +2,19 @@
   "symbol": "NESTLEIND.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:11:08.753152",
-  "last_update": "2026-10-20T18:42:48.499853",
-  "total_rows": 63787,
+  "last_update": "2026-10-22T18:44:56.281196",
+  "total_rows": 64148,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-19 15:29:00+05:30"
+    "end": "2026-10-21 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-20T18:42:48.499859",
-    "issues_count": 12,
+    "last_validated": "2026-10-22T18:44:56.281201",
+    "issues_count": 13,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-08T15:57:14.738725",
-      "rows_added": 375,
-      "total_rows": 14993,
-      "success": true
-    },
     {
       "timestamp": "2026-04-09T16:02:45.371757",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-20T18:42:48.499861",
       "rows_added": 362,
       "total_rows": 63787,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-22T18:44:56.281202",
+      "rows_added": 361,
+      "total_rows": 64148,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "BHARTIARTL.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:10:33.122848",
-  "last_update": "2026-10-20T18:41:41.063986",
-  "total_rows": 16621,
+  "last_update": "2026-10-22T18:44:10.409421",
+  "total_rows": 16694,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-19 15:25:00+05:30"
+    "end": "2026-10-21 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-20T18:41:41.063992",
-    "issues_count": 7,
+    "last_validated": "2026-10-22T18:44:10.409424",
+    "issues_count": 8,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-08T15:56:36.462937",
-      "rows_added": 75,
-      "total_rows": 6823,
-      "success": true
-    },
     {
       "timestamp": "2026-04-09T16:02:08.365279",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-20T18:41:41.063994",
       "rows_added": 73,
       "total_rows": 16621,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-22T18:44:10.409426",
+      "rows_added": 73,
+      "total_rows": 16694,
       "success": true
     }
   ]
