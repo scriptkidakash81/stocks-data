@@ -2,25 +2,19 @@
   "symbol": "OFSS.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:37:37.669990",
-  "last_update": "2026-10-22T00:05:56.099313",
-  "total_rows": 16691,
+  "last_update": "2026-10-23T18:46:43.116754",
+  "total_rows": 16764,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-21 15:25:00+05:30"
+    "end": "2026-10-22 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-22T00:05:56.099321",
-    "issues_count": 6,
+    "last_validated": "2026-10-23T18:46:43.116758",
+    "issues_count": 7,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-16T16:14:56.374348",
-      "rows_added": 75,
-      "total_rows": 7199,
-      "success": true
-    },
     {
       "timestamp": "2026-04-18T15:14:37.079659",
       "rows_added": 150,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-22T00:05:56.099325",
       "rows_added": 74,
       "total_rows": 16691,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-23T18:46:43.116759",
+      "rows_added": 73,
+      "total_rows": 16764,
       "success": true
     }
   ]
