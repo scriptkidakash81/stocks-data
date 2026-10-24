@@ -2,25 +2,19 @@
   "symbol": "SBIN.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:29.024224",
-  "last_update": "2026-10-22T18:44:05.325072",
-  "total_rows": 64157,
+  "last_update": "2026-10-24T17:37:00.925911",
+  "total_rows": 64881,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-21 15:29:00+05:30"
+    "end": "2026-10-23 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-22T18:44:05.325076",
-    "issues_count": 13,
+    "last_validated": "2026-10-24T17:37:00.925918",
+    "issues_count": 15,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-09T16:02:04.469280",
-      "rows_added": 375,
-      "total_rows": 15369,
-      "success": true
-    },
     {
       "timestamp": "2026-04-11T15:04:25.025060",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-22T18:44:05.325078",
       "rows_added": 362,
       "total_rows": 64157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-24T17:37:00.925920",
+      "rows_added": 724,
+      "total_rows": 64881,
       "success": true
     }
   ]

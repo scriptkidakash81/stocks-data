@@ -2,25 +2,19 @@
   "symbol": "TATASTEEL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:15:21.311416",
-  "last_update": "2026-10-22T18:45:08.208041",
-  "total_rows": 64155,
+  "last_update": "2026-10-24T17:38:24.985693",
+  "total_rows": 64879,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-21 15:29:00+05:30"
+    "end": "2026-10-23 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-22T18:45:08.208045",
-    "issues_count": 13,
+    "last_validated": "2026-10-24T17:38:24.985701",
+    "issues_count": 15,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-09T16:02:54.734936",
-      "rows_added": 375,
-      "total_rows": 15369,
-      "success": true
-    },
     {
       "timestamp": "2026-04-11T15:05:16.018193",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-22T18:45:08.208046",
       "rows_added": 362,
       "total_rows": 64155,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-24T17:38:24.985705",
+      "rows_added": 724,
+      "total_rows": 64879,
       "success": true
     }
   ]
