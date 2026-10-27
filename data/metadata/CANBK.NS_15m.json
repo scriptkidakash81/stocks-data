@@ -2,25 +2,19 @@
   "symbol": "CANBK.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:32:30.313584",
-  "last_update": "2026-10-24T17:43:32.565771",
-  "total_rows": 5643,
+  "last_update": "2026-10-27T00:01:48.149619",
+  "total_rows": 5668,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-23 15:15:00+05:30"
+    "end": "2026-10-26 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-24T17:43:32.565777",
+    "last_validated": "2026-10-27T00:01:48.149625",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-14T15:54:20.990503",
-      "rows_added": 25,
-      "total_rows": 2376,
-      "success": true
-    },
     {
       "timestamp": "2026-04-16T16:10:45.935478",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-24T17:43:32.565780",
       "rows_added": 50,
       "total_rows": 5643,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-27T00:01:48.149629",
+      "rows_added": 25,
+      "total_rows": 5668,
       "success": true
     }
   ]
