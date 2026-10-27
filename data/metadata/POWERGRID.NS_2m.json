@@ -2,25 +2,19 @@
   "symbol": "POWERGRID.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:15:28.638637",
-  "last_update": "2026-10-24T17:38:31.442203",
-  "total_rows": 36467,
+  "last_update": "2026-10-27T19:40:19.980621",
+  "total_rows": 36649,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-10-23 15:27:00+05:30"
+    "end": "2026-10-26 15:27:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-24T17:38:31.442211",
-    "issues_count": 14,
+    "last_validated": "2026-10-27T19:40:19.980625",
+    "issues_count": 15,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-11T15:05:19.663982",
-      "rows_added": 376,
-      "total_rows": 12021,
-      "success": true
-    },
     {
       "timestamp": "2026-04-14T15:50:28.066581",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-24T17:38:31.442214",
       "rows_added": 364,
       "total_rows": 36467,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-27T19:40:19.980627",
+      "rows_added": 182,
+      "total_rows": 36649,
       "success": true
     }
   ]

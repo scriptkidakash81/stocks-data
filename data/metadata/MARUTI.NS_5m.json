@@ -2,25 +2,19 @@
   "symbol": "MARUTI.NS",
   "interval": "5m",
   "created_at": "2026-02-14T15:10:54.527594",
-  "last_update": "2026-10-24T17:37:44.563213",
-  "total_rows": 16845,
+  "last_update": "2026-10-27T19:39:43.279981",
+  "total_rows": 16918,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-23 15:25:00+05:30"
+    "end": "2026-10-26 15:25:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-24T17:37:44.563220",
-    "issues_count": 5,
+    "last_validated": "2026-10-27T19:39:43.279986",
+    "issues_count": 6,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-11T15:04:51.259770",
-      "rows_added": 150,
-      "total_rows": 7049,
-      "success": true
-    },
     {
       "timestamp": "2026-04-14T15:49:57.727354",
       "rows_added": 75,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-24T17:37:44.563223",
       "rows_added": 148,
       "total_rows": 16845,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-27T19:39:43.279987",
+      "rows_added": 73,
+      "total_rows": 16918,
       "success": true
     }
   ]
