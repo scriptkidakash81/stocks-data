@@ -2,25 +2,19 @@
   "symbol": "HINDUNILVR.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:23.099749",
-  "last_update": "2026-10-27T19:39:00.894960",
-  "total_rows": 65237,
+  "last_update": "2026-10-28T19:55:47.522763",
+  "total_rows": 65599,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-26 15:28:00+05:30"
+    "end": "2026-10-27 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-27T19:39:00.894966",
-    "issues_count": 16,
+    "last_validated": "2026-10-28T19:55:47.522771",
+    "issues_count": 17,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-14T15:49:22.414919",
-      "rows_added": 375,
-      "total_rows": 16494,
-      "success": true
-    },
     {
       "timestamp": "2026-04-16T16:06:02.093501",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-27T19:39:00.894967",
       "rows_added": 362,
       "total_rows": 65237,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-28T19:55:47.522774",
+      "rows_added": 362,
+      "total_rows": 65599,
       "success": true
     }
   ]

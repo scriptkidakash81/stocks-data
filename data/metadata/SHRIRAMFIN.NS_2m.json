@@ -2,25 +2,19 @@
   "symbol": "SHRIRAMFIN.NS",
   "interval": "2m",
   "created_at": "2026-02-14T18:11:51.167808",
-  "last_update": "2026-10-27T00:10:42.572393",
-  "total_rows": 36650,
+  "last_update": "2026-10-28T20:14:57.602488",
+  "total_rows": 36832,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-10-26 15:27:00+05:30"
+    "end": "2026-10-27 15:27:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-27T00:10:42.572399",
-    "issues_count": 15,
+    "last_validated": "2026-10-28T20:14:57.602496",
+    "issues_count": 16,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-23T16:29:16.757107",
-      "rows_added": 375,
-      "total_rows": 13188,
-      "success": true
-    },
     {
       "timestamp": "2026-04-25T15:19:53.539429",
       "rows_added": 376,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-27T00:10:42.572402",
       "rows_added": 182,
       "total_rows": 36650,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-28T20:14:57.602500",
+      "rows_added": 182,
+      "total_rows": 36832,
       "success": true
     }
   ]
