@@ -2,25 +2,19 @@
   "symbol": "PETRONET.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:43:09.925568",
-  "last_update": "2026-10-28T20:13:38.853752",
-  "total_rows": 5695,
+  "last_update": "2026-10-30T19:57:18.867669",
+  "total_rows": 5745,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-27 15:15:00+05:30"
+    "end": "2026-10-29 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-28T20:13:38.853759",
+    "last_validated": "2026-10-30T19:57:18.867675",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-25T15:18:28.168187",
-      "rows_added": 50,
-      "total_rows": 2556,
-      "success": true
-    },
     {
       "timestamp": "2026-04-28T16:35:18.368206",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-28T20:13:38.853762",
       "rows_added": 25,
       "total_rows": 5695,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-30T19:57:18.867678",
+      "rows_added": 50,
+      "total_rows": 5745,
       "success": true
     }
   ]

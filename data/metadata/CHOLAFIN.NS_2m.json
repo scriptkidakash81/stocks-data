@@ -2,25 +2,19 @@
   "symbol": "CHOLAFIN.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:38:04.246172",
-  "last_update": "2026-10-28T20:12:01.626053",
-  "total_rows": 36814,
+  "last_update": "2026-10-30T19:55:45.641452",
+  "total_rows": 37177,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-10-27 15:27:00+05:30"
+    "end": "2026-10-29 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-28T20:12:01.626060",
-    "issues_count": 16,
+    "last_validated": "2026-10-30T19:55:45.641459",
+    "issues_count": 18,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-25T15:17:29.256269",
-      "rows_added": 376,
-      "total_rows": 13563,
-      "success": true
-    },
     {
       "timestamp": "2026-04-28T16:34:21.048752",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-28T20:12:01.626062",
       "rows_added": 182,
       "total_rows": 36814,
+      "success": true
+    },
+    {
+      "timestamp": "2026-10-30T19:55:45.641461",
+      "rows_added": 363,
+      "total_rows": 37177,
       "success": true
     }
   ]
