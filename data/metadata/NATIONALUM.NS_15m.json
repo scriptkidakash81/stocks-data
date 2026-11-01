@@ -2,25 +2,19 @@
   "symbol": "NATIONALUM.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:33:15.699878",
-  "last_update": "2026-10-30T19:50:44.776577",
-  "total_rows": 5748,
+  "last_update": "2026-11-01T19:14:06.529182",
+  "total_rows": 5773,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-10-29 15:15:00+05:30"
+    "end": "2026-10-30 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-10-30T19:50:44.776584",
+    "last_validated": "2026-11-01T19:14:06.529187",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-28T16:30:27.949768",
-      "rows_added": 25,
-      "total_rows": 2581,
-      "success": true
-    },
     {
       "timestamp": "2026-04-30T16:08:28.735643",
       "rows_added": 50,
@@ -613,6 +607,12 @@
       "timestamp": "2026-10-30T19:50:44.776586",
       "rows_added": 50,
       "total_rows": 5748,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-01T19:14:06.529189",
+      "rows_added": 25,
+      "total_rows": 5773,
       "success": true
     }
   ]
