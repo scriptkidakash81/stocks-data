@@ -2,25 +2,19 @@
   "symbol": "GAIL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:54.348524",
-  "last_update": "2026-11-01T19:08:14.452683",
-  "total_rows": 66689,
+  "last_update": "2026-11-03T00:03:18.912058",
+  "total_rows": 67050,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-30 15:28:00+05:30"
+    "end": "2026-11-02 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-01T19:08:14.452687",
-    "issues_count": 20,
+    "last_validated": "2026-11-03T00:03:18.912065",
+    "issues_count": 21,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-23T16:19:57.744726",
-      "rows_added": 748,
-      "total_rows": 18443,
-      "success": true
-    },
     {
       "timestamp": "2026-04-25T15:10:22.946067",
       "rows_added": 750,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-01T19:08:14.452689",
       "rows_added": 362,
       "total_rows": 66689,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-03T00:03:18.912067",
+      "rows_added": 361,
+      "total_rows": 67050,
       "success": true
     }
   ]

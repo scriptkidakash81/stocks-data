@@ -2,25 +2,19 @@
   "symbol": "SAIL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:33:11.339268",
-  "last_update": "2026-11-01T19:14:01.309226",
-  "total_rows": 66688,
+  "last_update": "2026-11-03T00:10:33.404498",
+  "total_rows": 67050,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-10-30 15:28:00+05:30"
+    "end": "2026-11-02 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-01T19:14:01.309230",
-    "issues_count": 20,
+    "last_validated": "2026-11-03T00:10:33.404503",
+    "issues_count": 21,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-30T16:08:24.092313",
-      "rows_added": 750,
-      "total_rows": 20318,
-      "success": true
-    },
     {
       "timestamp": "2026-05-02T15:17:36.720626",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-01T19:14:01.309231",
       "rows_added": 362,
       "total_rows": 66688,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-03T00:10:33.404505",
+      "rows_added": 362,
+      "total_rows": 67050,
       "success": true
     }
   ]
