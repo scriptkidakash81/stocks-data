@@ -2,25 +2,19 @@
   "symbol": "HDFCBANK.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:13.951945",
-  "last_update": "2026-11-04T21:05:03.518411",
-  "total_rows": 67412,
+  "last_update": "2026-11-05T21:14:47.555781",
+  "total_rows": 67774,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-03 15:29:00+05:30"
+    "end": "2026-11-04 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-04T21:05:03.518416",
-    "issues_count": 22,
+    "last_validated": "2026-11-05T21:14:47.555789",
+    "issues_count": 23,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-25T15:07:31.262071",
-      "rows_added": 750,
-      "total_rows": 19193,
-      "success": true
-    },
     {
       "timestamp": "2026-04-28T16:24:34.781183",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-04T21:05:03.518417",
       "rows_added": 362,
       "total_rows": 67412,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-05T21:14:47.555793",
+      "rows_added": 362,
+      "total_rows": 67774,
       "success": true
     }
   ]

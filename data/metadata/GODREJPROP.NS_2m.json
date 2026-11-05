@@ -2,25 +2,19 @@
   "symbol": "GODREJPROP.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:23:42.401988",
-  "last_update": "2026-11-04T21:12:34.537312",
-  "total_rows": 37724,
+  "last_update": "2026-11-05T21:23:40.082381",
+  "total_rows": 37906,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-11-03 15:29:00+05:30"
+    "end": "2026-11-04 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-04T21:12:34.537316",
-    "issues_count": 22,
+    "last_validated": "2026-11-05T21:23:40.082387",
+    "issues_count": 23,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-28T16:28:50.270506",
-      "rows_added": 188,
-      "total_rows": 13743,
-      "success": true
-    },
     {
       "timestamp": "2026-04-30T16:06:50.314227",
       "rows_added": 376,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-04T21:12:34.537318",
       "rows_added": 182,
       "total_rows": 37724,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-05T21:23:40.082389",
+      "rows_added": 182,
+      "total_rows": 37906,
       "success": true
     }
   ]
