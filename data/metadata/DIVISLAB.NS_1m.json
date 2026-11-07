@@ -2,25 +2,19 @@
   "symbol": "DIVISLAB.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:17:29.173354",
-  "last_update": "2026-11-05T21:17:46.430480",
-  "total_rows": 67742,
+  "last_update": "2026-11-07T19:13:25.474166",
+  "total_rows": 68466,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-04 15:29:00+05:30"
+    "end": "2026-11-06 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-05T21:17:46.430488",
-    "issues_count": 23,
+    "last_validated": "2026-11-07T19:13:25.474174",
+    "issues_count": 25,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-30T16:04:21.089124",
-      "rows_added": 750,
-      "total_rows": 20309,
-      "success": true
-    },
     {
       "timestamp": "2026-05-02T15:13:31.986087",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-05T21:17:46.430492",
       "rows_added": 362,
       "total_rows": 67742,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-07T19:13:25.474178",
+      "rows_added": 724,
+      "total_rows": 68466,
       "success": true
     }
   ]

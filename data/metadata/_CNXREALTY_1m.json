@@ -2,25 +2,19 @@
   "symbol": "^CNXREALTY",
   "interval": "1m",
   "created_at": "2026-02-14T16:09:06.020125",
-  "last_update": "2026-11-05T21:36:36.356168",
-  "total_rows": 68576,
+  "last_update": "2026-11-07T19:32:41.157442",
+  "total_rows": 69326,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-04 15:29:00+05:30"
+    "end": "2026-11-06 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-05T21:36:36.356176",
+    "last_validated": "2026-11-07T19:32:41.157450",
     "issues_count": 12,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-05T16:28:36.225903",
-      "rows_added": 375,
-      "total_rows": 21000,
-      "success": true
-    },
     {
       "timestamp": "2026-05-06T16:30:13.114858",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-05T21:36:36.356179",
       "rows_added": 375,
       "total_rows": 68576,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-07T19:32:41.157453",
+      "rows_added": 750,
+      "total_rows": 69326,
       "success": true
     }
   ]
