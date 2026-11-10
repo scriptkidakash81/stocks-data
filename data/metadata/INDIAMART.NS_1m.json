@@ -2,25 +2,19 @@
   "symbol": "INDIAMART.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:16.875284",
-  "last_update": "2026-11-07T19:20:19.207132",
-  "total_rows": 67434,
+  "last_update": "2026-11-10T00:10:15.047400",
+  "total_rows": 67785,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-06 15:29:00+05:30"
+    "end": "2026-11-09 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-07T19:20:19.207140",
-    "issues_count": 250,
+    "last_validated": "2026-11-10T00:10:15.047408",
+    "issues_count": 254,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-02T15:16:34.286359",
-      "rows_added": 363,
-      "total_rows": 20008,
-      "success": true
-    },
     {
       "timestamp": "2026-05-05T16:18:50.132786",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-07T19:20:19.207143",
       "rows_added": 731,
       "total_rows": 67434,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-10T00:10:15.047412",
+      "rows_added": 351,
+      "total_rows": 67785,
       "success": true
     }
   ]

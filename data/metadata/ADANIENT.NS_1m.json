@@ -2,25 +2,19 @@
   "symbol": "ADANIENT.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:29.777604",
-  "last_update": "2026-11-07T19:14:26.241115",
-  "total_rows": 68488,
+  "last_update": "2026-11-10T00:03:53.721747",
+  "total_rows": 68850,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-06 15:29:00+05:30"
+    "end": "2026-11-09 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-07T19:14:26.241121",
-    "issues_count": 25,
+    "last_validated": "2026-11-10T00:03:53.721765",
+    "issues_count": 26,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-02T15:14:09.930562",
-      "rows_added": 375,
-      "total_rows": 20693,
-      "success": true
-    },
     {
       "timestamp": "2026-05-05T16:16:27.411273",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-07T19:14:26.241123",
       "rows_added": 724,
       "total_rows": 68488,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-10T00:03:53.721769",
+      "rows_added": 362,
+      "total_rows": 68850,
       "success": true
     }
   ]

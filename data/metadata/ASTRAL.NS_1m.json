@@ -2,25 +2,19 @@
   "symbol": "ASTRAL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T16:00:35.376640",
-  "last_update": "2026-11-07T19:30:35.035349",
-  "total_rows": 68458,
+  "last_update": "2026-11-10T00:20:10.924077",
+  "total_rows": 68820,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-06 15:29:00+05:30"
+    "end": "2026-11-09 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-07T19:30:35.035355",
-    "issues_count": 26,
+    "last_validated": "2026-11-10T00:20:10.924085",
+    "issues_count": 27,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-07T16:38:11.944228",
-      "rows_added": 375,
-      "total_rows": 21813,
-      "success": true
-    },
     {
       "timestamp": "2026-05-09T15:44:23.865690",
       "rows_added": 748,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-07T19:30:35.035357",
       "rows_added": 724,
       "total_rows": 68458,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-10T00:20:10.924089",
+      "rows_added": 362,
+      "total_rows": 68820,
       "success": true
     }
   ]

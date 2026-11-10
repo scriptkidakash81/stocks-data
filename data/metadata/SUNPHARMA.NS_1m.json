@@ -2,25 +2,19 @@
   "symbol": "SUNPHARMA.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:10:59.581484",
-  "last_update": "2026-11-07T19:11:43.927589",
-  "total_rows": 68489,
+  "last_update": "2026-11-10T00:01:18.199803",
+  "total_rows": 68851,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-06 15:29:00+05:30"
+    "end": "2026-11-09 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-07T19:11:43.927597",
-    "issues_count": 25,
+    "last_validated": "2026-11-10T00:01:18.199812",
+    "issues_count": 26,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-04-30T16:03:19.797376",
-      "rows_added": 750,
-      "total_rows": 20318,
-      "success": true
-    },
     {
       "timestamp": "2026-05-02T15:12:29.659434",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-07T19:11:43.927600",
       "rows_added": 724,
       "total_rows": 68489,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-10T00:01:18.199815",
+      "rows_added": 362,
+      "total_rows": 68851,
       "success": true
     }
   ]
