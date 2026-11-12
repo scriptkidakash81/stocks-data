@@ -2,25 +2,19 @@
   "symbol": "NTPC.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:15:32.990070",
-  "last_update": "2026-11-10T00:02:01.479484",
-  "total_rows": 68856,
+  "last_update": "2026-11-12T21:46:19.514035",
+  "total_rows": 69218,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-09 15:28:00+05:30"
+    "end": "2026-11-11 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-10T00:02:01.479489",
-    "issues_count": 26,
+    "last_validated": "2026-11-12T21:46:19.514042",
+    "issues_count": 27,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-02T15:12:57.258429",
-      "rows_added": 375,
-      "total_rows": 20693,
-      "success": true
-    },
     {
       "timestamp": "2026-05-05T16:15:15.840710",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-10T00:02:01.479492",
       "rows_added": 362,
       "total_rows": 68856,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-12T21:46:19.514045",
+      "rows_added": 362,
+      "total_rows": 69218,
       "success": true
     }
   ]
