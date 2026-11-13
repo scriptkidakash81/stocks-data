@@ -2,25 +2,19 @@
   "symbol": "^CNXPSUBANK",
   "interval": "1m",
   "created_at": "2026-02-14T16:09:18.107904",
-  "last_update": "2026-11-12T00:19:24.344256",
-  "total_rows": 70075,
+  "last_update": "2026-11-13T21:31:20.775717",
+  "total_rows": 70450,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-11 15:29:00+05:30"
+    "end": "2026-11-12 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-12T00:19:24.344264",
+    "last_validated": "2026-11-13T21:31:20.775723",
     "issues_count": 12,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-09T15:46:11.918054",
-      "rows_added": 746,
-      "total_rows": 22495,
-      "success": true
-    },
     {
       "timestamp": "2026-05-12T16:53:43.364292",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-12T00:19:24.344267",
       "rows_added": 375,
       "total_rows": 70075,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-13T21:31:20.775726",
+      "rows_added": 375,
+      "total_rows": 70450,
       "success": true
     }
   ]
