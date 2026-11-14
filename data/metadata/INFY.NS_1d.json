@@ -2,25 +2,19 @@
   "symbol": "INFY.NS",
   "interval": "1d",
   "created_at": "2026-02-14T15:10:19.569910",
-  "last_update": "2026-11-12T21:44:26.764538",
-  "total_rows": 7750,
+  "last_update": "2026-11-14T19:25:28.957198",
+  "total_rows": 7752,
   "date_range": {
     "start": "1996-01-01 00:00:00+05:30",
-    "end": "2026-11-11 00:00:00+05:30"
+    "end": "2026-11-13 00:00:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-12T21:44:26.764544",
+    "last_validated": "2026-11-14T19:25:28.957203",
     "issues_count": 13,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-07T16:25:05.331778",
-      "rows_added": 1,
-      "total_rows": 7617,
-      "success": true
-    },
     {
       "timestamp": "2026-05-09T15:30:47.856600",
       "rows_added": 2,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-12T21:44:26.764547",
       "rows_added": 1,
       "total_rows": 7750,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-14T19:25:28.957205",
+      "rows_added": 2,
+      "total_rows": 7752,
       "success": true
     }
   ]
