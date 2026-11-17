@@ -2,25 +2,19 @@
   "symbol": "ABFRL.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:38:33.926724",
-  "last_update": "2026-11-15T22:11:33.051326",
-  "total_rows": 70373,
+  "last_update": "2026-11-17T00:34:34.734844",
+  "total_rows": 70745,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-13 15:29:00+05:30"
+    "end": "2026-11-16 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-15T22:11:33.051331",
+    "last_validated": "2026-11-17T00:34:34.734848",
     "issues_count": 21,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-15T16:34:22.051535",
-      "rows_added": 746,
-      "total_rows": 23948,
-      "success": true
-    },
     {
       "timestamp": "2026-05-17T15:48:44.021415",
       "rows_added": 372,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-15T22:11:33.051333",
       "rows_added": 367,
       "total_rows": 70373,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-17T00:34:34.734850",
+      "rows_added": 372,
+      "total_rows": 70745,
       "success": true
     }
   ]
