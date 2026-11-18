@@ -2,25 +2,19 @@
   "symbol": "SRF.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:53.264094",
-  "last_update": "2026-11-17T00:28:53.929120",
-  "total_rows": 70154,
+  "last_update": "2026-11-18T22:26:07.781752",
+  "total_rows": 70516,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-16 15:29:00+05:30"
+    "end": "2026-11-17 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-17T00:28:53.929124",
-    "issues_count": 36,
+    "last_validated": "2026-11-18T22:26:07.781756",
+    "issues_count": 37,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-15T16:28:40.998262",
-      "rows_added": 750,
-      "total_rows": 24043,
-      "success": true
-    },
     {
       "timestamp": "2026-05-17T15:43:02.454406",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-17T00:28:53.929126",
       "rows_added": 362,
       "total_rows": 70154,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-18T22:26:07.781758",
+      "rows_added": 362,
+      "total_rows": 70516,
       "success": true
     }
   ]
