@@ -2,25 +2,19 @@
   "symbol": "LT.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:10:38.772670",
-  "last_update": "2026-11-18T22:17:26.839228",
-  "total_rows": 39368,
+  "last_update": "2026-11-19T22:27:24.632818",
+  "total_rows": 39550,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-11-17 15:27:00+05:30"
+    "end": "2026-11-18 15:27:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-18T22:17:26.839232",
-    "issues_count": 30,
+    "last_validated": "2026-11-19T22:27:24.632826",
+    "issues_count": 31,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-09T15:31:11.581394",
-      "rows_added": 375,
-      "total_rows": 15255,
-      "success": true
-    },
     {
       "timestamp": "2026-05-12T16:39:05.123543",
       "rows_added": 188,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-18T22:17:26.839234",
       "rows_added": 182,
       "total_rows": 39368,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-19T22:27:24.632829",
+      "rows_added": 182,
+      "total_rows": 39550,
       "success": true
     }
   ]
