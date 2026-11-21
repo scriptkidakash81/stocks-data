@@ -2,25 +2,19 @@
   "symbol": "BIOCON.NS",
   "interval": "15m",
   "created_at": "2026-02-14T15:32:06.298892",
-  "last_update": "2026-11-19T22:36:10.084586",
-  "total_rows": 6066,
+  "last_update": "2026-11-21T20:59:32.234149",
+  "total_rows": 6116,
   "date_range": {
     "start": "2025-11-20 09:15:00+05:30",
-    "end": "2026-11-18 15:15:00+05:30"
+    "end": "2026-11-20 15:15:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-19T22:36:10.084593",
+    "last_validated": "2026-11-21T20:59:32.234157",
     "issues_count": 2,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-15T16:27:41.266394",
-      "rows_added": 50,
-      "total_rows": 2882,
-      "success": true
-    },
     {
       "timestamp": "2026-05-17T15:42:03.045428",
       "rows_added": 25,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-19T22:36:10.084596",
       "rows_added": 25,
       "total_rows": 6066,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-21T20:59:32.234160",
+      "rows_added": 50,
+      "total_rows": 6116,
       "success": true
     }
   ]

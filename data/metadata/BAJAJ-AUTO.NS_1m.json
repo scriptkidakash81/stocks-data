@@ -2,25 +2,19 @@
   "symbol": "BAJAJ-AUTO.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:18:34.734231",
-  "last_update": "2026-11-19T22:30:47.442157",
-  "total_rows": 71015,
+  "last_update": "2026-11-21T20:54:05.362589",
+  "total_rows": 71738,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-18 15:28:00+05:30"
+    "end": "2026-11-20 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-19T22:30:47.442165",
-    "issues_count": 32,
+    "last_validated": "2026-11-21T20:54:05.362597",
+    "issues_count": 34,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-15T16:25:22.871026",
-      "rows_added": 750,
-      "total_rows": 24066,
-      "success": true
-    },
     {
       "timestamp": "2026-05-17T15:39:43.016013",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-19T22:30:47.442169",
       "rows_added": 362,
       "total_rows": 71015,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-21T20:54:05.362602",
+      "rows_added": 723,
+      "total_rows": 71738,
       "success": true
     }
   ]
