@@ -2,25 +2,19 @@
   "symbol": "IRCTC.NS",
   "interval": "2m",
   "created_at": "2026-02-14T15:32:50.853522",
-  "last_update": "2026-11-21T21:00:56.657238",
-  "total_rows": 40433,
+  "last_update": "2026-11-24T02:01:30.844771",
+  "total_rows": 40621,
   "date_range": {
     "start": "2026-01-02 09:15:00+05:30",
-    "end": "2026-11-20 15:29:00+05:30"
+    "end": "2026-11-23 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-21T21:00:56.657244",
+    "last_validated": "2026-11-24T02:01:30.844777",
     "issues_count": 5,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-20T17:45:09.916313",
-      "rows_added": 188,
-      "total_rows": 16570,
-      "success": true
-    },
     {
       "timestamp": "2026-05-22T16:50:27.404291",
       "rows_added": 376,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-21T21:00:56.657247",
       "rows_added": 376,
       "total_rows": 40433,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-24T02:01:30.844780",
+      "rows_added": 188,
+      "total_rows": 40621,
       "success": true
     }
   ]
