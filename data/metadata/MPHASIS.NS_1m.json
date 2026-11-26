@@ -2,25 +2,19 @@
   "symbol": "MPHASIS.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:37:33.690785",
-  "last_update": "2026-11-24T02:06:10.494638",
-  "total_rows": 72026,
+  "last_update": "2026-11-26T00:13:29.463396",
+  "total_rows": 72388,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-23 15:29:00+05:30"
+    "end": "2026-11-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-24T02:06:10.494642",
-    "issues_count": 39,
+    "last_validated": "2026-11-26T00:13:29.463401",
+    "issues_count": 40,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-24T15:54:27.844966",
-      "rows_added": 375,
-      "total_rows": 26314,
-      "success": true
-    },
     {
       "timestamp": "2026-05-26T17:55:53.990506",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-24T02:06:10.494644",
       "rows_added": 362,
       "total_rows": 72026,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T00:13:29.463403",
+      "rows_added": 362,
+      "total_rows": 72388,
       "success": true
     }
   ]

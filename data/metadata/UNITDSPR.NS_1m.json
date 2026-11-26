@@ -2,25 +2,19 @@
   "symbol": "UNITDSPR.NS",
   "interval": "1m",
   "created_at": "2026-02-14T18:10:47.318120",
-  "last_update": "2026-11-24T02:00:06.252230",
-  "total_rows": 72018,
+  "last_update": "2026-11-26T00:07:45.808284",
+  "total_rows": 72379,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-23 15:29:00+05:30"
+    "end": "2026-11-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-24T02:00:06.252242",
-    "issues_count": 37,
+    "last_validated": "2026-11-26T00:07:45.808289",
+    "issues_count": 38,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-19T17:30:57.297040",
-      "rows_added": 375,
-      "total_rows": 24810,
-      "success": true
-    },
     {
       "timestamp": "2026-05-20T17:44:03.671065",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-24T02:00:06.252245",
       "rows_added": 362,
       "total_rows": 72018,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T00:07:45.808291",
+      "rows_added": 361,
+      "total_rows": 72379,
       "success": true
     }
   ]

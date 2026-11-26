@@ -2,25 +2,19 @@
   "symbol": "PFC.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:32:44.197603",
-  "last_update": "2026-11-24T02:01:20.635634",
-  "total_rows": 72113,
+  "last_update": "2026-11-26T00:08:49.430509",
+  "total_rows": 72475,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-23 15:29:00+05:30"
+    "end": "2026-11-25 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-24T02:01:20.635640",
-    "issues_count": 35,
+    "last_validated": "2026-11-26T00:08:49.430514",
+    "issues_count": 36,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-22T16:50:19.534567",
-      "rows_added": 750,
-      "total_rows": 25941,
-      "success": true
-    },
     {
       "timestamp": "2026-05-24T15:49:52.507605",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-24T02:01:20.635643",
       "rows_added": 362,
       "total_rows": 72113,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T00:08:49.430516",
+      "rows_added": 362,
+      "total_rows": 72475,
       "success": true
     }
   ]
