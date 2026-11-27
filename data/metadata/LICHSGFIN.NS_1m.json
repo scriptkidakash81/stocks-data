@@ -2,25 +2,19 @@
   "symbol": "LICHSGFIN.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:38:06.930521",
-  "last_update": "2026-11-26T00:14:14.105840",
-  "total_rows": 72331,
+  "last_update": "2026-11-27T23:15:07.193975",
+  "total_rows": 72690,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-25 15:29:00+05:30"
+    "end": "2026-11-26 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-26T00:14:14.105844",
-    "issues_count": 40,
+    "last_validated": "2026-11-27T23:15:07.193981",
+    "issues_count": 41,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-26T17:56:34.480581",
-      "rows_added": 375,
-      "total_rows": 26642,
-      "success": true
-    },
     {
       "timestamp": "2026-05-28T18:01:41.960679",
       "rows_added": 746,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-26T00:14:14.105846",
       "rows_added": 361,
       "total_rows": 72331,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-27T23:15:07.193984",
+      "rows_added": 359,
+      "total_rows": 72690,
       "success": true
     }
   ]

@@ -2,25 +2,19 @@
   "symbol": "EICHERMOT.NS",
   "interval": "1m",
   "created_at": "2026-02-14T15:17:34.225952",
-  "last_update": "2026-11-26T00:01:55.086999",
-  "total_rows": 72469,
+  "last_update": "2026-11-27T23:02:56.861118",
+  "total_rows": 72830,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-25 15:29:00+05:30"
+    "end": "2026-11-26 15:28:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-26T00:01:55.087004",
-    "issues_count": 36,
+    "last_validated": "2026-11-27T23:02:56.861122",
+    "issues_count": 37,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-19T17:28:09.665186",
-      "rows_added": 375,
-      "total_rows": 24816,
-      "success": true
-    },
     {
       "timestamp": "2026-05-20T17:41:22.226026",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-26T00:01:55.087006",
       "rows_added": 362,
       "total_rows": 72469,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-27T23:02:56.861124",
+      "rows_added": 361,
+      "total_rows": 72830,
       "success": true
     }
   ]

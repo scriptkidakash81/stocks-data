@@ -2,25 +2,19 @@
   "symbol": "^BSESN",
   "interval": "1m",
   "created_at": "2026-02-14T16:13:06.580562",
-  "last_update": "2026-11-26T00:18:39.640300",
-  "total_rows": 73536,
+  "last_update": "2026-11-27T23:20:31.788240",
+  "total_rows": 73911,
   "date_range": {
     "start": "2026-02-05 09:15:00+05:30",
-    "end": "2026-11-25 15:29:00+05:30"
+    "end": "2026-11-26 15:29:00+05:30"
   },
   "data_quality": {
     "status": "passed",
-    "last_validated": "2026-11-26T00:18:39.640304",
+    "last_validated": "2026-11-27T23:20:31.788244",
     "issues_count": 7,
     "validation_details": {}
   },
   "download_history": [
-    {
-      "timestamp": "2026-05-22T17:00:14.556658",
-      "rows_added": 750,
-      "total_rows": 25939,
-      "success": true
-    },
     {
       "timestamp": "2026-05-24T15:59:52.874244",
       "rows_added": 375,
@@ -613,6 +607,12 @@
       "timestamp": "2026-11-26T00:18:39.640306",
       "rows_added": 375,
       "total_rows": 73536,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-27T23:20:31.788246",
+      "rows_added": 375,
+      "total_rows": 73911,
       "success": true
     }
   ]
